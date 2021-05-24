@@ -1,0 +1,57 @@
+Using Solver / LLamasolve_dso version: Xpress 0.60
+Number of Flow variables	6
+Number of Production/gross production variables	6
+Number of Inv variables	6
+Number of Inventory balance constraints	6
+Number of Cycle stock constraints	12
+Number of Total demand constraints	3
+Number of Site throughput definition constraints	2
+Number of Site throughput definition for basis  constraints	2
+Number of Production process absence constraints	3
+Number of CO2 constraints	1
+Number of CustomerRevenue objective	3
+Number of TotalSequentialFacilityInventoryCost objective	9
+Number of TotalSequentialInTransitInvCost objective	6
+Number of Sites	3	
+Number of Customers	1	
+Number of Demand Records	3	
+Number of Existing Facilities	2	
+Number of Potential Facilities	0	
+Number of Single Sourcing Sites	0	
+Number of Facilities that Apply Fixed Cost to Horizon	0	
+Number of Facilities that can only Expand	0	
+Number of Products	3	
+Number of Periods	1	
+Number of BOMs	0	
+Number of Modes	1	
+Number of Transportation Assets	0	
+Number of Work Centers	0	
+Number of Work Resources	0	
+Number of Transportation Lanes	6	
+Number of Flow Expression Constraints	0	
+Number of Production Expression Constraints	0	
+Number of Inventory Expression Constraints	0	
+Number of Processes	0	
+Number of Process Steps	0	
+Number of Process Arc Records	0	
+Number of Constraints	60	
+Number of Variables	59	
+Number of Non-Zeroes	141	
+Number of Binary variables	7	
+Number of Sets	0	
+Number of Set Elements	0	
+Time to read and build the model	0.85300	
+Presolve Time	0.00000	
+LP Relaxation Solve Time	0.02400	
+Time to Find First Integer Solution	0.03200
+Time to leave root node	N/A	
+Total Solve Time	0.03600	
+Total Output Time	0.15800	
+Total Time	1.04700	
+Total Nodes visited	1	
+Number of integer solutions found	1	
+Final Objective Value	5.95036	
+Final Best Bound	5.95037	
+Optimality Gap	0.00%	
+Problem Status	Integer Feasible	
+BIM version	2.1.10	

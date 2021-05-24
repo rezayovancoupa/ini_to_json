@@ -1,0 +1,3095 @@
+[
+  {
+    "filename": "SimulationOutputSiteProductDetail.txt",
+    "tablename": "SimulationOutputSiteProductDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "LostDownstreamDemand",
+        "tableColName": "LostDownstreamDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "LostDownstreamDemandRevenue",
+        "tableColName": "LostDownstreamDemandRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalShippedQty",
+        "tableColName": "TotalShippedQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalShippedValue",
+        "tableColName": "TotalShippedValue",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalShippedCubic",
+        "tableColName": "TotalShippedCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalShippedWeight",
+        "tableColName": "TotalShippedWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "MinimumInventoryUnits",
+        "tableColName": "MinimumInventoryUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageInventoryUnits",
+        "tableColName": "AverageInventoryUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "MaximumInventoryUnits",
+        "tableColName": "MaximumInventoryUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "EndingInventoryUnits",
+        "tableColName": "EndingInventoryUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageReplenishmentQuantity",
+        "tableColName": "AverageReplenishmentQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageBackOrderUnits",
+        "tableColName": "AverageBackOrderUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "MaximumBackOrderUnits",
+        "tableColName": "MaximumBackOrderUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "EndingBackOrderQty",
+        "tableColName": "EndingBackOrderQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageInTransitUnits",
+        "tableColName": "AverageInTransitUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "MaximumInTransitUnits",
+        "tableColName": "MaximumInTransitUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "EndingBackOrders",
+        "tableColName": "EndingBackOrders",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalBackOrderQty",
+        "tableColName": "TotalBackOrderQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalOrders",
+        "tableColName": "TotalOrders",
+        "type": "double"
+      },
+      {
+        "fileColName": "EndingOrders",
+        "tableColName": "EndingOrders",
+        "type": "double"
+      },
+      {
+        "fileColName": "EndingOrderQty",
+        "tableColName": "EndingOrderQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalOrderQty",
+        "tableColName": "TotalOrderQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageOrderCycleTime",
+        "tableColName": "AverageOrderCycleTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "MaximumOrderCycleTime",
+        "tableColName": "MaximumOrderCycleTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "OnTimeQtyRate",
+        "tableColName": "OnTimeQtyRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "OnTimeRate",
+        "tableColName": "OnTimeRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "FillQtyRate",
+        "tableColName": "FillQtyRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "FillRate",
+        "tableColName": "FillRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalDownstreamDemand",
+        "tableColName": "TotalDownstreamDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "ReadyRate",
+        "tableColName": "ReadyRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "InitialInventoryUnits",
+        "tableColName": "InitialInventoryUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "CycleServiceLevel",
+        "tableColName": "CycleServiceLevel",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputAssetSummary.txt",
+    "tablename": "SimulationOutputAssetSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "AssetName",
+        "tableColName": "AssetName",
+        "type": "text"
+      },
+      {
+        "fileColName": "AssetAvailableTime",
+        "tableColName": "AssetAvailableTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "AssetUtilizedTime",
+        "tableColName": "AssetUtilizedTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "AssetSetupTime",
+        "tableColName": "AssetSetupTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "AssetScheduledDownTime",
+        "tableColName": "AssetScheduledDownTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "AssetUnscheduledDownTime",
+        "tableColName": "AssetUnscheduledDownTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "AssetAverageUnitsUtilized",
+        "tableColName": "AssetAverageUnitsUtilized",
+        "type": "double"
+      },
+      {
+        "fileColName": "AssetMaximumUnitsUtilized",
+        "tableColName": "AssetMaximumUnitsUtilized",
+        "type": "double"
+      },
+      {
+        "fileColName": "AssetTotalUtilization",
+        "tableColName": "AssetTotalUtilization",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputBillOfMaterialsSummary.txt",
+    "tablename": "SimulationOutputBillOfMaterialsSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "BOMName",
+        "tableColName": "BOMName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Type",
+        "tableColName": "Type",
+        "type": "text"
+      },
+      {
+        "fileColName": "Quantity",
+        "tableColName": "Quantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "Weight",
+        "tableColName": "Weight",
+        "type": "double"
+      },
+      {
+        "fileColName": "Cubic",
+        "tableColName": "Cubic",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputCustomerOrderFlows.txt",
+    "tablename": "SimulationOutputCustomerOrderFlows",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "CustomerName",
+        "tableColName": "CustomerName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrderQty",
+        "tableColName": "OrderQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "Orders",
+        "tableColName": "Orders",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowSourcingCost",
+        "tableColName": "FlowSourcingCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowConsignmentCos",
+        "tableColName": "FlowConsignmentCost",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputCustomerProductDetail.txt",
+    "tablename": "SimulationOutputCustomerProductDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "CustomerName",
+        "tableColName": "CustomerName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "TotalDemand",
+        "tableColName": "TotalDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalRevenue",
+        "tableColName": "TotalRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "OnTimeQtyRate",
+        "tableColName": "OnTimeQtyRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "OnTimeRate",
+        "tableColName": "OnTimeRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageOrderCycleTime",
+        "tableColName": "AverageOrderCycleTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "MaximumOrderCycleTime",
+        "tableColName": "MaximumOrderCycleTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "EndingOrders",
+        "tableColName": "EndingOrders",
+        "type": "double"
+      },
+      {
+        "fileColName": "EndingOrderQty",
+        "tableColName": "EndingOrderQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalOrders",
+        "tableColName": "TotalOrders",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalOrderQty",
+        "tableColName": "TotalOrderQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "LostRevenue",
+        "tableColName": "LostRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "LostDemand",
+        "tableColName": "LostDemand",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputCustomerShipmentFlows.txt",
+    "tablename": "SimulationOutputCustomerShipmentFlows",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "CustomerName",
+        "tableColName": "CustomerName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Mode",
+        "tableColName": "Mode",
+        "type": "text"
+      },
+      {
+        "fileColName": "FlowUnits",
+        "tableColName": "FlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowWeight",
+        "tableColName": "FlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCubic",
+        "tableColName": "FlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowTransportationCost",
+        "tableColName": "FlowTransportationCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCount",
+        "tableColName": "FlowCount",
+        "type": "double"
+      },
+      {
+        "fileColName": "CO2",
+        "tableColName": "CO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowRevenue",
+        "tableColName": "FlowRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowOutboundWarehousingCost",
+        "tableColName": "FlowOutboundWarehousingCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowDutyCost",
+        "tableColName": "FlowDutyCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowTotalCos",
+        "tableColName": "FlowTotalCost",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputCustomerSummary.txt",
+    "tablename": "SimulationOutputCustomerSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "CustomerName",
+        "tableColName": "CustomerName",
+        "type": "text"
+      },
+      {
+        "fileColName": "InboundFlowUnits",
+        "tableColName": "InboundFlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "InboundFlowWeight",
+        "tableColName": "InboundFlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "InboundFlowCubic",
+        "tableColName": "InboundFlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalRevenue",
+        "tableColName": "TotalRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "LostRevenue",
+        "tableColName": "LostRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalDemand",
+        "tableColName": "TotalDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "LostDemand",
+        "tableColName": "LostDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgOnTimeRate",
+        "tableColName": "AvgOnTimeRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgOnTimeQtyRate",
+        "tableColName": "AvgOnTimeQtyRate",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputNetworkFlows.txt",
+    "tablename": "SimulationOutputNetworkFlows",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationName",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Mode",
+        "tableColName": "Mode",
+        "type": "text"
+      },
+      {
+        "fileColName": "FlowUnits",
+        "tableColName": "FlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowWeight",
+        "tableColName": "FlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCubic",
+        "tableColName": "FlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowTransportationCost",
+        "tableColName": "FlowTransportationCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCount",
+        "tableColName": "FlowCount",
+        "type": "double"
+      },
+      {
+        "fileColName": "CO2",
+        "tableColName": "CO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowRevenue",
+        "tableColName": "FlowRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowInboundWarehousingCost",
+        "tableColName": "FlowInboundWarehousingCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowOutboundWarehousingCost",
+        "tableColName": "FlowOutboundWarehousingCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowDutyCost",
+        "tableColName": "FlowDutyCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowTotalCos",
+        "tableColName": "FlowTotalCost",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputNetworkSummary.txt",
+    "tablename": "SimulationOutputNetworkSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "TransportationCO2",
+        "tableColName": "TransportationCO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "ProductionCO2",
+        "tableColName": "ProductionCO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "FixedCO2",
+        "tableColName": "FixedCO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCO2",
+        "tableColName": "TotalCO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalDutyCost",
+        "tableColName": "TotalDutyCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalProductionCost",
+        "tableColName": "TotalProductionCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFixedStartupCost",
+        "tableColName": "TotalFixedStartupCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFixedOperatingCost",
+        "tableColName": "TotalFixedOperatingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalTransportationCost",
+        "tableColName": "TotalTransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInboundWarehousingCost",
+        "tableColName": "TotalInboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalOutboundWarehousingCost",
+        "tableColName": "TotalOutboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInventoryCarryingCost",
+        "tableColName": "TotalInventoryCarryingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalRevenue",
+        "tableColName": "TotalRevenue",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalDemand",
+        "tableColName": "TotalDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "LostRevenue",
+        "tableColName": "LostRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "LostDemand",
+        "tableColName": "LostDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgOnTimeRate",
+        "tableColName": "AvgOnTimeRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgOnTimeQtyRate",
+        "tableColName": "AvgOnTimeQtyRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgFillRate",
+        "tableColName": "AvgFillRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgFillQtyRate",
+        "tableColName": "AvgFillQtyRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgReadyRate",
+        "tableColName": "AvgReadyRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "EpochLengthDays",
+        "tableColName": "EpochLengthDays",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalProfi",
+        "tableColName": "TotalProfit",
+        "type": "currency"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputProcessSummary.txt",
+    "tablename": "SimulationOutputProcessSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessName",
+        "tableColName": "ProcessName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessStepName",
+        "tableColName": "ProcessStepName",
+        "type": "text"
+      },
+      {
+        "fileColName": "InputQuantity",
+        "tableColName": "InputQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "InputWeight",
+        "tableColName": "InputWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "InputCubic",
+        "tableColName": "InputCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "YieldQuantity",
+        "tableColName": "YieldQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "ProductionCos",
+        "tableColName": "ProductionCost",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputProductionSummary.txt",
+    "tablename": "SimulationOutputProductionSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductionLots",
+        "tableColName": "ProductionLots",
+        "type": "double"
+      },
+      {
+        "fileColName": "ProductionQty",
+        "tableColName": "ProductionQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "ProductionWeight",
+        "tableColName": "ProductionWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "ProductionCubic",
+        "tableColName": "ProductionCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "ProductionValue",
+        "tableColName": "ProductionValue",
+        "type": "double"
+      },
+      {
+        "fileColName": "ProductionCos",
+        "tableColName": "ProductionCost",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputProductSummary.txt",
+    "tablename": "SimulationOutputProductSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductionCost",
+        "tableColName": "ProductionCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TransportationCost",
+        "tableColName": "TransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "WarehousingCost",
+        "tableColName": "WarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalRevenue",
+        "tableColName": "TotalRevenue",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCO2",
+        "tableColName": "TotalCO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalDemand",
+        "tableColName": "TotalDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "LostDemand",
+        "tableColName": "LostDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "LostRevenue",
+        "tableColName": "LostRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalProfi",
+        "tableColName": "TotalProfit",
+        "type": "currency"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputSiteSummary.txt",
+    "tablename": "SimulationOutputSiteSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "TotalInboundWarehousingCost",
+        "tableColName": "TotalInboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalOutboundWarehousingCost",
+        "tableColName": "TotalOutboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "InventoryCarryingCost",
+        "tableColName": "InventoryCarryingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalOutboundTransportationCost",
+        "tableColName": "TotalOutboundTransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFixedOperatingCost",
+        "tableColName": "TotalFixedOperatingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "OutboundFlow",
+        "tableColName": "OutboundFlow",
+        "type": "double"
+      },
+      {
+        "fileColName": "OutboundWeight",
+        "tableColName": "OutboundWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "OutboundCubic",
+        "tableColName": "OutboundCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "COGS",
+        "tableColName": "COGS",
+        "type": "double"
+      },
+      {
+        "fileColName": "InboundFlow",
+        "tableColName": "InboundFlow",
+        "type": "double"
+      },
+      {
+        "fileColName": "InboundWeight",
+        "tableColName": "InboundWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "InboundCubic",
+        "tableColName": "InboundCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalProductionCost",
+        "tableColName": "TotalProductionCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCO2",
+        "tableColName": "TotalCO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "AverageInventoryValue",
+        "tableColName": "AverageInventoryValue",
+        "type": "currency"
+      },
+      {
+        "fileColName": "MaximumInventoryValue",
+        "tableColName": "MaximumInventoryValue",
+        "type": "currency"
+      },
+      {
+        "fileColName": "AverageInventoryCubic",
+        "tableColName": "AverageInventoryCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "MaximumInventoryCubic",
+        "tableColName": "MaximumInventoryCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgOnTimeRate",
+        "tableColName": "AvgOnTimeRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgOnTimeQtyRate",
+        "tableColName": "AvgOnTimeQtyRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgFillRate",
+        "tableColName": "AvgFillRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgFillQtyRate",
+        "tableColName": "AvgFillQtyRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgReadyRate",
+        "tableColName": "AvgReadyRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "InventoryTurns",
+        "tableColName": "InventoryTurns",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputWorkCenterSummary.txt",
+    "tablename": "SimulationOutputWorkCenterSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkCenterName",
+        "tableColName": "WorkCenterName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OutboundFlow",
+        "tableColName": "OutboundFlow",
+        "type": "double"
+      },
+      {
+        "fileColName": "OutboundWeight",
+        "tableColName": "OutboundWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "OutboundCubic",
+        "tableColName": "OutboundCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalFixedOperatingCost",
+        "tableColName": "TotalFixedOperatingCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkCenterAvailableTime",
+        "tableColName": "WorkCenterAvailableTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkCenterUtilizedTime",
+        "tableColName": "WorkCenterUtilizedTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkCenterSetupTime",
+        "tableColName": "WorkCenterSetupTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkCenterScheduledDownTime",
+        "tableColName": "WorkCenterScheduledDownTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkCenterUnscheduledDownTime",
+        "tableColName": "WorkCenterUnscheduledDownTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkCenterAverageQueueDepth",
+        "tableColName": "WorkCenterAverageQueueDepth",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkCenterMaximumQueueDepth",
+        "tableColName": "WorkCenterMaximumQueueDepth",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkCenterTotalUtilization",
+        "tableColName": "WorkCenterTotalUtilization",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SimulationOutputWorkResourceSummary.txt",
+    "tablename": "SimulationOutputWorkResourceSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkResourceName",
+        "tableColName": "WorkResourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkResourceAvailableTime",
+        "tableColName": "WorkResourceAvailableTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkResourceUtilizedTime",
+        "tableColName": "WorkResourceUtilizedTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkResourceDestroyedTime",
+        "tableColName": "WorkResourceDestroyedTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkResourceAverageUnitsUtilized",
+        "tableColName": "WorkResourceAverageUnitsUtilized",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkResourceMaximumUnitsUtilized",
+        "tableColName": "WorkResourceMaximumUnitsUtilized",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkResourceTotalUtilization",
+        "tableColName": "WorkResourceTotalUtilization",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "ORDER_REPORT.TXT",
+    "tablename": "SimulationOutputOrderReport",
+    "id": "ID",
+    "options": {
+      "Format": "TabDelimited",
+      "CharacterSet": "ANSI",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss",
+      "ColNameHeader": "True"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "ReplicationNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "OrderProcessDate",
+        "tableColName": "OrderProcessedDate",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "SourceSite",
+        "tableColName": "SourceSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationSite",
+        "tableColName": "DestinationSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "FillClass",
+        "tableColName": "FillClass",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "InternalTrackingID",
+        "tableColName": "InternalTrackingID",
+        "type": "text"
+      },
+      {
+        "fileColName": "UserDefinedTrackingID",
+        "tableColName": "UserDefinedTrackingID",
+        "type": "text"
+      },
+      {
+        "fileColName": "OriginalOrderQuantity",
+        "tableColName": "OriginalOrderQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "QuantityPreviouslyFilled",
+        "tableColName": "QuantityPreviouslyFilled",
+        "type": "double"
+      },
+      {
+        "fileColName": "QuantityFilled",
+        "tableColName": "QuantityFilled",
+        "type": "double"
+      },
+      {
+        "fileColName": "QuantityBackordered",
+        "tableColName": "QuantityBackordered",
+        "type": "double"
+      },
+      {
+        "fileColName": "AmountCancelled",
+        "tableColName": "AmountCancelled",
+        "type": "double"
+      },
+      {
+        "fileColName": "OrderCreatedDate",
+        "tableColName": "OrderCreatedDate",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "OrderDueDate",
+        "tableColName": "OrderDueDate",
+        "type": "datetime"
+      }
+    ]
+  },
+  {
+    "filename": "SIMERROR.TXT",
+    "tablename": "SimulationOutputError",
+    "id": "ID",
+    "options": {
+      "Format": "TabDelimited",
+      "CharacterSet": "ANSI",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss",
+      "ColNameHeader": "True"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Error Text",
+        "tableColName": "Error",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "AUU.TXT",
+    "tablename": "SimulationOutputAssetDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "BOQ.TXT",
+    "tablename": "SimulationOutputBackOrderedQtyDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "REP",
+        "type": "long"
+      },
+      {
+        "fileColName": "Time",
+        "tableColName": "TIME",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "Site",
+        "tableColName": "SITE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Product",
+        "tableColName": "PRODUCT",
+        "type": "text"
+      },
+      {
+        "fileColName": "Variable",
+        "tableColName": "VARIABLE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Average",
+        "tableColName": "AVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "SimpleAverage",
+        "tableColName": "SIMPLEAVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "StdDev",
+        "tableColName": "STDDEV",
+        "type": "double"
+      },
+      {
+        "fileColName": "Min",
+        "tableColName": "MIN",
+        "type": "double"
+      },
+      {
+        "fileColName": "Max",
+        "tableColName": "MAX",
+        "type": "double"
+      },
+      {
+        "fileColName": "Current",
+        "tableColName": "CURRENT",
+        "type": "double"
+      },
+      {
+        "fileColName": "Total",
+        "tableColName": "TOTAL",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "COQ.TXT",
+    "tablename": "SimulationOutputCurrentlyOrderedQtyDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "REP",
+        "type": "long"
+      },
+      {
+        "fileColName": "Time",
+        "tableColName": "TIME",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "Site",
+        "tableColName": "SITE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Product",
+        "tableColName": "PRODUCT",
+        "type": "text"
+      },
+      {
+        "fileColName": "Variable",
+        "tableColName": "VARIABLE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Average",
+        "tableColName": "AVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "SimpleAverage",
+        "tableColName": "SIMPLEAVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "StdDev",
+        "tableColName": "STDDEV",
+        "type": "double"
+      },
+      {
+        "fileColName": "Min",
+        "tableColName": "MIN",
+        "type": "double"
+      },
+      {
+        "fileColName": "Max",
+        "tableColName": "MAX",
+        "type": "double"
+      },
+      {
+        "fileColName": "Current",
+        "tableColName": "CURRENT",
+        "type": "double"
+      },
+      {
+        "fileColName": "Total",
+        "tableColName": "TOTAL",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "INV.TXT",
+    "tablename": "SimulationOutputInventoryDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "REP",
+        "type": "long"
+      },
+      {
+        "fileColName": "Time",
+        "tableColName": "TIME",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "Site",
+        "tableColName": "SITE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Product",
+        "tableColName": "PRODUCT",
+        "type": "text"
+      },
+      {
+        "fileColName": "Variable",
+        "tableColName": "VARIABLE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Average",
+        "tableColName": "AVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "SimpleAverage",
+        "tableColName": "SIMPLEAVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "StdDev",
+        "tableColName": "STDDEV",
+        "type": "double"
+      },
+      {
+        "fileColName": "Min",
+        "tableColName": "MIN",
+        "type": "double"
+      },
+      {
+        "fileColName": "Max",
+        "tableColName": "MAX",
+        "type": "double"
+      },
+      {
+        "fileColName": "Current",
+        "tableColName": "CURRENT",
+        "type": "double"
+      },
+      {
+        "fileColName": "Total",
+        "tableColName": "TOTAL",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "VAL.TXT",
+    "tablename": "SimulationOutputInventoryValueDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "REP",
+        "type": "long"
+      },
+      {
+        "fileColName": "Time",
+        "tableColName": "TIME",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "Site",
+        "tableColName": "SITE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Product",
+        "tableColName": "PRODUCT",
+        "type": "text"
+      },
+      {
+        "fileColName": "Variable",
+        "tableColName": "VARIABLE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Average",
+        "tableColName": "AVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "SimpleAverage",
+        "tableColName": "SIMPLEAVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "StdDev",
+        "tableColName": "STDDEV",
+        "type": "double"
+      },
+      {
+        "fileColName": "Min",
+        "tableColName": "MIN",
+        "type": "double"
+      },
+      {
+        "fileColName": "Max",
+        "tableColName": "MAX",
+        "type": "double"
+      },
+      {
+        "fileColName": "Current",
+        "tableColName": "CURRENT",
+        "type": "double"
+      },
+      {
+        "fileColName": "Total",
+        "tableColName": "TOTAL",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "INC.TXT",
+    "tablename": "SimulationOutputInventoryVolumeDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "REP",
+        "type": "long"
+      },
+      {
+        "fileColName": "Time",
+        "tableColName": "TIME",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "Site",
+        "tableColName": "SITE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Product",
+        "tableColName": "PRODUCT",
+        "type": "text"
+      },
+      {
+        "fileColName": "Variable",
+        "tableColName": "VARIABLE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Average",
+        "tableColName": "AVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "SimpleAverage",
+        "tableColName": "SIMPLEAVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "StdDev",
+        "tableColName": "STDDEV",
+        "type": "double"
+      },
+      {
+        "fileColName": "Min",
+        "tableColName": "MIN",
+        "type": "double"
+      },
+      {
+        "fileColName": "Max",
+        "tableColName": "MAX",
+        "type": "double"
+      },
+      {
+        "fileColName": "Current",
+        "tableColName": "CURRENT",
+        "type": "double"
+      },
+      {
+        "fileColName": "Total",
+        "tableColName": "TOTAL",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "OCT.TXT",
+    "tablename": "SimulationOutputOrderCycleTimeDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "REP",
+        "type": "long"
+      },
+      {
+        "fileColName": "Time",
+        "tableColName": "TIME",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "Site",
+        "tableColName": "SITE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Product",
+        "tableColName": "PRODUCT",
+        "type": "text"
+      },
+      {
+        "fileColName": "Variable",
+        "tableColName": "VARIABLE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Average",
+        "tableColName": "AVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "SimpleAverage",
+        "tableColName": "SIMPLEAVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "StdDev",
+        "tableColName": "STDDEV",
+        "type": "double"
+      },
+      {
+        "fileColName": "Min",
+        "tableColName": "MIN",
+        "type": "double"
+      },
+      {
+        "fileColName": "Max",
+        "tableColName": "MAX",
+        "type": "double"
+      },
+      {
+        "fileColName": "Current",
+        "tableColName": "CURRENT",
+        "type": "double"
+      },
+      {
+        "fileColName": "Total",
+        "tableColName": "TOTAL",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "R.TXT",
+    "tablename": "SimulationOutputReorderPtDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "REP",
+        "type": "long"
+      },
+      {
+        "fileColName": "Time",
+        "tableColName": "TIME",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "Site",
+        "tableColName": "SITE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Product",
+        "tableColName": "PRODUCT",
+        "type": "text"
+      },
+      {
+        "fileColName": "Variable",
+        "tableColName": "VARIABLE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Average",
+        "tableColName": "AVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "SimpleAverage",
+        "tableColName": "SIMPLEAVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "StdDev",
+        "tableColName": "STDDEV",
+        "type": "double"
+      },
+      {
+        "fileColName": "Min",
+        "tableColName": "MIN",
+        "type": "double"
+      },
+      {
+        "fileColName": "Max",
+        "tableColName": "MAX",
+        "type": "double"
+      },
+      {
+        "fileColName": "Current",
+        "tableColName": "CURRENT",
+        "type": "double"
+      },
+      {
+        "fileColName": "Total",
+        "tableColName": "TOTAL",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "Q.TXT",
+    "tablename": "SimulationOutputReorderQtyDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "REP",
+        "type": "long"
+      },
+      {
+        "fileColName": "Time",
+        "tableColName": "TIME",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "Site",
+        "tableColName": "SITE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Product",
+        "tableColName": "PRODUCT",
+        "type": "text"
+      },
+      {
+        "fileColName": "Variable",
+        "tableColName": "VARIABLE",
+        "type": "text"
+      },
+      {
+        "fileColName": "Average",
+        "tableColName": "AVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "SimpleAverage",
+        "tableColName": "SIMPLEAVERAGE",
+        "type": "double"
+      },
+      {
+        "fileColName": "StdDev",
+        "tableColName": "STDDEV",
+        "type": "double"
+      },
+      {
+        "fileColName": "Min",
+        "tableColName": "MIN",
+        "type": "double"
+      },
+      {
+        "fileColName": "Max",
+        "tableColName": "MAX",
+        "type": "double"
+      },
+      {
+        "fileColName": "Current",
+        "tableColName": "CURRENT",
+        "type": "double"
+      },
+      {
+        "fileColName": "Total",
+        "tableColName": "TOTAL",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "WCQ.TXT",
+    "tablename": "SimulationOutputWorkCenterQueueDepthDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "DEMAND_REPORT.TXT",
+    "tablename": "SimulationOutputCustomerDemandTransactionDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Time",
+        "tableColName": "Time",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip7",
+        "tableColName": "Skip7",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip8",
+        "tableColName": "Skip8",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip9",
+        "tableColName": "Skip9",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip10",
+        "tableColName": "Skip10",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip11",
+        "tableColName": "Skip11",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip12",
+        "tableColName": "Skip12",
+        "type": "text"
+      },
+      {
+        "fileColName": "Quantity",
+        "tableColName": "Quantity",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SITEDEMAND_REPORT.TXT",
+    "tablename": "SimulationOutputFacilityDemandTransactionDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "ReplicationNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Time",
+        "tableColName": "Time",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip7",
+        "tableColName": "Skip7",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip8",
+        "tableColName": "Skip8",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip9",
+        "tableColName": "Skip9",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip10",
+        "tableColName": "Skip10",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip11",
+        "tableColName": "Skip11",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip12",
+        "tableColName": "Skip12",
+        "type": "text"
+      },
+      {
+        "fileColName": "Quantity",
+        "tableColName": "Quantity",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "PRODUCTION_REPORT.TXT",
+    "tablename": "SimulationOutputProductionTransactionDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Time",
+        "tableColName": "Time",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkCenterName",
+        "tableColName": "WorkCenterName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Quantity",
+        "tableColName": "Quantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "ProductionCost",
+        "tableColName": "ProductionCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ProductionTime",
+        "tableColName": "ProductionTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "InternalTrackingID",
+        "tableColName": "InternalTrackingID",
+        "type": "text"
+      },
+      {
+        "fileColName": "UserDefinedTrackingID",
+        "tableColName": "UserDefinedTrackingID",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "PRODUCTION_PROCESSES.TXT",
+    "tablename": "SimulationOutputProcessTransactions",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "Replication",
+        "type": "long"
+      },
+      {
+        "fileColName": "StartTime",
+        "tableColName": "StartTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "EndTime",
+        "tableColName": "EndTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "InternalTrackingID",
+        "tableColName": "InternalTrackingID",
+        "type": "long"
+      },
+      {
+        "fileColName": "LotID",
+        "tableColName": "LotID",
+        "type": "text"
+      },
+      {
+        "fileColName": "UserDefinedTrackingID",
+        "tableColName": "UserDefinedTrackingID",
+        "type": "text"
+      },
+      {
+        "fileColName": "ActivityType",
+        "tableColName": "ActivityType",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessName",
+        "tableColName": "ProcessName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessStepName",
+        "tableColName": "ProcessStepName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkCenter",
+        "tableColName": "WorkCenter",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkResource",
+        "tableColName": "WorkResource",
+        "type": "text"
+      },
+      {
+        "fileColName": "CurrentProduct",
+        "tableColName": "CurrentProduct",
+        "type": "text"
+      },
+      {
+        "fileColName": "NextProduct",
+        "tableColName": "NextProduct",
+        "type": "text"
+      },
+      {
+        "fileColName": "TotalQuantity",
+        "tableColName": "TotalQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "NetQuantity",
+        "tableColName": "NetQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceSite",
+        "tableColName": "SourceSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationSite",
+        "tableColName": "DestinationSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "Mode",
+        "tableColName": "Mode",
+        "type": "text"
+      },
+      {
+        "fileColName": "SetupTime",
+        "tableColName": "SetupTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "VariableProcessTime",
+        "tableColName": "VariableProcessTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalProcessTime",
+        "tableColName": "TotalProcessTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "PolicyType",
+        "tableColName": "PolicyType",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessType",
+        "tableColName": "ProcessType",
+        "type": "text"
+      },
+      {
+        "fileColName": "VariableProcessCost",
+        "tableColName": "VariableProcessCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "SetupCost",
+        "tableColName": "SetupCost",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "SHIPMENT_REPORT.TXT",
+    "tablename": "SimulationOutputShipmentTransactionDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Time",
+        "tableColName": "Time",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "SourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationName",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Quantity",
+        "tableColName": "Quantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "Cost",
+        "tableColName": "Cost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "CO2",
+        "tableColName": "CO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "Weight",
+        "tableColName": "Weight",
+        "type": "double"
+      },
+      {
+        "fileColName": "Cubic",
+        "tableColName": "Cubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "Duty",
+        "tableColName": "Duty",
+        "type": "currency"
+      },
+      {
+        "fileColName": "Skip14",
+        "tableColName": "Skip14",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip15",
+        "tableColName": "Skip15",
+        "type": "text"
+      },
+      {
+        "fileColName": "Skip16",
+        "tableColName": "Skip16",
+        "type": "text"
+      },
+      {
+        "fileColName": "Mode",
+        "tableColName": "Mode",
+        "type": "text"
+      },
+      {
+        "fileColName": "TransportationPolicy",
+        "tableColName": "TransportationPolicy",
+        "type": "text"
+      },
+      {
+        "fileColName": "ShipmentNumber",
+        "tableColName": "ShipmentNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "AssetName",
+        "tableColName": "AssetName",
+        "type": "text"
+      },
+      {
+        "fileColName": "AssetUnit",
+        "tableColName": "AssetUnit",
+        "type": "long"
+      },
+      {
+        "fileColName": "DueDate",
+        "tableColName": "DueDate",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "InternalTrackingID",
+        "tableColName": "InternalTrackingID",
+        "type": "text"
+      },
+      {
+        "fileColName": "UserDefinedTrackingID",
+        "tableColName": "UserDefinedTrackingID",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "MILEAGE_REPORT.TXT",
+    "tablename": "SimulationOutputShipmentMileageDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "SourceSite",
+        "tableColName": "SourceSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationSite",
+        "tableColName": "DestinationSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "ShipmentID",
+        "tableColName": "ShipmentID",
+        "type": "long"
+      },
+      {
+        "fileColName": "DepartureDate",
+        "tableColName": "DepartureDate",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "ArrivalDate",
+        "tableColName": "ArrivalDate",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "Distance",
+        "tableColName": "Distance",
+        "type": "double"
+      },
+      {
+        "fileColName": "AssetName",
+        "tableColName": "AssetName",
+        "type": "text"
+      },
+      {
+        "fileColName": "AssetUnitNumber",
+        "tableColName": "AssetUnitNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "ContainerID",
+        "tableColName": "ContainerID",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "HANDLING_REPORT.TXT",
+    "tablename": "SimulationOutputShipmentHandlingDetail",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Replication",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Site",
+        "tableColName": "Site",
+        "type": "text"
+      },
+      {
+        "fileColName": "ShipmentID",
+        "tableColName": "ShipmentID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StartDate",
+        "tableColName": "StartDate",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "HandlingTime",
+        "tableColName": "HandlingTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "Operation",
+        "tableColName": "Operation",
+        "type": "text"
+      },
+      {
+        "fileColName": "AssetName",
+        "tableColName": "AssetName",
+        "type": "text"
+      },
+      {
+        "fileColName": "AssetUnitNumber",
+        "tableColName": "AssetUnitNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "ConsignmentName",
+        "tableColName": "ConsignmentName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Quantity",
+        "tableColName": "Quantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkResourceName",
+        "tableColName": "WorkResourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "InternalTrackingID",
+        "tableColName": "InternalTrackingID",
+        "type": "text"
+      },
+      {
+        "fileColName": "UserDefinedTrackingID",
+        "tableColName": "UserDefinedTrackingID",
+        "type": "text"
+      }
+    ]
+  }
+]

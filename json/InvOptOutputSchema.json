@@ -1,0 +1,1977 @@
+[
+  {
+    "filename": "ScenarioValues.txt",
+    "tablename": "ScenarioSafetyStockOutputValues",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "ValueName",
+        "tableColName": "ValueName",
+        "type": "text"
+      },
+      {
+        "fileColName": "TableName",
+        "tableColName": "TableName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ColumnName",
+        "tableColName": "ColumnName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Operator",
+        "tableColName": "Operator",
+        "type": "text"
+      },
+      {
+        "fileColName": "Operand",
+        "tableColName": "Operand",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "demandPropagation.txt",
+    "tablename": "FacilityDemandProfileIO3",
+    "id": "DemandProfileID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DemandMean",
+        "tableColName": "DemandQtyMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandStdDev",
+        "tableColName": "DemandQtyStdDev",
+        "type": "double"
+      },
+      {
+        "fileColName": "Intermittency",
+        "tableColName": "Intermittency",
+        "type": "text"
+      },
+      {
+        "fileColName": "DemandClass",
+        "tableColName": "DemandClass",
+        "type": "text"
+      },
+      {
+        "fileColName": "NonZeroDemandMean",
+        "tableColName": "NonZeroDemandQtyMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "NonZeroDemandStdDev",
+        "tableColName": "NonZeroDemandQtyStdDev",
+        "type": "double"
+      },
+      {
+        "fileColName": "InterDemandIntervalMean",
+        "tableColName": "DemandIntervalMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "NonZeroDemandCV2",
+        "tableColName": "COV",
+        "type": "double"
+      },
+      {
+        "fileColName": "Variability",
+        "tableColName": "Variability",
+        "type": "text"
+      },
+      {
+        "fileColName": "Clumpiness",
+        "tableColName": "Clumpiness",
+        "type": "text"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "AvgOrderQty",
+        "tableColName": "AvgOrderQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "CostOfGoods",
+        "tableColName": "CostOfGoods",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWeight",
+        "tableColName": "TotalWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCube",
+        "tableColName": "TotalCube",
+        "type": "double"
+      },
+      {
+        "fileColName": "PotentialRevenue",
+        "tableColName": "PotentialRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "AggregationPeriodCount",
+        "tableColName": "AggregationPeriodCount",
+        "type": "long"
+      },
+      {
+        "fileColName": "TotalDemandQty",
+        "tableColName": "TotalDemandQty",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "summary.txt",
+    "tablename": "InvOptimOutput_InventorySummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "TargetServiceLevel",
+        "tableColName": "TargetServiceLevel",
+        "type": "double"
+      },
+      {
+        "fileColName": "OptimizedAverageServiceLevel",
+        "tableColName": "OptimizedAverageServiceLevel",
+        "type": "double"
+      },
+      {
+        "fileColName": "ServiceType",
+        "tableColName": "ServiceType",
+        "type": "text"
+      },
+      {
+        "fileColName": "SafetyStock",
+        "tableColName": "SafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExtraSafetyStock",
+        "tableColName": "ExcessSafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "USFSafetyStock",
+        "tableColName": "USFSafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalSafetyStock",
+        "tableColName": "TotalSafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "SafetyStockDOS",
+        "tableColName": "SafetyStockDOS",
+        "type": "double"
+      },
+      {
+        "fileColName": "SafetyStockCost",
+        "tableColName": "SafetyStockCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "Coverage",
+        "tableColName": "Coverage",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandMean",
+        "tableColName": "DemandQtyMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandStdDev",
+        "tableColName": "DemandQtyStdDev",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandClass",
+        "tableColName": "DemandClassDetails",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationName",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "BOMName",
+        "tableColName": "BomName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Mode",
+        "tableColName": "Mode",
+        "type": "text"
+      },
+      {
+        "fileColName": "ServiceTime",
+        "tableColName": "ServiceTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "ImmediateLeadTime",
+        "tableColName": "ImmediateLeadTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "MaxLeadTime",
+        "tableColName": "MaxLeadTime",
+        "type": "long"
+      },
+      {
+        "fileColName": "BatchSize",
+        "tableColName": "BatchSize",
+        "type": "double"
+      },
+      {
+        "fileColName": "RecommendedPolicy",
+        "tableColName": "RecommendedPolicy",
+        "type": "text"
+      },
+      {
+        "fileColName": "PolicyParameter1",
+        "tableColName": "PolicyParameter1",
+        "type": "double"
+      },
+      {
+        "fileColName": "PolicyParameter2",
+        "tableColName": "PolicyParameter2",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExpectedType1Service",
+        "tableColName": "Type1Service",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExpectedType2Service",
+        "tableColName": "Type2Service",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExpectedType3Service",
+        "tableColName": "Type3Service",
+        "type": "double"
+      },
+      {
+        "fileColName": "LeadTimeDemandDistribution",
+        "tableColName": "LeadTimeDist",
+        "type": "text"
+      },
+      {
+        "fileColName": "LeadTimeDemandMean",
+        "tableColName": "LeadTimeMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "LeadTimeDemandStdDev",
+        "tableColName": "LeadTimeStdDev",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageBackorders",
+        "tableColName": "AvgBackorders",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageInventory",
+        "tableColName": "AvgInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageOrderQty",
+        "tableColName": "AvgReplenishmentQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "SourcingType",
+        "tableColName": "SourcingType",
+        "type": "text"
+      },
+      {
+        "fileColName": "RQPolicyParam1",
+        "tableColName": "skip38",
+        "type": "text"
+      },
+      {
+        "fileColName": "RQPolicyParam2",
+        "tableColName": "skip39",
+        "type": "text"
+      },
+      {
+        "fileColName": "BSPolicyParam1",
+        "tableColName": "skip40",
+        "type": "text"
+      },
+      {
+        "fileColName": "BSPolicyParam2",
+        "tableColName": "skip41",
+        "type": "text"
+      },
+      {
+        "fileColName": "sSPolicyParam1",
+        "tableColName": "skip42",
+        "type": "text"
+      },
+      {
+        "fileColName": "sSPolicyParam2",
+        "tableColName": "skip43",
+        "type": "text"
+      },
+      {
+        "fileColName": "TSPolicyParam1",
+        "tableColName": "skip44",
+        "type": "text"
+      },
+      {
+        "fileColName": "TSPolicyParam2",
+        "tableColName": "skip45",
+        "type": "text"
+      },
+      {
+        "fileColName": "SafetyStockValue",
+        "tableColName": "InventoryValue",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ProductSet",
+        "tableColName": "skip47",
+        "type": "text"
+      },
+      {
+        "fileColName": "CycleStock",
+        "tableColName": "CycleStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "CycleStockCost",
+        "tableColName": "CycleStockCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkInProgressInventory",
+        "tableColName": "WorkInProgressInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkInProgressInventoryCost",
+        "tableColName": "WorkInProgressInventoryCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "IncomingInTransitInventory",
+        "tableColName": "IncomingInTransitInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "IncomingInTransitInventoryCost",
+        "tableColName": "IncomingInTransitInventoryCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalInventory",
+        "tableColName": "TotalInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalInventoryCost",
+        "tableColName": "TotalInventoryCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalInventoryValue",
+        "tableColName": "TotalInventoryValue",
+        "type": "double"
+      },
+      {
+        "fileColName": "Status",
+        "tableColName": "Status",
+        "type": "text"
+      },
+      {
+        "fileColName": "SubModelID",
+        "tableColName": "SubModelID",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "details.txt",
+    "tablename": "InvOptimOutput_InventoryDetails",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "TargetServiceLevel",
+        "tableColName": "TargetServiceLevel",
+        "type": "double"
+      },
+      {
+        "fileColName": "OptimizedAverageServiceLevel",
+        "tableColName": "OptimizedAverageServiceLevel",
+        "type": "double"
+      },
+      {
+        "fileColName": "ServiceType",
+        "tableColName": "ServiceType",
+        "type": "text"
+      },
+      {
+        "fileColName": "SafetyStock",
+        "tableColName": "SafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExtraSafetyStock",
+        "tableColName": "ExcessSafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "USFSafetyStock",
+        "tableColName": "USFSafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalSafetyStock",
+        "tableColName": "TotalSafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "SafetyStockDOS",
+        "tableColName": "SafetyStockDOS",
+        "type": "double"
+      },
+      {
+        "fileColName": "SafetyStockCost",
+        "tableColName": "SafetyStockCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "Coverage",
+        "tableColName": "Coverage",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandMean",
+        "tableColName": "AvgDailyDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandStdDev",
+        "tableColName": "StdDevDailyDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandClass",
+        "tableColName": "DemandClassDetails",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationName",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "BOMName",
+        "tableColName": "BomName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Mode",
+        "tableColName": "Mode",
+        "type": "text"
+      },
+      {
+        "fileColName": "ServiceTime",
+        "tableColName": "ServiceTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "ImmediateLeadTime",
+        "tableColName": "ImmediateLeadTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "MaxLeadTime",
+        "tableColName": "MaxLeadTime",
+        "type": "long"
+      },
+      {
+        "fileColName": "BatchSize",
+        "tableColName": "BatchSize",
+        "type": "double"
+      },
+      {
+        "fileColName": "RecommendedPolicy",
+        "tableColName": "RecommendedPolicy",
+        "type": "text"
+      },
+      {
+        "fileColName": "PolicyParameter1",
+        "tableColName": "PolicyParameter1",
+        "type": "double"
+      },
+      {
+        "fileColName": "PolicyParameter2",
+        "tableColName": "PolicyParameter2",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExpectedType1Service",
+        "tableColName": "Type1Service",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExpectedType2Service",
+        "tableColName": "Type2Service",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExpectedType3Service",
+        "tableColName": "Type3Service",
+        "type": "double"
+      },
+      {
+        "fileColName": "LeadTimeDemandDistribution",
+        "tableColName": "LeadTimeDist",
+        "type": "text"
+      },
+      {
+        "fileColName": "LeadTimeDemandMean",
+        "tableColName": "LeadTimeMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "LeadTimeDemandStdDev",
+        "tableColName": "LeadTimeStdDev",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageBackorders",
+        "tableColName": "AvgBackorders",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageInventory",
+        "tableColName": "AvgInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageOrderQty",
+        "tableColName": "AvgOrderQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "SourcingType",
+        "tableColName": "SourcingType",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "InfeasibilityDiagnosis.txt",
+    "tablename": "InvOptimOutput_ConstraintSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNum",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "BOMName",
+        "tableColName": "BOMName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Mode",
+        "tableColName": "Mode",
+        "type": "text"
+      },
+      {
+        "fileColName": "ConstraintName",
+        "tableColName": "ConstraintName",
+        "type": "text"
+      },
+      {
+        "fileColName": "InputConstraint",
+        "tableColName": "InputConstraint",
+        "type": "text"
+      },
+      {
+        "fileColName": "SuggestedConstraint",
+        "tableColName": "SuggestedConstraint",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "serviceLevelOptSummary.txt",
+    "tablename": "InvOptimOutput_ServiceLevelSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "TargetServiceLevel",
+        "tableColName": "TargetServiceLevel",
+        "type": "double"
+      },
+      {
+        "fileColName": "OptimizedAverageServiceLevel",
+        "tableColName": "OptimizedAverageServiceLevel",
+        "type": "double"
+      },
+      {
+        "fileColName": "ServiceType",
+        "tableColName": "ServiceType",
+        "type": "text"
+      },
+      {
+        "fileColName": "SafetyStock",
+        "tableColName": "SafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "Extra SafetyStock",
+        "tableColName": "ExcessSafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "USF SafetyStock",
+        "tableColName": "USFSafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "Total SafetyStock",
+        "tableColName": "TotalSafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "SafetyStockDOS",
+        "tableColName": "SafetyStockDOS",
+        "type": "double"
+      },
+      {
+        "fileColName": "SafetyStockCost",
+        "tableColName": "SafetyStockCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "Coverage",
+        "tableColName": "Coverage",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandMean",
+        "tableColName": "DailyQtyMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandStdDev",
+        "tableColName": "DailyQtyStdDev",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandClass",
+        "tableColName": "DemandClassDetails",
+        "type": "text"
+      },
+      {
+        "fileColName": "Source Name",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Destination Name",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "BOM Name",
+        "tableColName": "BomName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Mode",
+        "tableColName": "Mode",
+        "type": "text"
+      },
+      {
+        "fileColName": "ServiceTime",
+        "tableColName": "ServiceTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "ImmediateLeadTime",
+        "tableColName": "ImmediateLeadTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "MaxLeadTime",
+        "tableColName": "MaxLeadTime",
+        "type": "long"
+      },
+      {
+        "fileColName": "BatchSize",
+        "tableColName": "BatchSize",
+        "type": "double"
+      },
+      {
+        "fileColName": "RecommendedPolicy",
+        "tableColName": "RecommendedPolicy",
+        "type": "text"
+      },
+      {
+        "fileColName": "PolicyParameter1",
+        "tableColName": "PolicyParameter1",
+        "type": "double"
+      },
+      {
+        "fileColName": "PolicyParameter2",
+        "tableColName": "PolicyParameter2",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExpectedType1Service",
+        "tableColName": "Type1Service",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExpectedType2Service",
+        "tableColName": "Type2Service",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExpectedType3Service",
+        "tableColName": "Type3Service",
+        "type": "double"
+      },
+      {
+        "fileColName": "Lead-Time Demand Distribution",
+        "tableColName": "LeadTimeDist",
+        "type": "text"
+      },
+      {
+        "fileColName": "Lead-Time Demand Mean",
+        "tableColName": "LeadTimeMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "Lead-Time Demand Stdev",
+        "tableColName": "LeadTimeStdDev",
+        "type": "double"
+      },
+      {
+        "fileColName": "Average Backorders",
+        "tableColName": "AvgBackorders",
+        "type": "double"
+      },
+      {
+        "fileColName": "Average Inventory",
+        "tableColName": "AvgInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "Average Order Qty",
+        "tableColName": "AvgReplenishmentQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "Sourcing Type",
+        "tableColName": "SourcingType",
+        "type": "text"
+      },
+      {
+        "fileColName": "RQ Policy Param1",
+        "tableColName": "skip38",
+        "type": "text"
+      },
+      {
+        "fileColName": "RQ Policy Param2",
+        "tableColName": "skip39",
+        "type": "text"
+      },
+      {
+        "fileColName": "BS Policy Param1",
+        "tableColName": "skip40",
+        "type": "text"
+      },
+      {
+        "fileColName": "BS Policy Param2",
+        "tableColName": "skip41",
+        "type": "text"
+      },
+      {
+        "fileColName": "sS Policy Param1",
+        "tableColName": "skip42",
+        "type": "text"
+      },
+      {
+        "fileColName": "sS Policy Param2",
+        "tableColName": "skip43",
+        "type": "text"
+      },
+      {
+        "fileColName": "TS Policy Param1",
+        "tableColName": "skip44",
+        "type": "text"
+      },
+      {
+        "fileColName": "TS Policy Param2",
+        "tableColName": "skip45",
+        "type": "text"
+      },
+      {
+        "fileColName": "Safety Stock Value",
+        "tableColName": "InventoryValue",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ProductSet",
+        "tableColName": "skip47",
+        "type": "text"
+      },
+      {
+        "fileColName": "Cycle Stock",
+        "tableColName": "CycleStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "Cycle Stock Cost",
+        "tableColName": "CycleStockCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "Work In Progress Inventory",
+        "tableColName": "WorkInProgressInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "Work In Progress Inventory Cost",
+        "tableColName": "WorkInProgressInventoryCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "Incoming In Transit Inventory",
+        "tableColName": "IncomingInTransitInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "Incoming In Transit Inventory Cost",
+        "tableColName": "IncomingInTransitInventoryCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "Total Inventory",
+        "tableColName": "TotalInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "Total Inventory Cost",
+        "tableColName": "TotalInventoryCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "Total Inventory Value",
+        "tableColName": "TotalInventoryValue",
+        "type": "double"
+      },
+      {
+        "fileColName": "Status",
+        "tableColName": "Status",
+        "type": "text"
+      },
+      {
+        "fileColName": "Sub-Model ID",
+        "tableColName": "SubModelID",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "facilityDemandSeries.txt",
+    "tablename": "FacilityDemandSeries",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "CharacterSet": "ANSI",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Site",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Product",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Date",
+        "tableColName": "DemandDate",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "Quantity",
+        "tableColName": "Quantity",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "resultsSummary.txt",
+    "tablename": "InvOptimOutput_ResultsSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "ReturnInfo",
+        "tableColName": "IOReturnInformation",
+        "type": "text"
+      },
+      {
+        "fileColName": "NumErrors",
+        "tableColName": "Errors",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumWarnings",
+        "tableColName": "Warnings",
+        "type": "long"
+      },
+      {
+        "fileColName": "RunningTime",
+        "tableColName": "RunningTime",
+        "type": "text"
+      },
+      {
+        "fileColName": "RunType",
+        "tableColName": "RunType",
+        "type": "text"
+      },
+      {
+        "fileColName": "ServiceType",
+        "tableColName": "ServiceLevelType",
+        "type": "text"
+      },
+      {
+        "fileColName": "DemandPropagationType",
+        "tableColName": "DemandPropagationType",
+        "type": "text"
+      },
+      {
+        "fileColName": "AggregationType",
+        "tableColName": "AggregationType",
+        "type": "text"
+      },
+      {
+        "fileColName": "WeekDays",
+        "tableColName": "WeekDays",
+        "type": "long"
+      },
+      {
+        "fileColName": "EchelonMode",
+        "tableColName": "EchelonMode",
+        "type": "text"
+      },
+      {
+        "fileColName": "NumPeriod",
+        "tableColName": "Periods",
+        "type": "long"
+      },
+      {
+        "fileColName": "TotalDays",
+        "tableColName": "TotalDays",
+        "type": "long"
+      },
+      {
+        "fileColName": "MaxLeadTime",
+        "tableColName": "MaxLeadTime",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumFacility",
+        "tableColName": "Facilities",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumCustomer",
+        "tableColName": "Customers",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumProduct",
+        "tableColName": "Products",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumTransportation",
+        "tableColName": "Transportations",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumBOM",
+        "tableColName": "BOMs",
+        "type": "long"
+      },
+      {
+        "fileColName": "MaxBOMComponent",
+        "tableColName": "MaxBOMComponents",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumComComponent",
+        "tableColName": "ComComponents",
+        "type": "long"
+      },
+      {
+        "fileColName": "TotalDecomposedSite",
+        "tableColName": "DecomposedSites",
+        "type": "long"
+      },
+      {
+        "fileColName": "TotalDecomposedLink",
+        "tableColName": "DecomposedLinks",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumSubModel",
+        "tableColName": "SubModels",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumSiteOfLargestSubModel",
+        "tableColName": "MaxSubModelSites",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumLinkOfLargestSubModel",
+        "tableColName": "MaxSubModelLinks",
+        "type": "long"
+      },
+      {
+        "fileColName": "LPGapOfLargestSubModel",
+        "tableColName": "MaxSubModelLPGap",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalSafetyStockCost",
+        "tableColName": "TotalSafetyStockCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCycleStockCost",
+        "tableColName": "TotalCycleStockCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWorkInProgressInventoryCost",
+        "tableColName": "TotalWorkInProgressInventoryCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalIncomingInTransitInventoryCost",
+        "tableColName": "TotalIncomingInTransitInventoryCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalInventoryCost",
+        "tableColName": "TotalInventoryCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "IOVersion",
+        "tableColName": "IOVersion",
+        "type": "text"
+      },
+      {
+        "fileColName": "BIMVersion",
+        "tableColName": "BIMVersion",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "log.txt",
+    "tablename": "SafetyStockOptimizationErrorLog",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "Time",
+        "tableColName": "Time",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "LogLevel",
+        "tableColName": "LogLevel",
+        "type": "text"
+      },
+      {
+        "fileColName": "Category",
+        "tableColName": "Category",
+        "type": "text"
+      },
+      {
+        "fileColName": "Period",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductSet",
+        "tableColName": "ProductSet",
+        "type": "text"
+      },
+      {
+        "fileColName": "Site",
+        "tableColName": "Site",
+        "type": "text"
+      },
+      {
+        "fileColName": "Product",
+        "tableColName": "Product",
+        "type": "text"
+      },
+      {
+        "fileColName": "Details",
+        "tableColName": "Details",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "CustomerDemandProfileIO3.txt",
+    "tablename": "CustomerDemandProfileIO3",
+    "id": "DemandProfileID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "CharacterSet": "ANSI",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "StatisticSource",
+        "tableColName": "StatisticSource",
+        "type": "text"
+      },
+      {
+        "fileColName": "TotalDemandQty",
+        "tableColName": "TotalDemandQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "NonZeroDemandQtyMean",
+        "tableColName": "NonZeroDemandQtyMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "NonZeroDemandQtyStdDev",
+        "tableColName": "NonZeroDemandQtyStdDev",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandQtyMean",
+        "tableColName": "DemandQtyMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandQtyStdDev",
+        "tableColName": "DemandQtyStdDev",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandIntervalMean",
+        "tableColName": "DemandIntervalMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "COV",
+        "tableColName": "COV",
+        "type": "double"
+      },
+      {
+        "fileColName": "MinDemand",
+        "tableColName": "MinDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "MaxDemand",
+        "tableColName": "MaxDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "AggregationPeriodCount",
+        "tableColName": "AggregationPeriodCount",
+        "type": "long"
+      },
+      {
+        "fileColName": "OrderCount",
+        "tableColName": "OrderCount",
+        "type": "long"
+      },
+      {
+        "fileColName": "Outliers",
+        "tableColName": "Outliers",
+        "type": "long"
+      },
+      {
+        "fileColName": "PotentialRevenue",
+        "tableColName": "PotentialRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "CostOfGoods",
+        "tableColName": "CostOfGoods",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWeight",
+        "tableColName": "TotalWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCube",
+        "tableColName": "TotalCube",
+        "type": "double"
+      },
+      {
+        "fileColName": "Intermittency",
+        "tableColName": "Intermittency",
+        "type": "text"
+      },
+      {
+        "fileColName": "Variability",
+        "tableColName": "Variability",
+        "type": "text"
+      },
+      {
+        "fileColName": "Clumpiness",
+        "tableColName": "Clumpiness",
+        "type": "text"
+      },
+      {
+        "fileColName": "DemandClass",
+        "tableColName": "DemandClass",
+        "type": "text"
+      },
+      {
+        "fileColName": "DemandClassDetails",
+        "tableColName": "DemandClassDetails",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "TimePhasedSummary.txt",
+    "tablename": "InvOptimOutput_TimePhasedInventorySummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "CharacterSet": "ANSI",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Date",
+        "tableColName": "Date",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "TargetServiceLevel",
+        "tableColName": "TargetServiceLevel",
+        "type": "double"
+      },
+      {
+        "fileColName": "OptimizedAverageServiceLevel",
+        "tableColName": "skip6",
+        "type": "text"
+      },
+      {
+        "fileColName": "ServiceType",
+        "tableColName": "ServiceType",
+        "type": "text"
+      },
+      {
+        "fileColName": "SafetyStock",
+        "tableColName": "SafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExtraSafetyStock",
+        "tableColName": "ExcessSafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "USFSafetyStock",
+        "tableColName": "USFSafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalSafetyStock",
+        "tableColName": "TotalSafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "SafetyStockDOS",
+        "tableColName": "SafetyStockDOS",
+        "type": "double"
+      },
+      {
+        "fileColName": "SafetyStockCost",
+        "tableColName": "SafetyStockCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "Coverage",
+        "tableColName": "Coverage",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandMean",
+        "tableColName": "DemandQtyMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandStdDev",
+        "tableColName": "DemandQtyStdDev",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandClass",
+        "tableColName": "DemandClassDetails",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceName",
+        "tableColName": "skip18",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationName",
+        "tableColName": "skip19",
+        "type": "text"
+      },
+      {
+        "fileColName": "BOMName",
+        "tableColName": "skip20",
+        "type": "text"
+      },
+      {
+        "fileColName": "Mode",
+        "tableColName": "skip21",
+        "type": "text"
+      },
+      {
+        "fileColName": "ServiceTime",
+        "tableColName": "skip22",
+        "type": "text"
+      },
+      {
+        "fileColName": "ImmediateLeadTime",
+        "tableColName": "skip23",
+        "type": "text"
+      },
+      {
+        "fileColName": "MaxLeadTime",
+        "tableColName": "skip24",
+        "type": "text"
+      },
+      {
+        "fileColName": "BatchSize",
+        "tableColName": "skip25",
+        "type": "text"
+      },
+      {
+        "fileColName": "RecommendedPolicy",
+        "tableColName": "RecommendedPolicy",
+        "type": "text"
+      },
+      {
+        "fileColName": "PolicyParameter1",
+        "tableColName": "PolicyParameter1",
+        "type": "double"
+      },
+      {
+        "fileColName": "PolicyParameter2",
+        "tableColName": "PolicyParameter2",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExpectedType1Service",
+        "tableColName": "Type1Service",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExpectedType2Service",
+        "tableColName": "Type2Service",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExpectedType3Service",
+        "tableColName": "Type3Service",
+        "type": "double"
+      },
+      {
+        "fileColName": "LeadTimeDemandDistribution",
+        "tableColName": "LeadTimeDist",
+        "type": "text"
+      },
+      {
+        "fileColName": "LeadTimeDemandMean",
+        "tableColName": "LeadTimeMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "LeadTimeDemandStdDev",
+        "tableColName": "LeadTimeStdDev",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageBackorders",
+        "tableColName": "AvgBackorders",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageInventory",
+        "tableColName": "AvgInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "AverageOrderQty",
+        "tableColName": "AvgReplenishmentQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "SourcingType",
+        "tableColName": "SourcingType",
+        "type": "text"
+      },
+      {
+        "fileColName": "RQPolicyParam1",
+        "tableColName": "skip39",
+        "type": "text"
+      },
+      {
+        "fileColName": "RQPolicyParam2",
+        "tableColName": "skip40",
+        "type": "text"
+      },
+      {
+        "fileColName": "BSPolicyParam1",
+        "tableColName": "skip41",
+        "type": "text"
+      },
+      {
+        "fileColName": "BSPolicyParam2",
+        "tableColName": "skip42",
+        "type": "text"
+      },
+      {
+        "fileColName": "sSPolicyParam1",
+        "tableColName": "skip43",
+        "type": "text"
+      },
+      {
+        "fileColName": "sSPolicyParam2",
+        "tableColName": "skip44",
+        "type": "text"
+      },
+      {
+        "fileColName": "TSPolicyParam1",
+        "tableColName": "skip45",
+        "type": "text"
+      },
+      {
+        "fileColName": "TSPolicyParam2",
+        "tableColName": "skip46",
+        "type": "text"
+      },
+      {
+        "fileColName": "SafetyStockValue",
+        "tableColName": "InventoryValue",
+        "type": "double"
+      },
+      {
+        "fileColName": "ProductSet",
+        "tableColName": "skip48",
+        "type": "text"
+      },
+      {
+        "fileColName": "CycleStock",
+        "tableColName": "CycleStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "CycleStockCost",
+        "tableColName": "CycleStockCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkInProgressInventory",
+        "tableColName": "WorkInProgressInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkInProgressInventoryCost",
+        "tableColName": "WorkInProgressInventoryCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "IncomingInTransitInventory",
+        "tableColName": "IncomingInTransitInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "IncomingInTransitInventoryCost",
+        "tableColName": "IncomingInTransitInventoryCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalInventory",
+        "tableColName": "TotalInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalInventoryCost",
+        "tableColName": "TotalInventoryCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalInventoryValue",
+        "tableColName": "TotalInventoryValue",
+        "type": "double"
+      },
+      {
+        "fileColName": "Status",
+        "tableColName": "Status",
+        "type": "text"
+      },
+      {
+        "fileColName": "SubModelID",
+        "tableColName": "SubModelID",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "rollingHorizonValidationDetails.txt",
+    "tablename": "InvOptimOutput_RollingHorizonValidationDetails",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "CharacterSet": "ANSI",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Date",
+        "tableColName": "Date",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "InventoryLevel",
+        "tableColName": "InventoryLevel",
+        "type": "double"
+      },
+      {
+        "fileColName": "OrderQuantity",
+        "tableColName": "OrderQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "OrderInTransit",
+        "tableColName": "OrderInTransit",
+        "type": "double"
+      },
+      {
+        "fileColName": "Demand",
+        "tableColName": "Demand",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "rollingHorizonValidationServiceLevel.txt",
+    "tablename": "InvOptimOutput_RollingHorizonValidationServiceLevel",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "CharacterSet": "ANSI",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "TargetServiceLevel",
+        "tableColName": "TargetServiceLevel",
+        "type": "double"
+      },
+      {
+        "fileColName": "FillQtyRate",
+        "tableColName": "FillQtyRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "ReadyRate",
+        "tableColName": "ReadyRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "CustomerFacingSite",
+        "tableColName": "CustomerFacingSite",
+        "type": "bit"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  }
+]

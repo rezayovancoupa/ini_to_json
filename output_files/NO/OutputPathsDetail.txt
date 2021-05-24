@@ -1,0 +1,7 @@
+ID	CustomerName	ProductName	Mode	StartPeriodName	StartPeriodNo	EndPeriodName	EndPeriodNo	PathID	LaneID	StartLocationName	EndLocationName	StartProduct	FinishedGood	TotalQuantity	TotalCost	FixedStartupCost	FixedOperatingCost	ClosingCost	ProductionCost	TransportationCost	FacilityInventoryHoldingCost	IntransitInventoryHoldingCost	SourcingCost	InboundWarehousingCost	OutboundWarehousingCost	CapitalInvestment	FacilityCO2Cost	TransportationCO2Cost	WorkResourcesCost	DutyCost	DemandPenalty	OtherCost	ServiceHours	ServiceDistance	ScenarioID	StepNumber
+1	CZ	FG1	1	SINGLEPERIOD	1	SINGLEPERIOD	1	1	1	MFG	DC	FG1	FG1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+2	CZ	FG1	1	SINGLEPERIOD	1	SINGLEPERIOD	1	1	2	DC	CZ	FG1	FG1	1	0.0164	0	0	0	0	0	0.0164	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+3	CZ	FG2	1	SINGLEPERIOD	1	SINGLEPERIOD	1	2	1	MFG	DC	FG2	FG2	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+4	CZ	FG2	1	SINGLEPERIOD	1	SINGLEPERIOD	1	2	2	DC	CZ	FG2	FG2	1	0.0164	0	0	0	0	0	0.0164	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+5	CZ	FG3	1	SINGLEPERIOD	1	SINGLEPERIOD	1	3	1	MFG	DC	FG3	FG3	1	0.0003	0	0	0	0	0	0	0.0003	0	0	0	0	0	0	0	0	0	0	120	0	0	1
+6	CZ	FG3	1	SINGLEPERIOD	1	SINGLEPERIOD	1	3	2	DC	CZ	FG3	FG3	1	0.0164	0	0	0	0	0	0.0164	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1

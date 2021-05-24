@@ -1,0 +1,247 @@
+[
+  {
+    "filename": "OptimizationOutputCustomerAllocation.txt",
+    "tablename": "OptimizationOutputCustomerAllocation",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "CustomerName",
+        "tableColName": "CustomerName",
+        "type": "text"
+      },
+      {
+        "fileColName": "FlowUnits",
+        "tableColName": "FlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "Distance",
+        "tableColName": "Distance",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowXDistance",
+        "tableColName": "FlowTimesDistance",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputGreenfieldDCs.txt",
+    "tablename": "OptimizationOutputGreenfieldDCs",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "DCname",
+        "tableColName": "GreenfieldFacility",
+        "type": "text"
+      },
+      {
+        "fileColName": "Lat",
+        "tableColName": "Latitude",
+        "type": "double"
+      },
+      {
+        "fileColName": "Long",
+        "tableColName": "Longitude",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputGreenfieldSummary.txt",
+    "tablename": "OptimizationOutputGreenfieldSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "NumberOfCustomers",
+        "tableColName": "TotalCustomers",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumberOfGreenfieldDCs",
+        "tableColName": "TotalGreenfieldFacilities",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumberOfExistingDCsDCs",
+        "tableColName": "TotalExistingFacilities",
+        "type": "long"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "GreenfieldService.txt",
+    "tablename": "OptimizationOutputGreenfieldService",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ServiceConstraintNo",
+        "tableColName": "ServiceLevel",
+        "type": "text"
+      },
+      {
+        "fileColName": "InputServiceDistance",
+        "tableColName": "InputServiceDistance",
+        "type": "double"
+      },
+      {
+        "fileColName": "InputServicePercentage",
+        "tableColName": "InputServicePercentage",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalDemandServed",
+        "tableColName": "TotalDemandServed",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCustomersServed",
+        "tableColName": "TotalCustomersServed",
+        "type": "long"
+      },
+      {
+        "fileColName": "PercentageDemandServed",
+        "tableColName": "PercentageDemandServed",
+        "type": "double"
+      },
+      {
+        "fileColName": "PercentageCustomersServed",
+        "tableColName": "PercentageCustomersServed",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "ScenarioValues.txt",
+    "tablename": "ScenarioOptimizationOutputValues",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "ValueName",
+        "tableColName": "ValueName",
+        "type": "text"
+      },
+      {
+        "fileColName": "TableName",
+        "tableColName": "TableName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ColumnName",
+        "tableColName": "ColumnName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Operator",
+        "tableColName": "Operator",
+        "type": "text"
+      },
+      {
+        "fileColName": "Operand",
+        "tableColName": "Operand",
+        "type": "text"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1009 @@
+ScheduledPropertyChange	Name	PropertyName	PropertyValue	PropertyDate	Type
+ScheduledPropertyChange	DC_1FG_01	ReorderPt	9328.26702	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderQty	10510.36382	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderUpTo	10510.36382	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderPt	8071.03203	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderQty	9081.99753	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderUpTo	9081.99753	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderPt	10096.69768	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderQty	11376.85898	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderUpTo	11376.85898	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderPt	8987.01847	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderQty	10119.75183	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderUpTo	10119.75183	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderPt	10229.58036	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderQty	11515.58036	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderUpTo	11515.58036	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderPt	11372.23365	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderQty	12806.20029	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderUpTo	12806.20029	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderPt	12246.87976	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderQty	13793.71846	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderUpTo	13793.71846	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderPt	15829.99724	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderQty	17826.6424	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderUpTo	17826.6424	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderPt	18319.15994	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderQty	20627.3933	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderUpTo	20627.3933	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderPt	19416.65718	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderQty	21851.2701	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderUpTo	21851.2701	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderPt	12242.30875	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderQty	13785.27539	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderUpTo	13785.27539	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderPt	8317.14481	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderQty	9341.56419	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_01	ReorderUpTo	9341.56419	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderPt	4836.5743	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderQty	5434.76784	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderUpTo	5434.76784	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderPt	4090.95799	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderQty	4589.37181	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderUpTo	4589.37181	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderPt	4678.93705	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderQty	5257.16283	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderUpTo	5257.16283	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderPt	4393.71136	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderQty	4934.44472	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderUpTo	4934.44472	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderPt	4596.75222	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderQty	5161.46188	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderUpTo	5161.46188	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderPt	4366.09847	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderQty	4903.63183	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderUpTo	4903.63183	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderPt	4861.15974	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderQty	5461.57912	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderUpTo	5461.57912	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderPt	4361.27056	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderQty	4897.81892	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderUpTo	4897.81892	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderPt	4549.45791	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderQty	5109.92455	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderUpTo	5109.92455	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderPt	4125.84605	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderQty	4631.10415	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderUpTo	4631.10415	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderPt	4634.32794	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderQty	5205.4613	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderUpTo	5205.4613	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderPt	3594.92262	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderQty	4026.05166	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_1FG_02	ReorderUpTo	4026.05166	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderPt	9243.08566	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderQty	10414.92436	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderUpTo	10414.92436	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderPt	8146.09275	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderQty	9166.40313	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderUpTo	9166.40313	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderPt	10109.69782	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderQty	11391.43972	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderUpTo	11391.43972	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderPt	8897.61778	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderQty	10019.01778	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderUpTo	10019.01778	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderPt	10273.65927	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderQty	11565.20763	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderUpTo	11565.20763	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderPt	11265.32699	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderQty	12685.69363	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderUpTo	12685.69363	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderPt	12064.39651	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderQty	13586.55781	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderUpTo	13586.55781	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderPt	15823.71596	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderQty	17821.58692	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderUpTo	17821.58692	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderPt	18321.87524	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderQty	20631.0086	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderUpTo	20631.0086	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderPt	19352.71459	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderQty	21779.52105	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderUpTo	21779.52105	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderPt	12258.94815	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderQty	13804.01479	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderUpTo	13804.01479	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderPt	8375.07074	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderQty	9406.52238	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_01	ReorderUpTo	9406.52238	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderPt	4548.37482	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderQty	5110.92318	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderUpTo	5110.92318	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderPt	4273.52949	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderQty	4796.80537	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderUpTo	4796.80537	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderPt	4950.07709	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderQty	5565.27063	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderUpTo	5565.27063	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderPt	4462.74352	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderQty	5010.07688	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderUpTo	5010.07688	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderPt	4238.37293	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderQty	4757.05035	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderUpTo	4757.05035	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderPt	4751.17193	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderQty	5337.07193	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderUpTo	5337.07193	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderPt	4454.1289	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderQty	5001.77406	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderUpTo	5001.77406	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderPt	4971.47829	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderQty	5585.99441	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderUpTo	5585.99441	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderPt	4738.94061	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderQty	5322.74061	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderUpTo	5322.74061	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderPt	4339.09876	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderQty	4870.4536	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderUpTo	4870.4536	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderPt	4187.17104	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderQty	4701.53768	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderUpTo	4701.53768	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderPt	3877.03802	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderQty	4344.29612	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_4FG_02	ReorderUpTo	4344.29612	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderPt	8424.10706	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderQty	9486.20386	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderUpTo	9486.20386	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderPt	7446.17398	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderQty	8373.10504	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderUpTo	8373.10504	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderPt	9236.09402	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderQty	10400.44886	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderUpTo	10400.44886	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderPt	8071.8895	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderQty	9083.25614	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderUpTo	9083.25614	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderPt	9359.98167	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderQty	10529.53003	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderUpTo	10529.53003	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderPt	10375.37743	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderQty	11676.04407	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderUpTo	11676.04407	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderPt	10858.0815	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderQty	12218.72666	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderUpTo	12218.72666	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderPt	14667.11164	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderQty	16510.27294	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderUpTo	16510.27294	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderPt	16810.61389	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderQty	18916.61389	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderUpTo	18916.61389	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderPt	17720.4258	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderQty	19929.03872	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderUpTo	19929.03872	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderPt	11235.1795	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderQty	12642.91286	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderUpTo	12642.91286	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderPt	7589.88186	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderQty	8518.3335	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_01	ReorderUpTo	8518.3335	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderPt	4291.10221	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderQty	4817.58609	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderUpTo	4817.58609	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderPt	3994.73803	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderQty	4479.77253	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderUpTo	4479.77253	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderPt	4435.84373	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderQty	4981.65019	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderUpTo	4981.65019	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderPt	3873.69955	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderQty	4345.49955	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderUpTo	4345.49955	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderPt	3978.11995	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderQty	4462.21675	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderUpTo	4462.21675	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderPt	4081.27801	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderQty	4580.24465	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderUpTo	4580.24465	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderPt	4296.70663	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderQty	4822.83567	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderUpTo	4822.83567	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderPt	4016.18057	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderQty	4506.95479	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderUpTo	4506.95479	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderPt	4091.20679	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderQty	4590.87343	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderUpTo	4590.87343	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderPt	4308.35615	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderQty	4835.38839	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderUpTo	4835.38839	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderPt	4127.26216	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderQty	4630.86216	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderUpTo	4630.86216	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderPt	3120.63707	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderQty	3491.50803	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	DC_6FG_02	ReorderUpTo	3491.50803	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderPt	153097.7418	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderQty	158201	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderUpTo	158201	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderPt	133947.9309	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderQty	138412.8621	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderUpTo	138412.8621	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderPt	163964.5161	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderQty	169430	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderUpTo	169430	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderPt	144761.0001	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderQty	149586.3667	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderUpTo	149586.3667	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderPt	159437.4195	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderQty	164752	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderUpTo	164752	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderPt	173322	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderQty	179099.4	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderUpTo	179099.4	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderPt	183115.1613	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderQty	189219	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderUpTo	189219	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderPt	224385.4839	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderQty	231865	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderUpTo	231865	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderPt	251019	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderQty	259386.3	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderUpTo	259386.3	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderPt	259010.3226	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderQty	267644	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderUpTo	267644	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderPt	182546.0001	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderQty	188630.8667	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderUpTo	188630.8667	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderPt	127607.4195	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderQty	131861	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_01	ReorderUpTo	131861	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderPt	320012.9031	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderQty	330680	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderUpTo	330680	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderPt	278831.3793	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderQty	288125.7586	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderUpTo	288125.7586	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderPt	349169.0322	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderQty	360808	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderUpTo	360808	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderPt	308063.0001	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderQty	318331.7667	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderUpTo	318331.7667	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderPt	346956.7743	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderQty	358522	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderUpTo	358522	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderPt	386823	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderQty	399717.1	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderUpTo	399717.1	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderPt	410835.4839	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderQty	424530	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderUpTo	424530	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderPt	536117.4195	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderQty	553988	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderUpTo	553988	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderPt	619968.9999	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderQty	640634.6333	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderUpTo	640634.6333	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderPt	648919.3548	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderQty	670550	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderUpTo	670550	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderPt	417188.0001	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderQty	431094.2667	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderUpTo	431094.2667	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderPt	277944.1935	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderQty	287209	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTBULK_02	ReorderUpTo	287209	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderPt	39101.83466	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderQty	39101.83464	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderUpTo	39101.83464	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderPt	34309.46478	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderQty	34309.46475	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderUpTo	34309.46475	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderPt	42644.52442	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderQty	42644.52447	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderUpTo	42644.52447	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderPt	37615.7716	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderQty	37615.7716	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderUpTo	37615.7716	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderPt	43285.14846	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderQty	43285.1485	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderUpTo	43285.1485	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderPt	47838.96644	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderQty	47838.96644	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderUpTo	47838.96644	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderPt	50962.02597	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderQty	50962.02598	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderUpTo	50962.02598	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderPt	67115.93351	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderQty	67115.9335	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderUpTo	67115.9335	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderPt	77460.2527	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderQty	77460.25267	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderUpTo	77460.25267	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderPt	81897.49126	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderQty	81897.49124	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderUpTo	81897.49124	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderPt	51787.16114	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderQty	51787.16111	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderUpTo	51787.16111	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderPt	35254.52109	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderQty	35254.5211	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_01	ReorderUpTo	35254.5211	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderPt	19850.61947	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderQty	19850.61943	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderUpTo	19850.61943	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderPt	17952.84776	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderQty	17952.84774	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderUpTo	17952.84774	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderPt	20410.22544	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderQty	20410.2254	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderUpTo	20410.2254	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderPt	18488.26044	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderQty	18488.26041	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderUpTo	18488.26041	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderPt	18610.72231	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderQty	18610.72232	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderUpTo	18610.72232	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderPt	19163.96	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderQty	19163.96	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderUpTo	19163.96	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderPt	19762.14549	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderQty	19762.14547	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderUpTo	19762.14547	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderPt	19383.73764	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderQty	19383.73764	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderUpTo	19383.73764	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderPt	19427.12741	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderQty	19427.12744	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderUpTo	19427.12744	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderPt	18550.46489	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderQty	18550.4649	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderUpTo	18550.4649	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderPt	18802.8674	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderQty	18802.8674	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderUpTo	18802.8674	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderPt	15410.14291	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderQty	15410.14296	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTFG_02	ReorderUpTo	15410.14296	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderPt	102480.9678	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderQty	105897	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderUpTo	105897	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderPt	88746.207	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderQty	91704.4138	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderUpTo	91704.4138	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderPt	111787.7418	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderQty	115514	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderUpTo	115514	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderPt	97965	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderQty	101230.5	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderUpTo	101230.5	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderPt	112412.9031	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderQty	116160	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderUpTo	116160	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderPt	124650	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderQty	128805	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderUpTo	128805	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderPt	132889.3548	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderQty	137319	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderUpTo	137319	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderPt	175130.3226	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderQty	180968	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderUpTo	180968	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderPt	201701.0001	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderQty	208424.3667	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderUpTo	208424.3667	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderPt	212100.9678	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderQty	219171	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderUpTo	219171	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderPt	134873.0001	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderQty	139368.7667	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderUpTo	139368.7667	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderPt	89529.6774	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderQty	92514	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_01	ReorderUpTo	92514	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderPt	50616.7743	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderQty	52304.00001	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderUpTo	52304.00001	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderPt	45201.7242	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderQty	46708.44828	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderUpTo	46708.44828	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderPt	52176.7743	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderQty	53916.00001	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderUpTo	53916.00001	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderPt	46796.0001	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderQty	48355.86667	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderUpTo	48355.86667	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderPt	47024.5161	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderQty	48591.99999	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderUpTo	48591.99999	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderPt	48672	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderQty	50294.4	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderUpTo	50294.4	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderPt	50225.8065	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderQty	51900.00001	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderUpTo	51900.00001	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderPt	49255.1613	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderQty	50897.00001	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderUpTo	50897.00001	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderPt	49317.9999	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderQty	50961.93333	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderUpTo	50961.93333	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderPt	46909.3548	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderQty	48473	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderUpTo	48473	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderPt	47673	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderQty	49262.1	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderUpTo	49262.1	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderPt	38077.7418	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderQty	39347	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	FILLING PLANTPACK_02	ReorderUpTo	39347	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderPt	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderQty	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderUpTo	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderPt	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderQty	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderUpTo	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderPt	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderQty	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderUpTo	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderPt	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderQty	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderUpTo	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderPt	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderQty	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderUpTo	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderPt	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderQty	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderUpTo	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderPt	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderQty	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderUpTo	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderPt	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderQty	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderUpTo	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderPt	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderQty	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderUpTo	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderPt	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderQty	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderUpTo	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderPt	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderQty	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderUpTo	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderPt	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderQty	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_01	ReorderUpTo	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderPt	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderQty	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderUpTo	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderPt	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderQty	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderUpTo	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderPt	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderQty	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderUpTo	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderPt	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderQty	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderUpTo	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderPt	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderQty	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderUpTo	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderPt	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderQty	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderUpTo	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderPt	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderQty	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderUpTo	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderPt	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderQty	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderUpTo	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderPt	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderQty	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderUpTo	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderPt	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderQty	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderUpTo	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderPt	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderQty	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderUpTo	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderPt	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderQty	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PACK SUPPLIERPACK_02	ReorderUpTo	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderPt	468121.8261	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderQty	468121.8261	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderUpTo	468121.8261	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderPt	413578.4847	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderQty	413578.4847	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderUpTo	413578.4847	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderPt	504602.8407	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderQty	504602.8407	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderUpTo	504602.8407	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderPt	450433.9655	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderQty	450433.9656	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderUpTo	450433.9656	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderPt	499205.9518	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderQty	499205.9518	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderUpTo	499205.9518	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderPt	548336.8366	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderQty	548336.8366	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderUpTo	548336.8366	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderPt	579040.9399	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderQty	579040.9399	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderUpTo	579040.9399	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderPt	731725.1016	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderQty	731725.1017	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderUpTo	731725.1017	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderPt	833377.9028	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderQty	833377.9028	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderUpTo	833377.9028	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderPt	867506.0882	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderQty	867506.0882	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderUpTo	867506.0882	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderPt	584794.1638	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderQty	584794.1638	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderUpTo	584794.1638	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderPt	408530.3485	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderQty	408530.3484	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00001	ReorderUpTo	408530.3484	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderPt	260987.1339	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderQty	260987.134	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderUpTo	260987.134	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderPt	316826.0472	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderQty	316826.0472	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderUpTo	316826.0472	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderPt	282322.9538	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderQty	282322.9538	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderUpTo	282322.9538	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderPt	312430.32	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderQty	312430.32	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderUpTo	312430.32	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderPt	338768.4734	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderQty	338768.4734	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderUpTo	338768.4734	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderPt	360320.3678	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderQty	360320.3677	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderUpTo	360320.3677	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderPt	448566.2324	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderQty	448566.2324	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderUpTo	448566.2324	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderPt	506145.3088	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderQty	506145.3088	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderUpTo	506145.3088	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderPt	524186.5516	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderQty	524186.5516	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderUpTo	524186.5516	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderPt	362070.8018	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderQty	362070.8018	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderUpTo	362070.8018	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderPt	255745.2434	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderQty	255745.2434	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderUpTo	255745.2434	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderPt	294767.3828	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderQty	294767.3828	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00002	ReorderUpTo	294767.3828	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderPt	465231.3351	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderQty	465231.3351	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderUpTo	465231.3351	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderPt	411530.4823	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderQty	411530.4823	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderUpTo	411530.4823	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderPt	500362.77	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderQty	500362.77	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderUpTo	500362.77	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderPt	446419.0349	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderQty	446419.0349	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderUpTo	446419.0349	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderPt	493630.2894	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderQty	493630.2894	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderUpTo	493630.2894	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderPt	538978	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderQty	538978	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderUpTo	538978	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderPt	568043.871	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderQty	568043.871	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderUpTo	568043.871	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderPt	706592.2581	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderQty	706592.2581	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderUpTo	706592.2581	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderPt	798004.6667	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderQty	798004.6667	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderUpTo	798004.6667	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderPt	827960	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderQty	827960	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderUpTo	827960	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderPt	571520	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderQty	571520	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderUpTo	571520	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderPt	404557.74	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderQty	404557.7401	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1P00003	ReorderUpTo	404557.7401	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderPt	4082996.37125	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderQty	4219096.25	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderUpTo	4219096.25	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderPt	4668713.75	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderQty	4824337.54125	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderUpTo	4824337.54125	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderPt	4863411.29	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderQty	5025525	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderUpTo	5025525	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderPt	3226852.5	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderQty	3334414.25	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderUpTo	3334414.25	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderPt	2187267.33875	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderQty	2260176.25	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderUpTo	2260176.25	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderPt	2045540.323	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderQty	2113725	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderUpTo	2113725	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderPt	1785065.172	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderQty	1844567.345	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderUpTo	1844567.345	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderPt	2216498.71	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderQty	2290382	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderUpTo	2290382	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderPt	1956057	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderQty	2021258.9	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderUpTo	2021258.9	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderPt	2185014.194	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderQty	2257848	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderUpTo	2257848	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderPt	2413902	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderQty	2494365.4	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderUpTo	2494365.4	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderPt	2558917.742	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderQty	2644215	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_01	ReorderUpTo	2644215	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderPt	3798702.581	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderQty	3925326	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderUpTo	3925326	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderPt	3313170	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderQty	3423609	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderUpTo	3423609	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderPt	4126308.387	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderQty	4263852	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderUpTo	4263852	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderPt	3641133	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderQty	3762504.1	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderUpTo	3762504.1	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderPt	4079235.484	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderQty	4215210	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderUpTo	4215210	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderPt	4521339	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderQty	4672050.3	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderUpTo	4672050.3	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderPt	4796210.323	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderQty	4956084	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderUpTo	4956084	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderPt	6171369.677	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderQty	6377082	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderUpTo	6377082	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderPt	7085835	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderQty	7322029.5	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderUpTo	7322029.5	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderPt	7394336.129	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderQty	7640814	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderUpTo	7640814	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderPt	4849968	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderQty	5011633.6	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderUpTo	5011633.6	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderPt	3267142.258	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderQty	3376047	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_02	ReorderUpTo	3376047	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderPt	2720367	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderQty	2811045.9	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderUpTo	2811045.9	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderPt	2880542.903	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderQty	2976561	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderUpTo	2976561	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderPt	3627821.613	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderQty	3748749	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderUpTo	3748749	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderPt	4119078	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderQty	4256380.6	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderUpTo	4256380.6	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderPt	4277850.968	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderQty	4420446	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderUpTo	4420446	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderPt	2894478	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderQty	2990960.6	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderUpTo	2990960.6	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderPt	1982299.355	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderQty	2048376	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderUpTo	2048376	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderPt	2337918.387	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderQty	2415849	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderUpTo	2415849	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderPt	2042025.517	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderQty	2110093.034	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderUpTo	2110093.034	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderPt	2523187.742	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderQty	2607294	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderUpTo	2607294	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderPt	2227038	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderQty	2301272.6	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderUpTo	2301272.6	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderPt	2475807.097	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderQty	2558334	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT1RAW_03	ReorderUpTo	2558334	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderPt	60997.42512	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderQty	60997.42517	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderUpTo	60997.42517	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderPt	54115.22133	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderQty	54115.22137	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderUpTo	54115.22137	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderPt	65360.60918	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderQty	65360.60919	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderUpTo	65360.60919	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderPt	58094.18557	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderQty	58094.18554	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderUpTo	58094.18554	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderPt	64370.41331	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderQty	64370.41326	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderUpTo	64370.41326	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderPt	69730.33136	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderQty	69730.33136	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderUpTo	69730.33136	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderPt	73708.82062	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderQty	73708.82062	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderUpTo	73708.82062	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderPt	90403.12773	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderQty	90403.12772	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderUpTo	90403.12772	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderPt	101493.2646	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderQty	101493.2646	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderUpTo	101493.2646	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderPt	105448.506	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderQty	105448.506	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderUpTo	105448.506	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderPt	73574.33486	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderQty	73574.33483	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderUpTo	73574.33483	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderPt	52775.96044	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderQty	52775.96039	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_01	ReorderUpTo	52775.96039	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderPt	126414.2159	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderQty	126414.2159	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderUpTo	126414.2159	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderPt	111701.5494	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderQty	111701.5494	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderUpTo	111701.5494	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderPt	138286.3358	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderQty	138286.3358	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderUpTo	138286.3358	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderPt	122668.0542	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderQty	122668.0542	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderUpTo	122668.0542	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderPt	139311.0589	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderQty	139311.0589	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderUpTo	139311.0589	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderPt	155080.2602	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderQty	155080.2602	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderUpTo	155080.2602	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderPt	164709.7375	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderQty	164709.7375	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderUpTo	164709.7375	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderPt	215759.8164	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderQty	215759.8164	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderUpTo	215759.8164	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderPt	250616.4737	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderQty	250616.4737	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderUpTo	250616.4737	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderPt	264370.1141	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderQty	264370.1141	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderUpTo	264370.1141	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderPt	167642.0675	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderQty	167642.0674	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderUpTo	167642.0674	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderPt	114477.7198	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderQty	114477.7198	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2BULK_02	ReorderUpTo	114477.7198	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderPt	1266234.194	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderQty	1308442	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderUpTo	1308442	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderPt	1104390	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderQty	1141203	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderUpTo	1141203	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderPt	1375436.129	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderQty	1421284	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderUpTo	1421284	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderPt	1213711	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderQty	1254168.033	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderUpTo	1254168.033	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderPt	1359745.161	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderQty	1405070	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderUpTo	1405070	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderPt	1507113	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderQty	1557350.1	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderUpTo	1557350.1	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderPt	1598736.774	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderQty	1652028	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderUpTo	1652028	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderPt	2057123.226	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderQty	2125694	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderUpTo	2125694	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderPt	2361945	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderQty	2440676.5	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderUpTo	2440676.5	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderPt	2464778.71	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderQty	2546938	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderUpTo	2546938	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderPt	1616656	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderQty	1670544.533	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderUpTo	1670544.533	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderPt	1089047.42	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderQty	1125349	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00001	ReorderUpTo	1125349	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderPt	779306.1291	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderQty	805283	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderUpTo	805283	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderPt	680675.1723	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderQty	703364.3448	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderUpTo	703364.3448	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderPt	841062.5805	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderQty	869098	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderUpTo	869098	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderPt	742346.0001	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderQty	767090.8667	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderUpTo	767090.8667	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderPt	825269.0322	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderQty	852778	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderUpTo	852778	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderPt	906789	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderQty	937015.3	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderUpTo	937015.3	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderPt	960180.9678	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderQty	992187	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderUpTo	992187	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderPt	1209273.871	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderQty	1249583	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderUpTo	1249583	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderPt	1373026	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderQty	1418793.533	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderUpTo	1418793.533	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderPt	1425950.323	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderQty	1473482	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderUpTo	1473482	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderPt	964826.0001	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderQty	996986.8667	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderUpTo	996986.8667	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderPt	660766.4517	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderQty	682792	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00002	ReorderUpTo	682792	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderPt	1466934	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderQty	1515831.8	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderUpTo	1515831.8	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderPt	1554131.613	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderQty	1605936	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderUpTo	1605936	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderPt	1969776.774	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderQty	2035436	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderUpTo	2035436	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderPt	2244014	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderQty	2318814.467	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderUpTo	2318814.467	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderPt	2333880	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderQty	2411676	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderUpTo	2411676	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderPt	1564560	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderQty	1616712	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderUpTo	1616712	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderPt	1066318.064	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderQty	1101862	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderUpTo	1101862	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderPt	1252416.774	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderQty	1294164	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderUpTo	1294164	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderPt	1093454.483	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderQty	1129902.966	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderUpTo	1129902.966	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderPt	1354196.129	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderQty	1399336	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderUpTo	1399336	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderPt	1195170	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderQty	1235009	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderUpTo	1235009	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderPt	1331663.226	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderQty	1376052	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	PLANT2P00003	ReorderUpTo	1376052	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderPt	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderQty	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderUpTo	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderPt	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderQty	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderUpTo	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderPt	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderQty	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderUpTo	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderPt	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderQty	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderUpTo	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderPt	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderQty	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderUpTo	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderPt	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderQty	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderUpTo	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderPt	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderQty	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderUpTo	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderPt	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderQty	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderUpTo	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderPt	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderQty	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderUpTo	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderPt	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderQty	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderUpTo	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderPt	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderQty	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderUpTo	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderPt	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderQty	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_01	ReorderUpTo	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderPt	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderQty	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderUpTo	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderPt	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderQty	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderUpTo	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderPt	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderQty	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderUpTo	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderPt	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderQty	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderUpTo	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderPt	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderQty	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderUpTo	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderPt	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderQty	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderUpTo	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderPt	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderQty	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderUpTo	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderPt	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderQty	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderUpTo	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderPt	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderQty	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderUpTo	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderPt	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderQty	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderUpTo	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderPt	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderQty	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderUpTo	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderPt	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderQty	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_02	ReorderUpTo	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderPt	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderQty	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderUpTo	0	01/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderPt	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderQty	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderUpTo	0	02/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderPt	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderQty	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderUpTo	0	03/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderPt	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderQty	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderUpTo	0	04/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderPt	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderQty	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderUpTo	0	05/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderPt	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderQty	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderUpTo	0	06/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderPt	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderQty	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderUpTo	0	07/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderPt	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderQty	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderUpTo	0	08/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderPt	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderQty	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderUpTo	0	09/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderPt	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderQty	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderUpTo	0	10/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderPt	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderQty	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderUpTo	0	11/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderPt	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderQty	0	12/01/2016 00:00	SiteProduct
+ScheduledPropertyChange	RAW MATERIAL SUPPLIERRAW_03	ReorderUpTo	0	12/01/2016 00:00	SiteProduct

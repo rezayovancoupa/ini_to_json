@@ -1,0 +1,35 @@
+[04/17 10:40] Load data: C:\Models\2.1 Kanban\CycleStock\CycleStock_NetOptimData
+NoTools version = 3.2.0.5
+AppTypeEnum = CostToServe
+
+Total cost reported by NO summary = 0.05
+Total lane, site, and site/product cost = 0.04965
+Total lane cost = 0.00033
+Total site cost = 0
+Total site/product cost = 0.04932
+[04/17 10:40] Decompose model
+[04/17 10:40] Set Cost
+[04/17 10:40] Search path
+[04/17 10:40] Print result
+[04/17 10:40] Check result
+
+
+Result summary
+=======================================================
+Total number of path = 3   [ maxLength = 2, minLength = 2, Average Length = 2 ]
+Total Cost = 0.04965    [NO output = 0.05]
+Total lane Cost = 0.00033    [Used lane cost = 0.00033; Unused lane cost = 0]
+Total Site Cost = 0    [Used site cost = 0; Unused site cost = 0]
+Total Site/Product Cost = 0.04932    [Used site/prod cost = 0.04932; Unused site/prod cost = 0]
+Total Other Cost = 0    [NO output = 0]
+
+Model Summary Information
+=============================================
+#Node = 3
+#Product = 3
+#Lane = 6
+#BOM = 0
+#Production = 3
+#sub-models = 3
+The largest subModel-1 has: 3 nodes, 2 arcs, 1 products, 1 productions 
+[04/17 10:40] Total running time = 00:00:00.5250053

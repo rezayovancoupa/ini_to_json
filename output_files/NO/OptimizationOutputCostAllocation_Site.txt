@@ -1,0 +1,4 @@
+SiteName	PeriodName	PeriodNo	ThroughputLevel	ThroughputBasis	ThroughputQuantity	ThroughputWeight	ThroughputCubic	TotalFixedStartupCost	TotalFixedOperatingCost	TotalClosingCost	TotalCapitalInvestment	TotalCO2Cost	TotalWorkResourcesCost	TotalDemandPenalty	TotalCost_Site	ScenarioID	StepNumber
+DC	SINGLEPERIOD	1	3.00000	Quantity	3.00000	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000	0	0	0.00000	0	1
+MFG	SINGLEPERIOD	1	3.00000	Quantity	3.00000	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000	0	0	0.00000	0	1
+CZ	SINGLEPERIOD	1	0	0	0	0	0	0	0	0	0	0	0	0.00000	0.00000	0	1

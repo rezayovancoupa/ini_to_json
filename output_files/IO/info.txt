@@ -1,0 +1,126 @@
+ --> Time of loading and validating input data: 00:00:00.4310109
+RunType = SafetyStockOptimization
+SingleEchelon mode = False
+Service Type = Type1
+PropagationType = DemandSeries
+Period-1  ProductSet-1: BULK_01
+Period-2  ProductSet-1: BULK_01
+Period-3  ProductSet-1: BULK_01
+Period-4  ProductSet-1: BULK_01
+Period-5  ProductSet-1: BULK_01
+Period-6  ProductSet-1: BULK_01
+Period-7  ProductSet-1: BULK_01
+Period-8  ProductSet-1: BULK_01
+Period-9  ProductSet-1: BULK_01
+Period-10  ProductSet-1: BULK_01
+Period-11  ProductSet-1: BULK_01
+Period-12  ProductSet-1: BULK_01
+--> Time of building sub-models: 00:00:00.2460089
+ComComponent: 000001 24 4
+ComComponent: 000002 24 3
+ComComponent: 000003 24 2
+ComComponent: BULK_01 24 8
+ComComponent: RAW_01 24 1
+ComComponent: RAW_03 24 1
+ComComponent: PACK_01 12 1
+ComComponent: PACK_02 12 1
+ComComponent: RAW_02 12 1
+Period-1  ProductSet-1: BULK_01
+Period-2  ProductSet-1: BULK_01
+Period-3  ProductSet-1: BULK_01
+Period-4  ProductSet-1: BULK_01
+Period-5  ProductSet-1: BULK_01
+Period-6  ProductSet-1: BULK_01
+Period-7  ProductSet-1: BULK_01
+Period-8  ProductSet-1: BULK_01
+Period-9  ProductSet-1: BULK_01
+Period-10  ProductSet-1: BULK_01
+Period-11  ProductSet-1: BULK_01
+Period-12  ProductSet-1: BULK_01
+Call LP Solver
+Solver run complete status: Success Message: Run succeeded Obj Value: 4810.43047000005
+OptEngine object destroyed successfully
+
+Total cost (Agg) = 7839.11014
+Call LP Solver
+Solver run complete status: Success Message: Run succeeded Obj Value: 3846.42313000002
+OptEngine object destroyed successfully
+
+Total cost (Agg) = 6864.37151
+Call LP Solver
+Solver run complete status: Success Message: Run succeeded Obj Value: 4071.00109
+OptEngine object destroyed successfully
+
+Total cost (Agg) = 7159.11452
+Call LP Solver
+Solver run complete status: Success Message: Run succeeded Obj Value: 5095.62284
+OptEngine object destroyed successfully
+
+Total cost (Agg) = 7784.67945
+Call LP Solver
+Solver run complete status: Success Message: Run succeeded Obj Value: 2927.25781
+OptEngine object destroyed successfully
+
+Total cost (Agg) = 6501.33699
+Call LP Solver
+Solver run complete status: Success Message: Run succeeded Obj Value: 2328.75604999998
+OptEngine object destroyed successfully
+
+Total cost (Agg) = 5979.94521
+Call LP Solver
+Solver run complete status: Success Message: Run succeeded Obj Value: 2402.87257999999
+OptEngine object destroyed successfully
+
+Total cost (Agg) = 6176.21918
+Call LP Solver
+Solver run complete status: Success Message: Run succeeded Obj Value: 2326.83445
+OptEngine object destroyed successfully
+
+Total cost (Agg) = 6152.06466
+Call LP Solver
+Solver run complete status: Success Message: Run succeeded Obj Value: 2942.12062000001
+OptEngine object destroyed successfully
+
+Total cost (Agg) = 6039.71507
+Call LP Solver
+Solver run complete status: Success Message: Run succeeded Obj Value: 2867.67201
+OptEngine object destroyed successfully
+
+Total cost (Agg) = 6429.99452
+Call LP Solver
+Solver run complete status: Success Message: Run succeeded Obj Value: 2435.67511
+OptEngine object destroyed successfully
+
+Total cost (Agg) = 6063.68219
+Call LP Solver
+Solver run complete status: Success Message: Run succeeded Obj Value: 2428.59939000001
+OptEngine object destroyed successfully
+
+Total cost (Agg) = 6126.68712
+BimVersion = 2.3.6
+IO version = 10.2.1.2
+---------- [Model Information] -----------
+#Facility = 8
+#Customer = 8
+#Customer Demand = 16
+#Link = 336
+#Product = 12
+#BOM = 84
+#Product set = 1
+#Period = 12
+#Site of decomposed network = 27
+#Link of decomposed network = 30
+#Site constraints = 36
+#Link constraints = 0
+#Total independent networks = 12
+#Success = 12 (100.0%)
+#Infeasible = 0
+#Failed = 0
+#Other = 0
+#DP = 0
+#LP = 12 (100.0%)
+
+Total safety stock = 388560
+Total safety stock holding cost = 79116.9205479452
+Total running time = 00:00:04.7101464
+MessageToUser = Completed with warnings and errors

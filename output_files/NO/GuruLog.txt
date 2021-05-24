@@ -1,0 +1,69 @@
+Using Solver / LLamasolve_dso version: Xpress 0.60
+Code start time: 	2019-04-16	11:41:40,767
+Reading data from C:\Models\2.1 Kanban\CycleStock\CycleStock_NetOptimData\
+BIM version 2.1.10
+
+-------------------------------------------------------------------
+SCALE_QTY_INPUT	1
+SOLVER	XPRESS
+ENFORCE_INTEGER_LOTS_FOR_PROCCESSES	0
+CustomDataFilePath	C:\Models\2.1 Kanban\CycleStock\CycleStock_NetOptimData\GuruNetOptim.dat
+DecompositionCustomDataFilePath	C:\Models\2.1 Kanban\CycleStock\CycleStock_NetOptimData\Decomposition_custom.dat
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+XPRS_PRESOLVE	0
+XPRS_MIPRELSTOP	0.0001
+XPRS_FEASTOL	1E-06
+XPRS_MIPTOL	5E-06
+-------------------------------------------------------------------
+0	3	Demand aggregation	method	less than 1s
+0	6	Calculating max outflows by sum demand	method	less than 1s
+0	6	Flow	variables	less than 1s
+0	6	Production/gross production	variables	less than 1s
+0	6	Inv	variables	less than 1s
+0	6	Inventory balance	constraints	less than 1s
+0	12	Cycle stock	constraints	less than 1s
+0	3	Total demand	constraints	less than 1s
+0	2	Site throughput definition	constraints	less than 1s
+0	2	Site throughput definition for basis 	constraints	less than 1s
+0	3	Production process absence	constraints	less than 1s
+0	1	CO2	constraints	less than 1s
+0	1	Audit tool analysis	method	less than 1s
+
+*** Reading and model building took less than 1s
+
+0	3	CustomerRevenue	objective	less than 1s
+0	9	TotalSequentialFacilityInventoryCost	objective	less than 1s
+0	6	TotalSequentialInTransitInvCost	objective	less than 1s
+
+*** Objective function building took less than 1s
+
+Memory Usage Before Loading Model	0.002	GB
+-------------------------------------------------------------------
+QTY_SCALING_FACTOR=1	COST_SCALING_FACTOR=1
+-------------------------------------------------------------------
+Model Size Before Presolve: (Rows=60	Cols=59	Nonzeros=141	Binaries=7	Sets=0	SetElements=0)	Memory Usage	0.002	GB
+Model Size After Presolve: (Rows=60	Cols=59	Nonzeros=141	Binaries=7	Sets=0	SetElements=0)	Memory Usage	0.002	GB
+IntSol 1	at node 0	with obj 5.95           	with gap 0.81%	found after less than 1s	Memory Usage	0.002	GB
+
+*** Total solving took less than 1s
+
+-------------------------------------------------------------------
+FinalIntSol 1	with obj 5.95           	and total nodes 1	with gap 0.00%	returned after less than 1s	Memory Usage	0.002	GB
+-------------------------------------------------------------------
+0	8	Initializing output records	method	less than 1s
+0	3	Aggregate Demand Summary	output records	less than 1s
+0	3	Customer Flow Summary	output records	less than 1s
+0	3	InterFacility Flow Summary	output records	less than 1s
+0	3	Productions Summary	output records	less than 1s
+0	3	Inventory Summary	output records	less than 1s
+0	2	Facility Summary	output records	less than 1s
+0	1	Customer Summary	output records	less than 1s
+0	3	Product Summary	output records	less than 1s
+
+*** Outputing took less than 1s
+
+
+*** Total time took 1s
+
+Code end time: 	2019-04-16	11:41:41,812

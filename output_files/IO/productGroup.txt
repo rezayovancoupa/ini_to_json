@@ -1,0 +1,234 @@
+PRODUCT_SETS:
+[
+   ("SET_1" 1) "BULK_01"
+   ("SET_1" 2) "000001"
+   ("SET_1" 3) "000002"
+   ("SET_1" 4) "000003"
+   ("SET_1" 5) "BULK_02"
+   ("SET_1" 6) "FG_01"
+   ("SET_1" 7) "PACK_01"
+   ("SET_1" 8) "FG_02"
+   ("SET_1" 9) "PACK_02"
+   ("SET_1" 10) "RAW_01"
+   ("SET_1" 11) "RAW_02"
+   ("SET_1" 12) "RAW_03"
+]
+
+
+Common Components:
+[
+    "000001" 24
+    "000002" 24
+    "000003" 24
+    "BULK_01" 24
+    "RAW_01" 24
+    "RAW_03" 24
+    "PACK_01" 12
+    "PACK_02" 12
+    "RAW_02" 12
+]
+
+
+Period 1 PRODUCT_SETS:
+[
+   ("SET_1" 1) "BULK_01"
+   ("SET_1" 2) "000001"
+   ("SET_1" 3) "000002"
+   ("SET_1" 4) "000003"
+   ("SET_1" 5) "BULK_02"
+   ("SET_1" 6) "FG_01"
+   ("SET_1" 7) "PACK_01"
+   ("SET_1" 8) "FG_02"
+   ("SET_1" 9) "PACK_02"
+   ("SET_1" 10) "RAW_01"
+   ("SET_1" 11) "RAW_02"
+   ("SET_1" 12) "RAW_03"
+]
+
+
+Period 2 PRODUCT_SETS:
+[
+   ("SET_1" 1) "BULK_01"
+   ("SET_1" 2) "000001"
+   ("SET_1" 3) "000002"
+   ("SET_1" 4) "000003"
+   ("SET_1" 5) "BULK_02"
+   ("SET_1" 6) "FG_01"
+   ("SET_1" 7) "PACK_01"
+   ("SET_1" 8) "FG_02"
+   ("SET_1" 9) "PACK_02"
+   ("SET_1" 10) "RAW_01"
+   ("SET_1" 11) "RAW_02"
+   ("SET_1" 12) "RAW_03"
+]
+
+
+Period 3 PRODUCT_SETS:
+[
+   ("SET_1" 1) "BULK_01"
+   ("SET_1" 2) "000001"
+   ("SET_1" 3) "000002"
+   ("SET_1" 4) "000003"
+   ("SET_1" 5) "BULK_02"
+   ("SET_1" 6) "FG_01"
+   ("SET_1" 7) "PACK_01"
+   ("SET_1" 8) "FG_02"
+   ("SET_1" 9) "PACK_02"
+   ("SET_1" 10) "RAW_01"
+   ("SET_1" 11) "RAW_02"
+   ("SET_1" 12) "RAW_03"
+]
+
+
+Period 4 PRODUCT_SETS:
+[
+   ("SET_1" 1) "BULK_01"
+   ("SET_1" 2) "000001"
+   ("SET_1" 3) "000002"
+   ("SET_1" 4) "000003"
+   ("SET_1" 5) "BULK_02"
+   ("SET_1" 6) "FG_01"
+   ("SET_1" 7) "PACK_01"
+   ("SET_1" 8) "FG_02"
+   ("SET_1" 9) "PACK_02"
+   ("SET_1" 10) "RAW_01"
+   ("SET_1" 11) "RAW_02"
+   ("SET_1" 12) "RAW_03"
+]
+
+
+Period 5 PRODUCT_SETS:
+[
+   ("SET_1" 1) "BULK_01"
+   ("SET_1" 2) "000001"
+   ("SET_1" 3) "000002"
+   ("SET_1" 4) "000003"
+   ("SET_1" 5) "BULK_02"
+   ("SET_1" 6) "FG_01"
+   ("SET_1" 7) "PACK_01"
+   ("SET_1" 8) "FG_02"
+   ("SET_1" 9) "PACK_02"
+   ("SET_1" 10) "RAW_01"
+   ("SET_1" 11) "RAW_02"
+   ("SET_1" 12) "RAW_03"
+]
+
+
+Period 6 PRODUCT_SETS:
+[
+   ("SET_1" 1) "BULK_01"
+   ("SET_1" 2) "000001"
+   ("SET_1" 3) "000002"
+   ("SET_1" 4) "000003"
+   ("SET_1" 5) "BULK_02"
+   ("SET_1" 6) "FG_01"
+   ("SET_1" 7) "PACK_01"
+   ("SET_1" 8) "FG_02"
+   ("SET_1" 9) "PACK_02"
+   ("SET_1" 10) "RAW_01"
+   ("SET_1" 11) "RAW_02"
+   ("SET_1" 12) "RAW_03"
+]
+
+
+Period 7 PRODUCT_SETS:
+[
+   ("SET_1" 1) "BULK_01"
+   ("SET_1" 2) "000001"
+   ("SET_1" 3) "000002"
+   ("SET_1" 4) "000003"
+   ("SET_1" 5) "BULK_02"
+   ("SET_1" 6) "FG_01"
+   ("SET_1" 7) "PACK_01"
+   ("SET_1" 8) "FG_02"
+   ("SET_1" 9) "PACK_02"
+   ("SET_1" 10) "RAW_01"
+   ("SET_1" 11) "RAW_02"
+   ("SET_1" 12) "RAW_03"
+]
+
+
+Period 8 PRODUCT_SETS:
+[
+   ("SET_1" 1) "BULK_01"
+   ("SET_1" 2) "000001"
+   ("SET_1" 3) "000002"
+   ("SET_1" 4) "000003"
+   ("SET_1" 5) "BULK_02"
+   ("SET_1" 6) "FG_01"
+   ("SET_1" 7) "PACK_01"
+   ("SET_1" 8) "FG_02"
+   ("SET_1" 9) "PACK_02"
+   ("SET_1" 10) "RAW_01"
+   ("SET_1" 11) "RAW_02"
+   ("SET_1" 12) "RAW_03"
+]
+
+
+Period 9 PRODUCT_SETS:
+[
+   ("SET_1" 1) "BULK_01"
+   ("SET_1" 2) "000001"
+   ("SET_1" 3) "000002"
+   ("SET_1" 4) "000003"
+   ("SET_1" 5) "BULK_02"
+   ("SET_1" 6) "FG_01"
+   ("SET_1" 7) "PACK_01"
+   ("SET_1" 8) "FG_02"
+   ("SET_1" 9) "PACK_02"
+   ("SET_1" 10) "RAW_01"
+   ("SET_1" 11) "RAW_02"
+   ("SET_1" 12) "RAW_03"
+]
+
+
+Period 10 PRODUCT_SETS:
+[
+   ("SET_1" 1) "BULK_01"
+   ("SET_1" 2) "000001"
+   ("SET_1" 3) "000002"
+   ("SET_1" 4) "000003"
+   ("SET_1" 5) "BULK_02"
+   ("SET_1" 6) "FG_01"
+   ("SET_1" 7) "PACK_01"
+   ("SET_1" 8) "FG_02"
+   ("SET_1" 9) "PACK_02"
+   ("SET_1" 10) "RAW_01"
+   ("SET_1" 11) "RAW_02"
+   ("SET_1" 12) "RAW_03"
+]
+
+
+Period 11 PRODUCT_SETS:
+[
+   ("SET_1" 1) "BULK_01"
+   ("SET_1" 2) "000001"
+   ("SET_1" 3) "000002"
+   ("SET_1" 4) "000003"
+   ("SET_1" 5) "BULK_02"
+   ("SET_1" 6) "FG_01"
+   ("SET_1" 7) "PACK_01"
+   ("SET_1" 8) "FG_02"
+   ("SET_1" 9) "PACK_02"
+   ("SET_1" 10) "RAW_01"
+   ("SET_1" 11) "RAW_02"
+   ("SET_1" 12) "RAW_03"
+]
+
+
+Period 12 PRODUCT_SETS:
+[
+   ("SET_1" 1) "BULK_01"
+   ("SET_1" 2) "000001"
+   ("SET_1" 3) "000002"
+   ("SET_1" 4) "000003"
+   ("SET_1" 5) "BULK_02"
+   ("SET_1" 6) "FG_01"
+   ("SET_1" 7) "PACK_01"
+   ("SET_1" 8) "FG_02"
+   ("SET_1" 9) "PACK_02"
+   ("SET_1" 10) "RAW_01"
+   ("SET_1" 11) "RAW_02"
+   ("SET_1" 12) "RAW_03"
+]
+

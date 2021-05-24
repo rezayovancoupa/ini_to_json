@@ -1,0 +1,2376 @@
+[
+  {
+    "filename": "Shipment.csv",
+    "tablename": "VrpOutputShipments",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "shipmentId",
+        "tableColName": "ShipmentId",
+        "type": "text"
+      },
+      {
+        "fileColName": "orderId",
+        "tableColName": "OrderId",
+        "type": "text"
+      },
+      {
+        "fileColName": "customerId",
+        "tableColName": "CustomerId",
+        "type": "text"
+      },
+      {
+        "fileColName": "decompositionId",
+        "tableColName": "DecompositionID",
+        "type": "text"
+      },
+      {
+        "fileColName": "itemId",
+        "tableColName": "ItemId",
+        "type": "text"
+      },
+      {
+        "fileColName": "qty",
+        "tableColName": "Qty",
+        "type": "double"
+      },
+      {
+        "fileColName": "pickupLocationId",
+        "tableColName": "PickupLocationId",
+        "type": "text"
+      },
+      {
+        "fileColName": "deliveryLocationId",
+        "tableColName": "DeliveryLocationId",
+        "type": "text"
+      },
+      {
+        "fileColName": "earliestPickupDate",
+        "tableColName": "EarliestPickupDate",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "latestPickupDate",
+        "tableColName": "LatestPickupDate",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "earliestDeliveryDate",
+        "tableColName": "EarliestDeliveryDate",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "latestDeliveryDate",
+        "tableColName": "LatestDeliveryDate",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "priority",
+        "tableColName": "Priority",
+        "type": "long"
+      },
+      {
+        "fileColName": "weight",
+        "tableColName": "Weight",
+        "type": "double"
+      },
+      {
+        "fileColName": "cubic",
+        "tableColName": "Cubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "transModeId",
+        "tableColName": "TransModeId",
+        "type": "text"
+      },
+      {
+        "fileColName": "sourceType",
+        "tableColName": "SourceType",
+        "type": "text"
+      },
+      {
+        "fileColName": "LtlCost",
+        "tableColName": "InterLocationId1",
+        "type": "text"
+      },
+      {
+        "fileColName": "sourceId",
+        "tableColName": "InterLocationId2",
+        "type": "text"
+      },
+      {
+        "fileColName": "fixedServiceTime",
+        "tableColName": "LTLtime",
+        "type": "text"
+      },
+      {
+        "fileColName": "fixedServiceTimeUnload",
+        "tableColName": "LTLcost",
+        "type": "text"
+      },
+      {
+        "fileColName": "fixedServiceTimeLoad",
+        "tableColName": "DesiredPickupDate",
+        "type": "text"
+      },
+      {
+        "fileColName": "variableServiceTimeUnload",
+        "tableColName": "DesiredDeliveryDate",
+        "type": "text"
+      },
+      {
+        "fileColName": "variableServiceTimeLoad",
+        "tableColName": "SourceId",
+        "type": "text"
+      },
+      {
+        "fileColName": "variableServiceTimeBasis",
+        "tableColName": "FreightClass",
+        "type": "text"
+      },
+      {
+        "fileColName": "isIncluded",
+        "tableColName": "MaxCost",
+        "type": "text"
+      },
+      {
+        "fileColName": "warehouseId",
+        "tableColName": "FixedServiceTime",
+        "type": "text"
+      },
+      {
+        "fileColName": "numProperty_01",
+        "tableColName": "FixedServiceTimeUnload",
+        "type": "text"
+      },
+      {
+        "fileColName": "numProperty_02",
+        "tableColName": "FixedServiceTimeLoad",
+        "type": "text"
+      },
+      {
+        "fileColName": "numProperty_03",
+        "tableColName": "VariableServiceTimeUnload",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "output/DeliveredShipment.csv",
+    "tablename": "VrpOutputDeliveredShipments",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "vrpNumber",
+        "tableColName": "VrpNumber",
+        "type": "text"
+      },
+      {
+        "fileColName": "id",
+        "tableColName": "ID",
+        "type": "long"
+      },
+      {
+        "fileColName": "shipmentId",
+        "tableColName": "ShipmentId",
+        "type": "text"
+      },
+      {
+        "fileColName": "routeId",
+        "tableColName": "RouteId",
+        "type": "text"
+      },
+      {
+        "fileColName": "pickupStopId",
+        "tableColName": "PickupStopId",
+        "type": "text"
+      },
+      {
+        "fileColName": "deliveryStopId",
+        "tableColName": "DeliveryStopId",
+        "type": "text"
+      },
+      {
+        "fileColName": "pickupDateTime",
+        "tableColName": "PickupDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "deliveryDateTime",
+        "tableColName": "DeliveryDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "weight",
+        "tableColName": "Weight",
+        "type": "double"
+      },
+      {
+        "fileColName": "cubic",
+        "tableColName": "Cubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "qty",
+        "tableColName": "Qty",
+        "type": "double"
+      },
+      {
+        "fileColName": "pickupDateTimeLocal",
+        "tableColName": "PickupDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "deliveryDateTimeLocal",
+        "tableColName": "DeliveryDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "visitSequenceId",
+        "tableColName": "VisitSequenceId",
+        "type": "text"
+      },
+      {
+        "fileColName": "num_Property1",
+        "tableColName": "Comp2Qty",
+        "type": "double"
+      },
+      {
+        "fileColName": "num_Property2",
+        "tableColName": "Comp2Weight",
+        "type": "double"
+      },
+      {
+        "fileColName": "num_Property3",
+        "tableColName": "Comp2Cube",
+        "type": "double"
+      },
+      {
+        "fileColName": "costToRoute",
+        "tableColName": "CostToRoute",
+        "type": "currency"
+      },
+      {
+        "fileColName": "allocatedCost",
+        "tableColName": "AllocatedCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "LTLCost",
+        "tableColName": "LtlCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "modeSuggestion",
+        "tableColName": "ModeSuggestion",
+        "type": "text"
+      },
+      {
+        "fileColName": "LTLConfidencePercent",
+        "tableColName": "LtlConfidencePercent",
+        "type": "double"
+      },
+      {
+        "fileColName": "product",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "source",
+        "tableColName": "SourceSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "destination",
+        "tableColName": "DestinationSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "serviceDays",
+        "tableColName": "ServiceDays",
+        "type": "text"
+      },
+      {
+        "fileColName": "type",
+        "tableColName": "Type",
+        "type": "text"
+      },
+      {
+        "fileColName": "hubUsed",
+        "tableColName": "HubUsed",
+        "type": "text"
+      },
+      {
+        "fileColName": "debugRouteId",
+        "tableColName": "DebugRouteId",
+        "type": "text"
+      },
+      {
+        "fileColName": "decompositionId",
+        "tableColName": "DecompositionId",
+        "type": "text"
+      },
+      {
+        "fileColName": "earliestPickupTime",
+        "tableColName": "EarliestPickupTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "latestPickupTime",
+        "tableColName": "LatestPickupTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "earliestDeliveryTIme",
+        "tableColName": "EarliestDeliveryTIme",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "latestDeliveryTime",
+        "tableColName": "LatestDeliveryTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "clusterId",
+        "tableColName": "ClusterId",
+        "type": "long"
+      },
+      {
+        "fileColName": "compartmentId",
+        "tableColName": "CompartmentId",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "output/PVRPDeliveredShipment.csv",
+    "tablename": "VrpOutputPVRPDeliveredShipments",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "vrpNumber",
+        "tableColName": "VrpNumber",
+        "type": "text"
+      },
+      {
+        "fileColName": "id",
+        "tableColName": "ID",
+        "type": "long"
+      },
+      {
+        "fileColName": "shipmentId",
+        "tableColName": "PVRPShipmentId",
+        "type": "text"
+      },
+      {
+        "fileColName": "inputShipmentId",
+        "tableColName": "ShipmentId",
+        "type": "text"
+      },
+      {
+        "fileColName": "routeId",
+        "tableColName": "RouteId",
+        "type": "text"
+      },
+      {
+        "fileColName": "pickupStopId",
+        "tableColName": "PickupStopId",
+        "type": "text"
+      },
+      {
+        "fileColName": "deliveryStopId",
+        "tableColName": "DeliveryStopId",
+        "type": "text"
+      },
+      {
+        "fileColName": "pickupDateTime",
+        "tableColName": "PickupDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "deliveryDateTime",
+        "tableColName": "DeliveryDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "weight",
+        "tableColName": "Weight",
+        "type": "double"
+      },
+      {
+        "fileColName": "cubic",
+        "tableColName": "Cubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "qty",
+        "tableColName": "Quantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "pickupDateTimeLocal",
+        "tableColName": "PickupDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "deliveryDateTimeLocal",
+        "tableColName": "DeliveryDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "visitSequenceId",
+        "tableColName": "VisitSequenceId",
+        "type": "text"
+      },
+      {
+        "fileColName": "num_Property1",
+        "tableColName": "Comp2Qty",
+        "type": "double"
+      },
+      {
+        "fileColName": "num_Property2",
+        "tableColName": "Comp2Weight",
+        "type": "double"
+      },
+      {
+        "fileColName": "num_Property3",
+        "tableColName": "Comp2Cube",
+        "type": "double"
+      },
+      {
+        "fileColName": "costToRoute",
+        "tableColName": "CostToRoute",
+        "type": "currency"
+      },
+      {
+        "fileColName": "allocatedCost",
+        "tableColName": "AllocatedRouteCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "LTLCost",
+        "tableColName": "LtlCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "modeSuggestion",
+        "tableColName": "ModeSuggestion",
+        "type": "text"
+      },
+      {
+        "fileColName": "LTLConfidencePercent",
+        "tableColName": "LtlConfidencePercent",
+        "type": "double"
+      },
+      {
+        "fileColName": "product",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "source",
+        "tableColName": "SourceSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "destination",
+        "tableColName": "DestinationSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "serviceDays",
+        "tableColName": "ServiceDays",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "output/UnroutableShipment.csv",
+    "tablename": "VrpOutputUnroutableShipments",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "vrpNumber",
+        "tableColName": "VrpNumber",
+        "type": "text"
+      },
+      {
+        "fileColName": "shipmentId",
+        "tableColName": "ShipmentId",
+        "type": "text"
+      },
+      {
+        "fileColName": "weight",
+        "tableColName": "Weight",
+        "type": "double"
+      },
+      {
+        "fileColName": "cubic",
+        "tableColName": "Cubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "qty",
+        "tableColName": "Qty",
+        "type": "double"
+      },
+      {
+        "fileColName": "reason",
+        "tableColName": "Reason",
+        "type": "text"
+      },
+      {
+        "fileColName": "LTLCost",
+        "tableColName": "LtlCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "product",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "source",
+        "tableColName": "SourceSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "destination",
+        "tableColName": "DestinationSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "num_Property1",
+        "tableColName": "Comp2Qty",
+        "type": "double"
+      },
+      {
+        "fileColName": "num_Property2",
+        "tableColName": "Comp2Weight",
+        "type": "double"
+      },
+      {
+        "fileColName": "num_Property3",
+        "tableColName": "Comp2Cube",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "output/InvalidShipment.csv",
+    "tablename": "VrpOutputInvalidShipments",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "vrpNumber",
+        "tableColName": "VrpNumber",
+        "type": "text"
+      },
+      {
+        "fileColName": "shipmentId",
+        "tableColName": "ShipmentId",
+        "type": "text"
+      },
+      {
+        "fileColName": "comment",
+        "tableColName": "Comment",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "output/RouteOutput.csv",
+    "tablename": "VrpOutputRoutes",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "vrpNumber",
+        "tableColName": "VrpNumber",
+        "type": "text"
+      },
+      {
+        "fileColName": "routeId",
+        "tableColName": "RouteId",
+        "type": "text"
+      },
+      {
+        "fileColName": "equipmentTypeId",
+        "tableColName": "EquipmentTypeId",
+        "type": "text"
+      },
+      {
+        "fileColName": "transModeId",
+        "tableColName": "TransModeId",
+        "type": "text"
+      },
+      {
+        "fileColName": "warehouseId",
+        "tableColName": "PoolSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "startDateTime",
+        "tableColName": "StartDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "endDateTime",
+        "tableColName": "EndDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "totalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "unitCost",
+        "tableColName": "UnitCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "LTLCost",
+        "tableColName": "LtlCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalDistance",
+        "tableColName": "TotalDistance",
+        "type": "double"
+      },
+      {
+        "fileColName": "repositionDistance",
+        "tableColName": "RepositionDistance",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalWeight",
+        "tableColName": "TotalWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalCubic",
+        "tableColName": "TotalCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalQty",
+        "tableColName": "TotalQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "maxWeight",
+        "tableColName": "MaxWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "maxCubic",
+        "tableColName": "MaxCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "maxQty",
+        "tableColName": "MaxQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalTime",
+        "tableColName": "TotalTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "dutyTime",
+        "tableColName": "DutyTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "operatingTime",
+        "tableColName": "OperatingTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "repositionTime",
+        "tableColName": "RepositionTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "serviceTime",
+        "tableColName": "ServiceTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "waitTime",
+        "tableColName": "WaitTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "shortBreakTime",
+        "tableColName": "ShortBreakTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "breakTime",
+        "tableColName": "BreakTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "fixedCost",
+        "tableColName": "FixedCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "distanceCost",
+        "tableColName": "TotalDistanceCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "repositionDistanceCost",
+        "tableColName": "TotalPerRepositionDistanceCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "distanceSurchargeCost",
+        "tableColName": "TotalSurcharge",
+        "type": "currency"
+      },
+      {
+        "fileColName": "stopCost",
+        "tableColName": "TotalStopCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "dutyTimeCost",
+        "tableColName": "DutyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "driveTimeCost",
+        "tableColName": "DriveTimeCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "serviceTimeCost",
+        "tableColName": "ServiceTimeCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "waitTimeCost",
+        "tableColName": "WaitCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "shortBreakCost",
+        "tableColName": "BreakCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "longBreakCost",
+        "tableColName": "OvernightCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "outOfRoutePercent",
+        "tableColName": "OutOfRoutePercent",
+        "type": "double"
+      },
+      {
+        "fileColName": "equipmentId",
+        "tableColName": "EquipmentId",
+        "type": "text"
+      },
+      {
+        "fileColName": "carrierId",
+        "tableColName": "CarrierId",
+        "type": "text"
+      },
+      {
+        "fileColName": "startDateTimeLocal",
+        "tableColName": "StartDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "endDateTimeLocal",
+        "tableColName": "EndDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "lockType",
+        "tableColName": "LockType",
+        "type": "long"
+      },
+      {
+        "fileColName": "isMixed",
+        "tableColName": "IsMixed",
+        "type": "text"
+      },
+      {
+        "fileColName": "deliveredStops",
+        "tableColName": "DeliveredStops",
+        "type": "long"
+      },
+      {
+        "fileColName": "deliveredQty",
+        "tableColName": "DeliveredQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "deliveredWeight",
+        "tableColName": "DeliveredWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "deliveredCubic",
+        "tableColName": "DeliveredCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "pickupStops",
+        "tableColName": "PickupStops",
+        "type": "long"
+      },
+      {
+        "fileColName": "pickupQty",
+        "tableColName": "PickupQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "pickupWeight",
+        "tableColName": "PickupWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "pickupCubic",
+        "tableColName": "PickupCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "routeUtilization",
+        "tableColName": "RouteUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "assetId",
+        "tableColName": "AssetID",
+        "type": "text"
+      },
+      {
+        "fileColName": "rateId",
+        "tableColName": "RateID",
+        "type": "text"
+      },
+      {
+        "fileColName": "sequenceIdInAsset",
+        "tableColName": "SequenceIdInAsset",
+        "type": "long"
+      },
+      {
+        "fileColName": "num_Property1",
+        "tableColName": "Num_Property1",
+        "type": "double"
+      },
+      {
+        "fileColName": "num_Property2",
+        "tableColName": "Num_Property2",
+        "type": "double"
+      },
+      {
+        "fileColName": "num_Property3",
+        "tableColName": "Num_Property3",
+        "type": "double"
+      },
+      {
+        "fileColName": "outOfRouteMile",
+        "tableColName": "skip1",
+        "type": "long"
+      },
+      {
+        "fileColName": "debugRouteId",
+        "tableColName": "skip2",
+        "type": "long"
+      },
+      {
+        "fileColName": "additiveCost",
+        "tableColName": "AdditiveCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "costPerQty",
+        "tableColName": "skip4",
+        "type": "long"
+      },
+      {
+        "fileColName": "costPerWeight",
+        "tableColName": "skip5",
+        "type": "long"
+      },
+      {
+        "fileColName": "costPerCubic",
+        "tableColName": "skip6",
+        "type": "long"
+      },
+      {
+        "fileColName": "segmentUtilization",
+        "tableColName": "SegmentUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "decompositionId",
+        "tableColName": "DecompositionID",
+        "type": "text"
+      },
+      {
+        "fileColName": "dockDoorId",
+        "tableColName": "DockDoorID",
+        "type": "text"
+      },
+      {
+        "fileColName": "dockDoorServiceStartTime",
+        "tableColName": "DockDoorStartTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "dockDoorServiceEndTime",
+        "tableColName": "DockDoorEndTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "outOfRouteCost",
+        "tableColName": "skip7",
+        "type": "long"
+      },
+      {
+        "fileColName": "chargingCost",
+        "tableColName": "skip8",
+        "type": "long"
+      },
+      {
+        "fileColName": "overrideCost",
+        "tableColName": "OverrideCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "minimumCost",
+        "tableColName": "MinimumCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "inventoryHoldingCost",
+        "tableColName": "InventoryholdingCost",
+        "type": "currency"
+      }
+    ]
+  },
+  {
+    "filename": "output/StopOutput.csv",
+    "tablename": "VrpOutputStops",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "vrpNumber",
+        "tableColName": "VrpNumber",
+        "type": "text"
+      },
+      {
+        "fileColName": "stopId",
+        "tableColName": "StopId",
+        "type": "text"
+      },
+      {
+        "fileColName": "routeId",
+        "tableColName": "RouteId",
+        "type": "text"
+      },
+      {
+        "fileColName": "sequenceId",
+        "tableColName": "SequenceId",
+        "type": "text"
+      },
+      {
+        "fileColName": "locationId",
+        "tableColName": "LocationId",
+        "type": "text"
+      },
+      {
+        "fileColName": "arriveDateTime",
+        "tableColName": "ArriveDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "deliveryDateTime",
+        "tableColName": "DeliveryDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "leaveDateTime",
+        "tableColName": "LeaveDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "longitude",
+        "tableColName": "Longitude",
+        "type": "double"
+      },
+      {
+        "fileColName": "latitude",
+        "tableColName": "Latitude",
+        "type": "double"
+      },
+      {
+        "fileColName": "stopType",
+        "tableColName": "StopType",
+        "type": "text"
+      },
+      {
+        "fileColName": "arriveDateTimeLocal",
+        "tableColName": "ArriveDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "deliveryDateTimeLocal",
+        "tableColName": "DeliveryDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "leaveDateTimeLocal",
+        "tableColName": "LeaveDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "uploadedCubic",
+        "tableColName": "PickupCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "uploadedWeight",
+        "tableColName": "PickupWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "uploadedQty",
+        "tableColName": "PickupQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "downloadedCubic",
+        "tableColName": "DeliveredCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "downloadedWeight",
+        "tableColName": "DeliveredWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "downloadedQty",
+        "tableColName": "DeliveredQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "remainedCubic",
+        "tableColName": "RemainingCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "remainedWeight",
+        "tableColName": "RemainingWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "remainedQty",
+        "tableColName": "RemainingQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "chargingOption",
+        "tableColName": "ChargingOption",
+        "type": "text"
+      },
+      {
+        "fileColName": "chargeAtArrival",
+        "tableColName": "RangeAtArrival",
+        "type": "double"
+      },
+      {
+        "fileColName": "chargeWhenLeaving",
+        "tableColName": "RangeWhenLeaving",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "output/SegmentOutput.csv",
+    "tablename": "VrpOutputSegments",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "vrpNumber",
+        "tableColName": "VrpNumber",
+        "type": "text"
+      },
+      {
+        "fileColName": "segmentId",
+        "tableColName": "SegmentId",
+        "type": "text"
+      },
+      {
+        "fileColName": "routeId",
+        "tableColName": "RouteId",
+        "type": "text"
+      },
+      {
+        "fileColName": "sequenceId",
+        "tableColName": "SequenceId",
+        "type": "text"
+      },
+      {
+        "fileColName": "startStopId",
+        "tableColName": "StartStopId",
+        "type": "text"
+      },
+      {
+        "fileColName": "endStopId",
+        "tableColName": "EndStopId",
+        "type": "text"
+      },
+      {
+        "fileColName": "startDateTime",
+        "tableColName": "StartDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "endDateTime",
+        "tableColName": "EndDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "distance",
+        "tableColName": "Distance",
+        "type": "double"
+      },
+      {
+        "fileColName": "operatingTime",
+        "tableColName": "OperatingTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "carryShipments",
+        "tableColName": "CarryShipments",
+        "type": "text"
+      },
+      {
+        "fileColName": "startDateTimeLocal",
+        "tableColName": "StartDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "endDateTimeLocal",
+        "tableColName": "EndDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "bool_01",
+        "tableColName": "Bool_01",
+        "type": "text"
+      },
+      {
+        "fileColName": "debugRouteId",
+        "tableColName": "skip1",
+        "type": "text"
+      },
+      {
+        "fileColName": "additiveCost",
+        "tableColName": "AdditiveCost",
+        "type": "currency"
+      }
+    ]
+  },
+  {
+    "filename": "output/RouteBreaks.csv",
+    "tablename": "VrpOutputRouteBreaks",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "routeBreakId",
+        "tableColName": "RouteBreakId",
+        "type": "long"
+      },
+      {
+        "fileColName": "breakStartDateTime",
+        "tableColName": "BreakStartDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "breakEndDateTime",
+        "tableColName": "BreakEndDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "breakStartDateTimeLocal",
+        "tableColName": "BreakStartDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "breakEndDateTimeLocal",
+        "tableColName": "BreakEndDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "routeEventType",
+        "tableColName": "RouteEventType",
+        "type": "text"
+      },
+      {
+        "fileColName": "routeId",
+        "tableColName": "RouteId",
+        "type": "text"
+      },
+      {
+        "fileColName": "stopId",
+        "tableColName": "StopId",
+        "type": "long"
+      },
+      {
+        "fileColName": "segmentId",
+        "tableColName": "SegmentId",
+        "type": "long"
+      },
+      {
+        "fileColName": "cost",
+        "tableColName": "OvernightCost",
+        "type": "currency"
+      }
+    ]
+  },
+  {
+    "filename": "output/Assets.csv",
+    "tablename": "VrpOutputAssets",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "assetId",
+        "tableColName": "AssetID",
+        "type": "text"
+      },
+      {
+        "fileColName": "equipmentTypeId",
+        "tableColName": "EquipmentTypeID",
+        "type": "text"
+      },
+      {
+        "fileColName": "equipmentId",
+        "tableColName": "EquipmentID",
+        "type": "text"
+      },
+      {
+        "fileColName": "equipmentAvailabilityId",
+        "tableColName": "EquipmentAvailabilityId",
+        "type": "text"
+      },
+      {
+        "fileColName": "equipmentLocationId",
+        "tableColName": "Location",
+        "type": "text"
+      },
+      {
+        "fileColName": "startDateTime",
+        "tableColName": "StartDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "endDateTime",
+        "tableColName": "EndDateTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "totalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "equipmentFixedCost",
+        "tableColName": "EquipmentFixedCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "totalRouteCost",
+        "tableColName": "TotalRouteCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "totalDistance",
+        "tableColName": "TotalDistance",
+        "type": "double"
+      },
+      {
+        "fileColName": "repositionDistance",
+        "tableColName": "RepositionDistance",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalStops",
+        "tableColName": "TotalStops",
+        "type": "long"
+      },
+      {
+        "fileColName": "inTransitStops",
+        "tableColName": "InTransitStops",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalWeight",
+        "tableColName": "TotalWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalCubic",
+        "tableColName": "TotalCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalQty",
+        "tableColName": "TotalQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalTime",
+        "tableColName": "TotalTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "dutyTime",
+        "tableColName": "DutyTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "operatingTime",
+        "tableColName": "OperatingTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "repositionTime",
+        "tableColName": "RepositionTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "serviceTime",
+        "tableColName": "ServiceTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "waitTime",
+        "tableColName": "WaitTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "shortBreakTime",
+        "tableColName": "ShortBreakTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "longBreakTime",
+        "tableColName": "LongBreakTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalGapTimeBetweenRoutes",
+        "tableColName": "TotalGapTimeBetweenRoutes",
+        "type": "double"
+      },
+      {
+        "fileColName": "maxOutOfRoutePercent",
+        "tableColName": "MaxOutOfRoutePercent",
+        "type": "double"
+      },
+      {
+        "fileColName": "avgOutOfRoutePercent",
+        "tableColName": "AvgOutOfRoutePercent",
+        "type": "double"
+      },
+      {
+        "fileColName": "maxOutOfRouteMile",
+        "tableColName": "MaxOutOfRouteMile",
+        "type": "double"
+      },
+      {
+        "fileColName": "avgOutOfRouteMile",
+        "tableColName": "AvgOutOfRouteMile",
+        "type": "double"
+      },
+      {
+        "fileColName": "startDateTimeLocal",
+        "tableColName": "StartDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "endDateTimeLocal",
+        "tableColName": "EndDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "numberOfRoutes",
+        "tableColName": "NumberOfRoutes",
+        "type": "long"
+      },
+      {
+        "fileColName": "routeUtilization",
+        "tableColName": "RouteUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "segmentUtilization",
+        "tableColName": "SegmentUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "debugAssetId",
+        "tableColName": "skip1",
+        "type": "long"
+      },
+      {
+        "fileColName": "timeUtilization",
+        "tableColName": "TimeUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "decompositionId",
+        "tableColName": "DecompositionID",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "output/EquipmentUtilizations.csv",
+    "tablename": "VrpOutputAssetSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "equipmentAvailabilityId",
+        "tableColName": "EquipmentAvailabilityID",
+        "type": "text"
+      },
+      {
+        "fileColName": "equipmentTypeId",
+        "tableColName": "AssetName",
+        "type": "text"
+      },
+      {
+        "fileColName": "locationId",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "numOfAvailableEquipments",
+        "tableColName": "AssetsAvailable",
+        "type": "long"
+      },
+      {
+        "fileColName": "numOfUsedEquipments",
+        "tableColName": "AssetsUsed",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "output/VehicleRouteOptimizationSummary.csv",
+    "tablename": "VehicleRouteOptimizationSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss",
+      "col49": "TotalinventoryHoldingCostcurrency"
+    },
+    "columns": [
+      {
+        "fileColName": "scenarioId",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "stepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "timeStamp",
+        "tableColName": "ModelRunTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "totalRouteCost",
+        "tableColName": "TotalRouteCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalDirectShipmentCost",
+        "tableColName": "TotalLTLCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalFixedAssetCost",
+        "tableColName": "TotalFixedAssetCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalTransportationCost",
+        "tableColName": "TotalTransportationSystemCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalNumberOfRoutes",
+        "tableColName": "TotalRoutes",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalNumberOfStops",
+        "tableColName": "TotalStops",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalDistance",
+        "tableColName": "TotalDistance",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalRepositionDistance",
+        "tableColName": "TotalRepositionDistance",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalTime",
+        "tableColName": "TotalTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalInputQuantity",
+        "tableColName": "TotalInputQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalInputWeight",
+        "tableColName": "TotalInputWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalInputCubic",
+        "tableColName": "TotalInputCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalOutputQuantity",
+        "tableColName": "TotalOutputQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalOutputWeight",
+        "tableColName": "TotalOutputWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalOutputCubic",
+        "tableColName": "TotalOutputCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalSegments",
+        "tableColName": "TotalSegments",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalDeliveryQuantity",
+        "tableColName": "totalDeliveryQuantity",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalDeliveryCubic",
+        "tableColName": "totalDeliveryCubic",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalDeliveryWeight",
+        "tableColName": "totalDeliveryWeight",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalPickUpQuantity",
+        "tableColName": "totalPickUpQuantity",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalPickUpCubic",
+        "tableColName": "totalPickUpCubic",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalPickUpWeight",
+        "tableColName": "totalPickUpWeight",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalNumberOfAssets",
+        "tableColName": "TotalAssets",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalUnroutedShipments",
+        "tableColName": "TotalUnroutableShipments",
+        "type": "long"
+      },
+      {
+        "fileColName": "dllVersion",
+        "tableColName": "dllVersion",
+        "type": "text"
+      },
+      {
+        "fileColName": "totalRunTime",
+        "tableColName": "SolveTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "problemType",
+        "tableColName": "OptimizationType",
+        "type": "text"
+      },
+      {
+        "fileColName": "useCustomConfig",
+        "tableColName": "useCustomConfig",
+        "type": "long"
+      },
+      {
+        "fileColName": "numberImprovementIterations",
+        "tableColName": "numberImprovementIterations",
+        "type": "long"
+      },
+      {
+        "fileColName": "MIPSolveTime",
+        "tableColName": "MIPSolveTime",
+        "type": "long"
+      },
+      {
+        "fileColName": "MIPFinalGap",
+        "tableColName": "MIPFinalGap",
+        "type": "long"
+      },
+      {
+        "fileColName": "solutionConstructionTime",
+        "tableColName": "solutionConstructionTime",
+        "type": "long"
+      },
+      {
+        "fileColName": "solutionImprovementTime",
+        "tableColName": "solutionImprovementTime",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalNumberInTransitStops",
+        "tableColName": "TotalInTransitStops",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalNumberDeliveryStop",
+        "tableColName": "TotalDeliveries",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalNumberPickupStop",
+        "tableColName": "TotalNumberPickupStop",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalNumberInvalidShipments",
+        "tableColName": "TotalInvalidShipments",
+        "type": "long"
+      },
+      {
+        "fileColName": "totalNumberDeliveredShipments",
+        "tableColName": "skip1",
+        "type": "long"
+      },
+      {
+        "fileColName": "averageNumberOfRoutesPerLocation",
+        "tableColName": "skip2",
+        "type": "long"
+      },
+      {
+        "fileColName": "averageCostPerQty",
+        "tableColName": "skip3",
+        "type": "long"
+      },
+      {
+        "fileColName": "averageCostPerWeight",
+        "tableColName": "skip4",
+        "type": "long"
+      },
+      {
+        "fileColName": "averageCostPerCubic",
+        "tableColName": "skip5",
+        "type": "long"
+      },
+      {
+        "fileColName": "assetTimeUtilization",
+        "tableColName": "AssetTimeUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "routeUtilization",
+        "tableColName": "RouteUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "segmentUtilization",
+        "tableColName": "SegmentUtilization",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "output/BaselineOutput.csv",
+    "tablename": "VRPOutputBaselineShipments",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "baselineSolutionId",
+        "tableColName": "BaselineSolutionID",
+        "type": "text"
+      },
+      {
+        "fileColName": "shipmentId",
+        "tableColName": "ShipmentId",
+        "type": "text"
+      },
+      {
+        "fileColName": "routeId",
+        "tableColName": "RouteID",
+        "type": "text"
+      },
+      {
+        "fileColName": "routeStartDate",
+        "tableColName": "RouteStartDate",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "pickupSequenceId",
+        "tableColName": "PickupSequenceId",
+        "type": "long"
+      },
+      {
+        "fileColName": "deliverySequenceId",
+        "tableColName": "DeliverySequenceId",
+        "type": "long"
+      },
+      {
+        "fileColName": "assetName",
+        "tableColName": "AssetName",
+        "type": "text"
+      },
+      {
+        "fileColName": "assetSiteName",
+        "tableColName": "AssetSiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "tourId",
+        "tableColName": "TourId",
+        "type": "text"
+      },
+      {
+        "fileColName": "routeSequenceId",
+        "tableColName": "routeSequenceId",
+        "type": "long"
+      },
+      {
+        "fileColName": "forceShipDirect",
+        "tableColName": "ForceShipDirect",
+        "type": "text"
+      },
+      {
+        "fileColName": "lineHaulRouteId",
+        "tableColName": "LinehaulRouteId",
+        "type": "text"
+      },
+      {
+        "fileColName": "hubId",
+        "tableColName": "HubId",
+        "type": "text"
+      },
+      {
+        "fileColName": "pickupLocationId",
+        "tableColName": "PickupLocationID",
+        "type": "text"
+      },
+      {
+        "fileColName": "deliveryLocationId",
+        "tableColName": "DeliveryLocationID",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "output/RouteDetails.csv",
+    "tablename": "VRPOutputRouteDetails",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "assetName",
+        "tableColName": "AssetName",
+        "type": "text"
+      },
+      {
+        "fileColName": "assetId",
+        "tableColName": "AssetID",
+        "type": "text"
+      },
+      {
+        "fileColName": "routeId",
+        "tableColName": "RouteID",
+        "type": "text"
+      },
+      {
+        "fileColName": "ganttId",
+        "tableColName": "GanttID",
+        "type": "long"
+      },
+      {
+        "fileColName": "currentLocationId",
+        "tableColName": "StartLocation",
+        "type": "text"
+      },
+      {
+        "fileColName": "nextLocationId",
+        "tableColName": "EndLocation",
+        "type": "text"
+      },
+      {
+        "fileColName": "activityType",
+        "tableColName": "ActivityType",
+        "type": "text"
+      },
+      {
+        "fileColName": "activityStartDateTime",
+        "tableColName": "ActivityStartTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "activityEndDateTime",
+        "tableColName": "ActivityEndTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "distance",
+        "tableColName": "Distance",
+        "type": "double"
+      },
+      {
+        "fileColName": "cumulativeDistance",
+        "tableColName": "CumulativeDistance",
+        "type": "double"
+      },
+      {
+        "fileColName": "activityTime",
+        "tableColName": "ActivityTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "cumulativeTime",
+        "tableColName": "CumulativeTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "activityCost",
+        "tableColName": "ActivityCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "cumulativeCost",
+        "tableColName": "CumulativeCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "loadUnloadQty",
+        "tableColName": "LoadUnloadQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "loadUnloadWeight",
+        "tableColName": "LoadUnloadWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "loadUnloadCubic",
+        "tableColName": "LoadUnloadCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "loadUnloadShipmentCount",
+        "tableColName": "LoadUnloadShipmentCount",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalQtyOnAsset",
+        "tableColName": "TotalQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalWeightOnAsset",
+        "tableColName": "TotalWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalCubicOnAsset",
+        "tableColName": "TotalCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "totalShipmentCountOnAsset",
+        "tableColName": "TotalShipmentCount",
+        "type": "double"
+      },
+      {
+        "fileColName": "remainingQtyCapacity",
+        "tableColName": "RemainingQuantityCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "remainingWeightCapacity",
+        "tableColName": "RemainingWeightCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "remainingCubicCapacity",
+        "tableColName": "RemainingCubicCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "startLocationLatitude",
+        "tableColName": "StartLocationLatitude",
+        "type": "double"
+      },
+      {
+        "fileColName": "startLocationLongitude",
+        "tableColName": "StartLocationLongitude",
+        "type": "double"
+      },
+      {
+        "fileColName": "endLocationLatitude",
+        "tableColName": "EndLocationLatitude",
+        "type": "double"
+      },
+      {
+        "fileColName": "endLocationLongitude",
+        "tableColName": "EndLocationLongitude",
+        "type": "double"
+      },
+      {
+        "fileColName": "startDateTimeLocal",
+        "tableColName": "ActivityStartTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "endDateTimeLocal",
+        "tableColName": "ActivityEndTimeLocal",
+        "type": "datetime"
+      }
+    ]
+  },
+  {
+    "filename": "output/ShipmentOutput.csv",
+    "tablename": "VRPOutputShipmentOutput",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "shipmentName",
+        "tableColName": "ShipmentName",
+        "type": "text"
+      },
+      {
+        "fileColName": "product",
+        "tableColName": "Product",
+        "type": "text"
+      },
+      {
+        "fileColName": "source",
+        "tableColName": "Source",
+        "type": "text"
+      },
+      {
+        "fileColName": "destination",
+        "tableColName": "Destination",
+        "type": "text"
+      },
+      {
+        "fileColName": "weight",
+        "tableColName": "Weight",
+        "type": "double"
+      },
+      {
+        "fileColName": "cubic",
+        "tableColName": "Cubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "qty",
+        "tableColName": "Quantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "status",
+        "tableColName": "Status",
+        "type": "text"
+      },
+      {
+        "fileColName": "comment",
+        "tableColName": "Comment",
+        "type": "text"
+      },
+      {
+        "fileColName": "pickupTime",
+        "tableColName": "PickupTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "deliveryTime",
+        "tableColName": "DeliveryTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "pickupDateTimeLocal",
+        "tableColName": "PickupDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "deliveryDateTimeLocal",
+        "tableColName": "DeliveryDateTimeLocal",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "earliestPickupTime",
+        "tableColName": "EarliestPickupTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "latestPickupTime",
+        "tableColName": "LatestPickupTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "earliestDeliveryTIme",
+        "tableColName": "EarliestDeliveryTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "latestDeliveryTime",
+        "tableColName": "LatestDeliveryTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "routeID",
+        "tableColName": "RouteID",
+        "type": "text"
+      },
+      {
+        "fileColName": "routeStartTime",
+        "tableColName": "RouteStartTime",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "pickupSequenceID",
+        "tableColName": "PickupSequenceID",
+        "type": "long"
+      },
+      {
+        "fileColName": "deliverySequenceID",
+        "tableColName": "DeliverySequenceID",
+        "type": "long"
+      },
+      {
+        "fileColName": "assetID",
+        "tableColName": "AssetID",
+        "type": "text"
+      },
+      {
+        "fileColName": "assetName",
+        "tableColName": "AssetName",
+        "type": "text"
+      },
+      {
+        "fileColName": "assetSiteName",
+        "tableColName": "AssetSiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "routeSequenceID",
+        "tableColName": "RouteSequenceID",
+        "type": "long"
+      },
+      {
+        "fileColName": "hubUsed",
+        "tableColName": "HubUsed",
+        "type": "text"
+      },
+      {
+        "fileColName": "directShipmentCost",
+        "tableColName": "DirectShipmentCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "costToRoute",
+        "tableColName": "CostToRoute",
+        "type": "double"
+      },
+      {
+        "fileColName": "allocatedCost",
+        "tableColName": "AllocatedCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "serviceDays",
+        "tableColName": "ServiceDays",
+        "type": "double"
+      },
+      {
+        "fileColName": "pvrpVisitSequenceID",
+        "tableColName": "PVRPVisitSequenceId",
+        "type": "text"
+      },
+      {
+        "fileColName": "debugRouteID",
+        "tableColName": "DebugRouteID",
+        "type": "text"
+      },
+      {
+        "fileColName": "clusterID",
+        "tableColName": "ClusterID",
+        "type": "long"
+      },
+      {
+        "fileColName": "compartmentID",
+        "tableColName": "CompartmentID",
+        "type": "text"
+      },
+      {
+        "fileColName": "decompositionId",
+        "tableColName": "DecompositionID",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "output/PeriodicOptimizationSummary.csv",
+    "tablename": "VRPOutputPeriodicOptimizationSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "sourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "destinationName",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "frequency",
+        "tableColName": "FrequencyOfVisit",
+        "type": "long"
+      },
+      {
+        "fileColName": "daysOfVisit",
+        "tableColName": "DaysOfVisit",
+        "type": "text"
+      },
+      {
+        "fileColName": "inventoryHoldingCost",
+        "tableColName": "TotalInventoryHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "allocatedTransportationCost",
+        "tableColName": "TotalAllocatedTransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "deliveredQty",
+        "tableColName": "TotalQuantityDelivered",
+        "type": "double"
+      },
+      {
+        "fileColName": "deliveredWeight",
+        "tableColName": "TotalWeightDelivered",
+        "type": "double"
+      },
+      {
+        "fileColName": "deliveredCubic",
+        "tableColName": "TotalVolumeDelivered",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "output/PeriodicOptimizationInventoryDetails.csv",
+    "tablename": "VRPOutputPeriodicOptimizationInventoryDetails",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "CsvDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "sourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "destinationName",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "date",
+        "tableColName": "Date",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "allocatedTransportationCost",
+        "tableColName": "AllocatedTransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "inventoryHoldingCost",
+        "tableColName": "InventoryHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "beginningInventory",
+        "tableColName": "BeginningInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "endingInventory",
+        "tableColName": "EndInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "unitsReceived",
+        "tableColName": "UnitReceived",
+        "type": "double"
+      },
+      {
+        "fileColName": "unitsConsumed",
+        "tableColName": "UnitConsumed",
+        "type": "double"
+      }
+    ]
+  }
+]

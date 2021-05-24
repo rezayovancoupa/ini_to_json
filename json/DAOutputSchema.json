@@ -1,0 +1,219 @@
+[
+  {
+    "filename": "CustomerDailyDemand.txt",
+    "tablename": "CustomerDailyDemand",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "CharacterSet": "ANSI",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "Site",
+        "tableColName": "Site",
+        "type": "text"
+      },
+      {
+        "fileColName": "Product",
+        "tableColName": "Product",
+        "type": "text"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "Rep",
+        "tableColName": "Rep",
+        "type": "long"
+      },
+      {
+        "fileColName": "Time",
+        "tableColName": "Time",
+        "type": "datetime"
+      },
+      {
+        "fileColName": "Value",
+        "tableColName": "Value",
+        "type": "double"
+      },
+      {
+        "fileColName": "PotentialRevenue",
+        "tableColName": "PotentialRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "Outlier",
+        "tableColName": "Outlier",
+        "type": "text"
+      },
+      {
+        "fileColName": "AdjustedDemand",
+        "tableColName": "AdjustedDemand",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "CustomerDemandProfileIO3.txt",
+    "tablename": "CustomerDemandProfileIO3",
+    "id": "DemandProfileID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "CharacterSet": "ANSI",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "StatisticSource",
+        "tableColName": "StatisticSource",
+        "type": "text"
+      },
+      {
+        "fileColName": "TotalDemandQty",
+        "tableColName": "TotalDemandQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "NonZeroDemandQtyMean",
+        "tableColName": "NonZeroDemandQtyMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "NonZeroDemandQtyStdDev",
+        "tableColName": "NonZeroDemandQtyStdDev",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandQtyMean",
+        "tableColName": "DemandQtyMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandQtyStdDev",
+        "tableColName": "DemandQtyStdDev",
+        "type": "double"
+      },
+      {
+        "fileColName": "DemandIntervalMean",
+        "tableColName": "DemandIntervalMean",
+        "type": "double"
+      },
+      {
+        "fileColName": "COV",
+        "tableColName": "COV",
+        "type": "double"
+      },
+      {
+        "fileColName": "MinDemand",
+        "tableColName": "MinDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "MaxDemand",
+        "tableColName": "MaxDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "AggregationPeriodCount",
+        "tableColName": "AggregationPeriodCount",
+        "type": "long"
+      },
+      {
+        "fileColName": "OrderCount",
+        "tableColName": "OrderCount",
+        "type": "long"
+      },
+      {
+        "fileColName": "Outliers",
+        "tableColName": "Outliers",
+        "type": "long"
+      },
+      {
+        "fileColName": "PotentialRevenue",
+        "tableColName": "PotentialRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "CostOfGoods",
+        "tableColName": "CostOfGoods",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWeight",
+        "tableColName": "TotalWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCube",
+        "tableColName": "TotalCube",
+        "type": "double"
+      },
+      {
+        "fileColName": "Intermittency",
+        "tableColName": "Intermittency",
+        "type": "text"
+      },
+      {
+        "fileColName": "Variability",
+        "tableColName": "Variability",
+        "type": "text"
+      },
+      {
+        "fileColName": "Clumpiness",
+        "tableColName": "Clumpiness",
+        "type": "text"
+      },
+      {
+        "fileColName": "DemandClass",
+        "tableColName": "DemandClass",
+        "type": "text"
+      },
+      {
+        "fileColName": "DemandClassDetails",
+        "tableColName": "DemandClassDetails",
+        "type": "text"
+      }
+    ]
+  }
+]

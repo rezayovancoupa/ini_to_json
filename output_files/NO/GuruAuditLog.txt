@@ -1,0 +1,100 @@
+Section 1: ABC Analysis
+	
+1	total customers
+Sorting on customer demand ascendingly
+100	% customers represent	100	% total demand quantity
+100	% customers represent	100	% total demand quantity
+100	% customers represent	100	% total demand quantity
+100	% customers represent	100	% total demand quantity
+	
+100	% customers represent	100	% total demand revenue
+100	% customers represent	100	% total demand revenue
+100	% customers represent	100	% total demand revenue
+100	% customers represent	100	% total demand revenue
+-------------------------------------------------------------------
+3	total products
+Sorting on product demand ascendingly
+33.3	% products represent	33.3	% total demand quantity
+33.3	% products represent	33.3	% total demand quantity
+33.3	% products represent	33.3	% total demand quantity
+33.3	% products represent	33.3	% total demand quantity
+	
+33.3	% products represent	33.3	% total demand revenue
+33.3	% products represent	33.3	% total demand revenue
+33.3	% products represent	33.3	% total demand revenue
+33.3	% products represent	33.3	% total demand revenue
+-------------------------------------------------------------------
+	
+	
+Section 2: Demand Scaling
+	
+Ratio of the largest to the smallest demand quantity	1
+Industry Suggested Max Ratio	1e+06
+	
+	
+Section 3: Number of Sources
+	
+3	total customer product combinations
+Maximum number of sources	1	sites
+Average number of sources	1	sites
+Median number of sources	1	sites
+Industry suggested number of sources	5	sites
+0	% customer product combinations have more than	5	sources
+3	Customer product combinations with maximum number of sources, showing first 10 items:
+CZ	FG1
+CZ	FG2
+CZ	FG3
+-------------------------------------------------------------------
+3	total facility product combinations
+Maximum number of sources	1	sites
+Average number of sources	1	sites
+Median number of sources	1	sites
+Industry suggested number of sources	5	sites
+0	% facility product combinations have more than	5	sources
+3	Facility product combinations with maximum number of sources, showing first 10 items:
+DC	FG1
+DC	FG2
+DC	FG3
+-------------------------------------------------------------------
+	
+	
+Section 4: Binary and Integer Variables
+	
+3	binary variables	from Site Sourcing Policies (Multi-Period) table	MINIMUM ORDER QUANTITY
+4	binary variables	from Site Sourcing Policies (Multi-Period) table	MINIMUM ORDER QUANTITY	Transportation Policies (Multi-Period) table	REPLENISHMENT FREQUENCY
+	
+Recommendation: In case of long run time, reduce the number of binary or integer variables
+	
+	
+Section 5: Number of Cost Steps
+	
+There is no step cost
+	
+	
+Section 6: Negative Cost
+	
+	
+	
+Section 7: Cross Period Flow
+	
+	
+	
+Section 8: Guru and Solver Options
+	
+Code start time: 	2019-04-16	11:41:41,464
+Reading data from C:\Models\2.1 Kanban\CycleStock\CycleStock_NetOptimData\
+BIM version 2.1.10
+-------------------------------------------------------------------
+SCALE_QTY_INPUT	1
+SOLVER	XPRESS
+ENFORCE_INTEGER_LOTS_FOR_PROCCESSES	0
+CustomDataFilePath	C:\Models\2.1 Kanban\CycleStock\CycleStock_NetOptimData\GuruNetOptim.dat
+DecompositionCustomDataFilePath	C:\Models\2.1 Kanban\CycleStock\CycleStock_NetOptimData\Decomposition_custom.dat
+-------------------------------------------------------------------
+Presolve	0
+Relative Gap	0.0001
+Feasibility Tolerance	1E-06
+MIP Tolerance	5E-06
+-------------------------------------------------------------------
+QTY_SCALING_FACTOR=1	COST_SCALING_FACTOR=1
+-------------------------------------------------------------------

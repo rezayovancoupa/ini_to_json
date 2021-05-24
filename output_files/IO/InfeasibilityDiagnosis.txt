@@ -1,0 +1,12 @@
+ScenarioID	ScenarioStepNum	SiteName	DestinationName	ProductName	PeriodName	BOMName	Mode	ConstraintName	InputConstraint	SuggestedConstraint
+0	1	FILLING PLANT		BULK_01	PERIOD_001		1	Max safety stock (Quantity)	0	1655	
+0	1	FILLING PLANT		BULK_01	PERIOD_002		1	Max safety stock (Quantity)	0	1493	
+0	1	FILLING PLANT		BULK_01	PERIOD_003		1	Max safety stock (Quantity)	0	1568	
+0	1	FILLING PLANT		BULK_01	PERIOD_004		1	Max safety stock (Quantity)	0	1909	
+0	1	FILLING PLANT		BULK_01	PERIOD_005		1	Max safety stock (Quantity)	0	1073	
+0	1	FILLING PLANT	FILLING PLANT:2	BULK_01	PERIOD_006			Max safety stock (Quantity)	0	882	
+0	1	FILLING PLANT	FILLING PLANT:2	BULK_01	PERIOD_007			Max safety stock (Quantity)	0	192	
+0	1	FILLING PLANT		BULK_01	PERIOD_007		1	Max safety stock (Quantity)	0	877	
+0	1	FILLING PLANT	FILLING PLANT:2	BULK_01	PERIOD_008			Max safety stock (Quantity)	0	832	
+0	1	FILLING PLANT	FILLING PLANT:2	BULK_01	PERIOD_010			Max safety stock (Quantity)	0	1026	
+0	1	FILLING PLANT	FILLING PLANT:2	BULK_01	PERIOD_012			Max safety stock (Quantity)	0	831	

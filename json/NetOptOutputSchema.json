@@ -1,0 +1,4200 @@
+[
+  {
+    "filename": "GuruIntSolLog.txt",
+    "tablename": "OptimizationOutputFacilityStatusDecisionHistory",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "IntSolNumber",
+        "tableColName": "IntegerSolution",
+        "type": "long"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "ObjValue",
+        "tableColName": "ObjectiveValue",
+        "type": "double"
+      },
+      {
+        "fileColName": "GapValue",
+        "tableColName": "GapPercent",
+        "type": "double"
+      },
+      {
+        "fileColName": "SolutionTime",
+        "tableColName": "SolutionTime",
+        "type": "text"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputAggregatedDemand.txt",
+    "tablename": "OptimizationOutputAggregatedDemand",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "CustomerName",
+        "tableColName": "CustomerName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DemandStatus",
+        "tableColName": "DemandStatus",
+        "type": "text"
+      },
+      {
+        "fileColName": "TotalDemand",
+        "tableColName": "TotalDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "ServedDemand",
+        "tableColName": "ServedDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "UnservedDemand",
+        "tableColName": "UnservedDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "PercentageTotalDemandFulfilled",
+        "tableColName": "PercentageTotalDemandFulfilled",
+        "type": "double"
+      },
+      {
+        "fileColName": "PotentialRevenue",
+        "tableColName": "PotentialRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "ActualRevenue",
+        "tableColName": "ActualRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "LostRevenue",
+        "tableColName": "LostRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalDemandPenalty",
+        "tableColName": "TotalDemandPenalty",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputBillOfMaterialsSummary.txt",
+    "tablename": "OptimizationOutputBillOfMaterialsSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "BOMName",
+        "tableColName": "BomName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Type",
+        "tableColName": "BOMProductType",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "Quantity",
+        "tableColName": "FlowQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "Weight",
+        "tableColName": "FlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "Cubic",
+        "tableColName": "FlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "BOMCost",
+        "tableColName": "BOMCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputConstraintSummary.txt",
+    "tablename": "OptimizationOutputConstraintSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ConstraintName",
+        "tableColName": "ConstraintName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ExpressionName",
+        "tableColName": "ExpressionName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Site",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Source",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Destination",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Product",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ModeName",
+        "tableColName": "ModeName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "Asset",
+        "tableColName": "AssetName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Process",
+        "tableColName": "ProcessName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Other",
+        "tableColName": "Other",
+        "type": "text"
+      },
+      {
+        "fileColName": "Range",
+        "tableColName": "Range",
+        "type": "long"
+      },
+      {
+        "fileColName": "Type",
+        "tableColName": "ConstraintType",
+        "type": "text"
+      },
+      {
+        "fileColName": "Activity",
+        "tableColName": "ConstraintActivity",
+        "type": "double"
+      },
+      {
+        "fileColName": "Slack/Surplus",
+        "tableColName": "ConstraintSlack",
+        "type": "double"
+      },
+      {
+        "fileColName": "RHS",
+        "tableColName": "ConstraintRequirement",
+        "type": "double"
+      },
+      {
+        "fileColName": "RHS_Deviation",
+        "tableColName": "ConstraintRequirementDeviation",
+        "type": "double"
+      },
+      {
+        "fileColName": "Suggested_RHS",
+        "tableColName": "SuggestedConstraintRequirement",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputCustomerFlows.txt",
+    "tablename": "OptimizationOutputCustomerFlows",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "CustomerName",
+        "tableColName": "CustomerName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ModeName",
+        "tableColName": "ModeName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DepartingPeriodName",
+        "tableColName": "DepartingPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DepartingPeriodNum",
+        "tableColName": "DepartingPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "ArrivingPeriodName",
+        "tableColName": "ArrivingPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ArrivingPeriodNum",
+        "tableColName": "ArrivingPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "TotalDemand",
+        "tableColName": "TotalDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalDemandServed",
+        "tableColName": "TotalDemandServed",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowUnits",
+        "tableColName": "FlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowWeight",
+        "tableColName": "FlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCubic",
+        "tableColName": "FlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowRevenue",
+        "tableColName": "FlowRevenue",
+        "type": "currency"
+      },
+      {
+        "fileColName": "OutboundWarehousingPolicyCost",
+        "tableColName": "OutboundWarehousingPolicyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TransportationPolicyCost",
+        "tableColName": "TransportationPolicyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "SourcingPolicyCost",
+        "tableColName": "SourcingPolicyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "DutyCost",
+        "tableColName": "DutyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "IntransitInventoryHoldingCost",
+        "tableColName": "IntransitInventoryHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "IntransitInventory",
+        "tableColName": "IntransitInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "ServiceHours",
+        "tableColName": "ServiceHours",
+        "type": "double"
+      },
+      {
+        "fileColName": "ServiceDistance",
+        "tableColName": "ServiceDistance",
+        "type": "double"
+      },
+      {
+        "fileColName": "CO2",
+        "tableColName": "CO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "CO2Cost",
+        "tableColName": "CO2Cost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "LeadTimeCost",
+        "tableColName": "LeadTimeCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "SourcingProcessCost",
+        "tableColName": "SourcingProcessCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TransportationProcessCost",
+        "tableColName": "TransportationProcessCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "OutboundInventoryProcessCost",
+        "tableColName": "OutboundInventoryProcessCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalSourcingCost",
+        "tableColName": "TotalSourcingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalTransportationCost",
+        "tableColName": "TotalTransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalOutboundWarehousingCost",
+        "tableColName": "TotalOutboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputCustomerSummary.txt",
+    "tablename": "OptimizationOutputCustomerSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "CustomerName",
+        "tableColName": "CustomerName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "InitialStatus",
+        "tableColName": "InitialStatus",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "OptimizedStatus",
+        "tableColName": "OptimizedStatus",
+        "type": "text"
+      },
+      {
+        "fileColName": "TotalRevenue",
+        "tableColName": "TotalRevenue",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFlowUnits",
+        "tableColName": "TotalFlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalFlowWeight",
+        "tableColName": "TotalFlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalFlowCubic",
+        "tableColName": "TotalFlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalDemand",
+        "tableColName": "TotalDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "MinimumDemandQuantity",
+        "tableColName": "MinimumDemandQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalDemandPenalty",
+        "tableColName": "TotalDemandPenalty",
+        "type": "double"
+      },
+      {
+        "fileColName": "UnservedDemand",
+        "tableColName": "UnservedDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "PercentageTotalDemandFulfilled",
+        "tableColName": "PercentageTotalDemandFulfilled",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputExpressionCostSummary.txt",
+    "tablename": "OptimizationOutputExpressionCostSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "CostName",
+        "tableColName": "CostName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "CostValue",
+        "tableColName": "CostValue",
+        "type": "double"
+      },
+      {
+        "fileColName": "ExpressionName",
+        "tableColName": "ExpressionName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ExpressionValue",
+        "tableColName": "ExpressionValue",
+        "type": "double"
+      },
+      {
+        "fileColName": "FixedComponent",
+        "tableColName": "FixedComponent",
+        "type": "double"
+      },
+      {
+        "fileColName": "VariableComponent",
+        "tableColName": "VariableComponent",
+        "type": "double"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputExpressionSummary.txt",
+    "tablename": "OptimizationOutputExpressionSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ExpressionName",
+        "tableColName": "ExpressionName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ExpressionBasis",
+        "tableColName": "ExpressionBasis",
+        "type": "text"
+      },
+      {
+        "fileColName": "ExpressionValue",
+        "tableColName": "ExpressionValue",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputSiteSummary.txt",
+    "tablename": "OptimizationOutputSiteSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "SiteType",
+        "tableColName": "SiteType",
+        "type": "text"
+      },
+      {
+        "fileColName": "InitialStatus",
+        "tableColName": "InitialStatus",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "OptimizedStatus",
+        "tableColName": "OptimizedStatus",
+        "type": "text"
+      },
+      {
+        "fileColName": "ThroughputLevel",
+        "tableColName": "ThroughputLevel",
+        "type": "double"
+      },
+      {
+        "fileColName": "ThroughputBasis",
+        "tableColName": "ThroughputBasis",
+        "type": "text"
+      },
+      {
+        "fileColName": "ThroughputQuantity",
+        "tableColName": "ThroughputQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "ThroughputWeight",
+        "tableColName": "ThroughputWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "ThroughputCubic",
+        "tableColName": "ThroughputCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFixedStartupCost",
+        "tableColName": "TotalFixedStartupCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFixedOperatingCost",
+        "tableColName": "TotalFixedOperatingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalClosingCost",
+        "tableColName": "TotalClosingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCapitalInvestment",
+        "tableColName": "TotalCapitalInvestment",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalProductionCost",
+        "tableColName": "TotalProductionCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalSourcingCost",
+        "tableColName": "TotalSourcingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInboundTransportationCost",
+        "tableColName": "TotalInboundTransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalOutboundTransportationCost",
+        "tableColName": "TotalOutboundTransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalWarehousingCost",
+        "tableColName": "TotalWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInboundWarehousingCost",
+        "tableColName": "TotalInboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalOutboundWarehousingCost",
+        "tableColName": "TotalOutboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalDutyCost",
+        "tableColName": "TotalDutyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInventoryHoldingCost",
+        "tableColName": "TotalInventoryHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCO2",
+        "tableColName": "TotalCO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalDemand",
+        "tableColName": "TotalDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalRevenue",
+        "tableColName": "TotalRevenue",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCO2Cost",
+        "tableColName": "TotalCO2Cost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "StepCapacity",
+        "tableColName": "StepCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "StepRemainingCapacity",
+        "tableColName": "StepRemainingCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "StepCapacityUtilization",
+        "tableColName": "StepCapacityUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCapacity",
+        "tableColName": "TotalCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalRemainingCapacity",
+        "tableColName": "TotalRemainingCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCapacityUtilization",
+        "tableColName": "TotalCapacityUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputInterFacilityFlows.txt",
+    "tablename": "OptimizationOutputInterFacilityFlows",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationName",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ModeName",
+        "tableColName": "ModeName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DepartingPeriodName",
+        "tableColName": "DepartingPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DepartingPeriodNum",
+        "tableColName": "DepartingPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "ArrivingPeriodName",
+        "tableColName": "ArrivingPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ArrivingPeriodNum",
+        "tableColName": "ArrivingPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "FlowUnits",
+        "tableColName": "FlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowWeight",
+        "tableColName": "FlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCubic",
+        "tableColName": "FlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "DutyCost",
+        "tableColName": "DutyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "IntransitInventoryHoldingCost",
+        "tableColName": "IntransitInventoryHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "IntransitInventory",
+        "tableColName": "IntransitInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "ServiceHours",
+        "tableColName": "ServiceHours",
+        "type": "double"
+      },
+      {
+        "fileColName": "ServiceDistance",
+        "tableColName": "ServiceDistance",
+        "type": "double"
+      },
+      {
+        "fileColName": "CO2",
+        "tableColName": "CO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "CO2Cost",
+        "tableColName": "CO2Cost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "CycleStock",
+        "tableColName": "CycleStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "DaysBetweenReplenishments",
+        "tableColName": "ReplenishmentFrequency",
+        "type": "double"
+      },
+      {
+        "fileColName": "LeadTimeCost",
+        "tableColName": "LeadTimeCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "InboundWarehousingCost",
+        "tableColName": "InboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "InboundInventoryProcessCost",
+        "tableColName": "InboundInventoryProcessCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInboundInventoryCost",
+        "tableColName": "TotalInboundWarehousingPolicyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "OutboundWarehousingCost",
+        "tableColName": "OutboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "OutboundInventoryProcessCost",
+        "tableColName": "OutboundInventoryProcessCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalOutboundInventoryCost",
+        "tableColName": "TotalOutboundWarehousingPolicyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TransportationPolicyCost",
+        "tableColName": "TransportationPolicyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TransportationProcessCost",
+        "tableColName": "TransportationProcessCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalTransportationCost",
+        "tableColName": "TotalTransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "SourcingPolicyCost",
+        "tableColName": "SourcingPolicyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "SourcingProcessCost",
+        "tableColName": "SourcingProcessCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalSourcingCost",
+        "tableColName": "TotalSourcingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputInventory.txt",
+    "tablename": "OptimizationOutputInventory",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "PreBuildInventory",
+        "tableColName": "PreBuildInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "SafetyStock",
+        "tableColName": "SafetyInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalEndingInventory",
+        "tableColName": "TotalEndingInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "CycleStock",
+        "tableColName": "CycleStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "TurnEstimatedInventory",
+        "tableColName": "TurnEstimatedInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "IntransitInventory",
+        "tableColName": "IntransitInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalInventory",
+        "tableColName": "TotalInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalEndingInvHoldingCost",
+        "tableColName": "TotalEndingInvHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInvHoldingCost",
+        "tableColName": "TotalInvHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TransportationSafetyStock",
+        "tableColName": "TransportationSafetyStock",
+        "type": "double"
+      },
+      {
+        "fileColName": "TransportationSafetyStockCost",
+        "tableColName": "TransportationSafetyStockCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "TotalBeginningInventory",
+        "tableColName": "ScheduledReceipt",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputNetworkSummary.txt",
+    "tablename": "OptimizationOutputNetworkSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ModelName",
+        "tableColName": "ModelName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ModelRunTime",
+        "tableColName": "ModelRunTime",
+        "type": "text"
+      },
+      {
+        "fileColName": "ModelOptimizationType",
+        "tableColName": "ModelOptimizationType",
+        "type": "text"
+      },
+      {
+        "fileColName": "ModelPeriodInDays",
+        "tableColName": "ModelPeriodInDays",
+        "type": "long"
+      },
+      {
+        "fileColName": "TotalProfit",
+        "tableColName": "TotalProfit",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalRevenue",
+        "tableColName": "TotalRevenue",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFixedStartupCost",
+        "tableColName": "TotalFixedStartupCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFixedOperatingCost",
+        "tableColName": "TotalFixedOperatingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalClosingCost",
+        "tableColName": "TotalClosingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCapitalInvestment",
+        "tableColName": "TotalCapitalInvestment",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalProductionCost",
+        "tableColName": "TotalProductionCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInboundWarehousingCost",
+        "tableColName": "TotalInboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalOutboundWarehousingCost",
+        "tableColName": "TotalOutboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalTransportationCost",
+        "tableColName": "TotalTransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalDutyCost",
+        "tableColName": "TotalDutyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInvHoldingCost",
+        "tableColName": "TotalInvHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalSourcingCost",
+        "tableColName": "TotalSourcingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalTransportationAssetCost",
+        "tableColName": "TotalTransportationAssetCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalWorkResourceCost",
+        "tableColName": "TotalWorkResourceCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "PercentGap",
+        "tableColName": "GapPercent",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCO2",
+        "tableColName": "TotalCO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "OptimizedCarbonOffsets",
+        "tableColName": "OptimizedCarbonOffsets",
+        "type": "double"
+      },
+      {
+        "fileColName": "OptimizedCarbonOffsetCost",
+        "tableColName": "OptimizedCarbonOffsetCost",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCarbonCost",
+        "tableColName": "TotalCarbonCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalExpressionBasedCost",
+        "tableColName": "TotalExpressionBasedCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalReturnCost",
+        "tableColName": "TotalReturnCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalTaxCost",
+        "tableColName": "TotalTaxCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalOpportunityCost",
+        "tableColName": "TotalDemandPenalty",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputProductionProcessFlows.txt",
+    "tablename": "OptimizationOutputProductionProcessFlows",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessType",
+        "tableColName": "ProcessType",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessName",
+        "tableColName": "ProcessName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessStepName",
+        "tableColName": "ProcessStepName",
+        "type": "text"
+      },
+      {
+        "fileColName": "NextProcessStepName",
+        "tableColName": "NextProcessStepName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkCenterName",
+        "tableColName": "WorkCenterName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkResourceUsed",
+        "tableColName": "WorkResourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "FlowUnits",
+        "tableColName": "FlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowWeight",
+        "tableColName": "FlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCubic",
+        "tableColName": "FlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCost",
+        "tableColName": "FlowCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "FlowSetupCost",
+        "tableColName": "SetupCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalProcessCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "VariableTime",
+        "tableColName": "ProcessTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "ChangeoverTime",
+        "tableColName": "ChangeoverTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWCProcessTime",
+        "tableColName": "WorkCenterTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWRProcessTime",
+        "tableColName": "WorkResourceTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputProductions.txt",
+    "tablename": "OptimizationOutputProductions",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "StartPeriodName",
+        "tableColName": "StartPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "StartPeriodNum",
+        "tableColName": "StartPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "EndPeriodName",
+        "tableColName": "EndPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "EndPeriodNum",
+        "tableColName": "EndPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "GrossProductionQty",
+        "tableColName": "ProductionQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "NetProductionQty",
+        "tableColName": "NetProductionQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "ByProductProductionQty",
+        "tableColName": "ByProductProductionQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalProductionQty",
+        "tableColName": "TotalAvailableProductionQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalProductionWeight",
+        "tableColName": "TotalAvailableProductionWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalProductionCubic",
+        "tableColName": "TotalAvailableProductionCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "BOMCost",
+        "tableColName": "BillOfMaterialsCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ProductionPolicyCost",
+        "tableColName": "ProductionPolicyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ProductionProcessCost",
+        "tableColName": "ProductionProcessCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "CO2",
+        "tableColName": "CO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "CO2Cost",
+        "tableColName": "CO2Cost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalProductionCost",
+        "tableColName": "TotalProductionCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputProductSummary.txt",
+    "tablename": "OptimizationOutputProductSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "TotalProfit",
+        "tableColName": "TotalProfit",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalRevenue",
+        "tableColName": "TotalRevenue",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalProductionCost",
+        "tableColName": "TotalProductionCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalTransportationCost",
+        "tableColName": "TotalTransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalWarehousingCost",
+        "tableColName": "TotalWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalDutyCost",
+        "tableColName": "TotalDutyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalSourcingCost",
+        "tableColName": "TotalSourcingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInventoryCost",
+        "tableColName": "TotalInventoryCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ProductMaxLeadTimeXFlow",
+        "tableColName": "ProductMaxLeadTimeXFlow",
+        "type": "double"
+      },
+      {
+        "fileColName": "ProductLeadTimeXFlow",
+        "tableColName": "ProductLeadTimeXFlow",
+        "type": "double"
+      },
+      {
+        "fileColName": "ProductRemainingLeadTimeXFlow",
+        "tableColName": "ProductRemainingLeadTimeXFlow",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputReturnFlows.txt",
+    "tablename": "OptimizationOutputReturnFlows",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "CustomerName",
+        "tableColName": "CustomerName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationName",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ReceivedProductName",
+        "tableColName": "ReceivedProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ReturnedProductName",
+        "tableColName": "ReturnedProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ModeName",
+        "tableColName": "ModeName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DepartingPeriodName",
+        "tableColName": "DepartingPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DepartingPeriodNum",
+        "tableColName": "DepartingPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "ArrivingPeriodName",
+        "tableColName": "ArrivingPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ArrivingPeriodNum",
+        "tableColName": "ArrivingPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "ReceivedProductFlow",
+        "tableColName": "ReceivedFlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "ReturnedFlowUnits",
+        "tableColName": "ReturnedFlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "ReturnedFlowWeight",
+        "tableColName": "ReturnedFlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "ReturnedFlowCubic",
+        "tableColName": "ReturnedFlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "IntransitInventoryHoldingCost",
+        "tableColName": "IntransitInventoryHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "InTransitInventory",
+        "tableColName": "InTransitInventory",
+        "type": "double"
+      },
+      {
+        "fileColName": "ServiceHours",
+        "tableColName": "ServiceHours",
+        "type": "double"
+      },
+      {
+        "fileColName": "ServiceDistance",
+        "tableColName": "ServiceDistance",
+        "type": "double"
+      },
+      {
+        "fileColName": "CO2",
+        "tableColName": "CO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "CO2Cost",
+        "tableColName": "CO2Cost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TransportationPolicyCost",
+        "tableColName": "TransportationPolicyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TransportationProcessCost",
+        "tableColName": "TransportationProcessCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalTransportationCost",
+        "tableColName": "TotalTransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ReturnPolicyCost",
+        "tableColName": "ReturnPolicyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ReturnProcessCost",
+        "tableColName": "ReturnProcessCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalReturnCost",
+        "tableColName": "TotalReturnCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "InboundWarehousingPolicyCost",
+        "tableColName": "InboundWarehousingPolicyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "InboundInventoryProcessCost",
+        "tableColName": "InboundInventoryProcessCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInboundWarehousingCost",
+        "tableColName": "TotalInboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputTaxDutyFlow.txt",
+    "tablename": "OptimizationOutputTaxDutyFlow",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "TaxName",
+        "tableColName": "TaxName",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceRegion",
+        "tableColName": "SourceRegion",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceSite",
+        "tableColName": "SourceSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationRegion",
+        "tableColName": "DestinationRegion",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationSite",
+        "tableColName": "DestinationSite",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "Product",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "FlowUnits",
+        "tableColName": "FlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "UnitRefundableTaxValue",
+        "tableColName": "UnitRefundableTaxValue",
+        "type": "double"
+      },
+      {
+        "fileColName": "UnitNonRefundableTaxValue",
+        "tableColName": "UnitNonRefundableTaxValue",
+        "type": "double"
+      },
+      {
+        "fileColName": "RefundableTax",
+        "tableColName": "RefundableTax",
+        "type": "double"
+      },
+      {
+        "fileColName": "NonRefundableTax",
+        "tableColName": "NonrefundableTax",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputTaxDutySummary.txt",
+    "tablename": "OptimizationOutputTaxDutySummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "RegionName",
+        "tableColName": "TaxRegionName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "Period",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "RefundableTaxIn",
+        "tableColName": "RefundableTaxCredit",
+        "type": "double"
+      },
+      {
+        "fileColName": "RefundableTaxOut",
+        "tableColName": "RefundableTaxDebit",
+        "type": "double"
+      },
+      {
+        "fileColName": "PeriodStartRefundableTaxBalance",
+        "tableColName": "PeriodStartRefundableTaxBalance",
+        "type": "double"
+      },
+      {
+        "fileColName": "RefundableTax",
+        "tableColName": "RefundableTax",
+        "type": "double"
+      },
+      {
+        "fileColName": "PeriodEndRefundableTaxBalance",
+        "tableColName": "PeriodEndRefundableTaxBalance",
+        "type": "double"
+      },
+      {
+        "fileColName": "NonRefundableTaxIn",
+        "tableColName": "NonRefundableTaxCredit",
+        "type": "double"
+      },
+      {
+        "fileColName": "NonRefundableTaxOut",
+        "tableColName": "NonRefundableTaxDebit",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputTransportationAssetSummary.txt",
+    "tablename": "OptimizationOutputTransportationAssetSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "TransportationAssetName",
+        "tableColName": "TransportationAssetName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "TransportationAssetMaxUnits",
+        "tableColName": "TransportationAssetMaxUnits",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "TransportationAssetOptimizedUnits",
+        "tableColName": "TransportationAssetOptimizedUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "TransportationAssetUtilization",
+        "tableColName": "TransportationAssetUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "TransportationAssetFixedCost",
+        "tableColName": "TransportationAssetFixedCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TransportationAssetVariableCost",
+        "tableColName": "TransportationAssetVariableCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TransportationAssetNumTrips",
+        "tableColName": "TransportationAssetNumTrips",
+        "type": "double"
+      },
+      {
+        "fileColName": "TransportationAssetRemainingUnits",
+        "tableColName": "TransportationAssetRemainingUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputWorkCenterSummary.txt",
+    "tablename": "OptimizationOutputWorkCenterSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkCenterName",
+        "tableColName": "WorkCenterName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkCenterType",
+        "tableColName": "WorkCenterType",
+        "type": "text"
+      },
+      {
+        "fileColName": "InitialStatus",
+        "tableColName": "InitialStatus",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "OptimizedStatus",
+        "tableColName": "OptimizedStatus",
+        "type": "text"
+      },
+      {
+        "fileColName": "ThroughputLevel",
+        "tableColName": "ThroughputLevel",
+        "type": "double"
+      },
+      {
+        "fileColName": "ThroughputBasis",
+        "tableColName": "ThroughputBasis",
+        "type": "text"
+      },
+      {
+        "fileColName": "ThroughputQuantity",
+        "tableColName": "ThroughputQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "ThroughputWeight",
+        "tableColName": "ThroughputWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "ThroughputCubic",
+        "tableColName": "ThroughputCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "ThroughputTime",
+        "tableColName": "ThroughputTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFixedStartupCost",
+        "tableColName": "TotalFixedStartupCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFixedOperatingCost",
+        "tableColName": "TotalFixedOperatingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalClosingCost",
+        "tableColName": "TotalClosingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCapitalInvestment",
+        "tableColName": "TotalCapitalInvestment",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalProductionCost",
+        "tableColName": "TotalProductionCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "StepCapacity",
+        "tableColName": "StepCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "StepRemainingCapacity",
+        "tableColName": "StepRemainingCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "StepCapacityUtilization",
+        "tableColName": "StepCapacityUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCapacity",
+        "tableColName": "TotalCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalRemainingCapacity",
+        "tableColName": "TotalRemainingCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCapacityUtilization",
+        "tableColName": "TotalCapacityUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputWorkResourceSummary.txt",
+    "tablename": "OptimizationOutputWorkResourceSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkResourceName",
+        "tableColName": "WorkResourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkResourceMaxUnits",
+        "tableColName": "WorkResourceMaxUnits",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "WorkResourceOptimizedUnits",
+        "tableColName": "WorkResourceOptimizedUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkResourceUtilization",
+        "tableColName": "WorkResourceUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "WorkResourceFixedCost",
+        "tableColName": "WorkResourceFixedCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "WorkResourceVariableCost",
+        "tableColName": "WorkResourceVariableCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "WorkResourceRemainingUnits",
+        "tableColName": "WorkResourceRemainingUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "ScenarioValues.txt",
+    "tablename": "ScenarioOptimizationOutputValues",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioId",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "ValueName",
+        "tableColName": "ValueName",
+        "type": "text"
+      },
+      {
+        "fileColName": "TableName",
+        "tableColName": "TableName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ColumnName",
+        "tableColName": "ColumnName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Operator",
+        "tableColName": "Operator",
+        "type": "text"
+      },
+      {
+        "fileColName": "Operand",
+        "tableColName": "Operand",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputRiskSummary.txt",
+    "tablename": "OptimizationOutputRiskExposureSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "NumberOfCustomers",
+        "tableColName": "NumberOfCustomers",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumberOfComponents",
+        "tableColName": "NumberOfComponents",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumberOfBOMsUsed",
+        "tableColName": "NumberOfBOMsUsed",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumberOfEndProducts",
+        "tableColName": "NumberOfEndProducts",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumberOfTransportModesAvailable",
+        "tableColName": "NumberOfTransportModesAvailable",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumberOfTransportModesUsed",
+        "tableColName": "NumberOfTransportModesUsed",
+        "type": "long"
+      },
+      {
+        "fileColName": "AvgNumberOfStockingSitesPerProduct",
+        "tableColName": "AvgNumberOfStockingSitesPerProduct",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgNumberOfProductionSitesPerProduct",
+        "tableColName": "AvgNumberOfProductionSitesPerProduct",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgNumberOfProductsPerSite",
+        "tableColName": "AvgNumberOfProductsPerSite",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgUtilizationOfSiteCapacity",
+        "tableColName": "AvgUtilizationOfSiteCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "AvgUtilizationOfWorkCenterCapacity",
+        "tableColName": "AvgUtilizationOfWorkCenterCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "WeightedAverageSiteUtilization",
+        "tableColName": "WeightedAverageSiteUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "WeightedAverageWorkCenterUtilization",
+        "tableColName": "WeightedAverageWorkCenterUtilization",
+        "type": "double"
+      },
+      {
+        "fileColName": "NumberOfCustomersSingleSourced",
+        "tableColName": "NumberOfCustomersSingleSourced",
+        "type": "long"
+      },
+      {
+        "fileColName": "PercentageOfCustomersSingleSourced",
+        "tableColName": "PercentageOfCustomersSingleSourced",
+        "type": "double"
+      },
+      {
+        "fileColName": "PercentageOfDemandSingleSourced",
+        "tableColName": "PercentageOfDemandSingleSourced",
+        "type": "double"
+      },
+      {
+        "fileColName": "AmountOfRevenueSingleSourced",
+        "tableColName": "AmountOfRevenueSingleSourced",
+        "type": "currency"
+      },
+      {
+        "fileColName": "WeightedAverageDistance(CustomerFlows)",
+        "tableColName": "WeightedAverageDistanceCustomerFlows",
+        "type": "double"
+      },
+      {
+        "fileColName": "WeightedAverageDistance(InterfacilityFlows)",
+        "tableColName": "WeightedAverageDistanceInterfacilityFlows",
+        "type": "double"
+      },
+      {
+        "fileColName": "MaxDistanceToCustomer",
+        "tableColName": "MaxDistanceToCustomer",
+        "type": "double"
+      },
+      {
+        "fileColName": "NumberOfProductsWithASingleManufacturer",
+        "tableColName": "NumberOfProductsWithASingleManufacturer",
+        "type": "long"
+      },
+      {
+        "fileColName": "PercentageOfProductsWithASingleManufacturer",
+        "tableColName": "PercentageOfProductsWithASingleManufacturer",
+        "type": "double"
+      },
+      {
+        "fileColName": "NumberOfSingleSourcedBOMComponents",
+        "tableColName": "NumberOfSingleSourcedBOMComponents",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumberOfSitesHandlingMajorityOfDemand",
+        "tableColName": "NumberOfSitesHandlingMajorityOfDemand",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumberOfSitesAtCapacity",
+        "tableColName": "NumberOfSitesAtCapacity",
+        "type": "long"
+      },
+      {
+        "fileColName": "PercentageOfSitesAtCapacity",
+        "tableColName": "PercentageOfSitesAtCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "NumberOfWorkCentersAtCapacity",
+        "tableColName": "NumberOfWorkCentersAtCapacity",
+        "type": "long"
+      },
+      {
+        "fileColName": "PercentageOfWorkCentersAtCapacity",
+        "tableColName": "PercentageOfWorkCentersAtCapacity",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "NumberOfProductionSites",
+        "tableColName": "NumberOfProductionSites",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputSourcingProcessFlows.txt",
+    "tablename": "OptimizationOutputSourcingProcessFlows",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationName",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessType",
+        "tableColName": "ProcessType",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessName",
+        "tableColName": "ProcessName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessStepName",
+        "tableColName": "ProcessStepName",
+        "type": "text"
+      },
+      {
+        "fileColName": "NextProcessStepName",
+        "tableColName": "NextProcessStepName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkCenterName",
+        "tableColName": "WorkCenterName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkResourceUsed",
+        "tableColName": "WorkResourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "FlowUnits",
+        "tableColName": "FlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowWeight",
+        "tableColName": "FlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCubic",
+        "tableColName": "FlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCost",
+        "tableColName": "FlowCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "FlowSetupCost",
+        "tableColName": "SetupCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalProcessCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "VariableTime",
+        "tableColName": "ProcessTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "ChangeoverTime",
+        "tableColName": "ChangeoverTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWCProcessTime",
+        "tableColName": "WorkCenterUsageTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWRProcessTime",
+        "tableColName": "WorkResourceUsageTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputInventoryProcessFlows.txt",
+    "tablename": "OptimizationOutputInventoryProcessFlows",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessType",
+        "tableColName": "ProcessType",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessName",
+        "tableColName": "ProcessName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessStepName",
+        "tableColName": "ProcessStepName",
+        "type": "text"
+      },
+      {
+        "fileColName": "NextProcessStepName",
+        "tableColName": "NextProcessStepName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkCenterName",
+        "tableColName": "WorkCenterName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkResourceUsed",
+        "tableColName": "WorkResourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "FlowUnits",
+        "tableColName": "FlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowWeight",
+        "tableColName": "FlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCubic",
+        "tableColName": "FlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCost",
+        "tableColName": "FlowCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "FlowSetupCost",
+        "tableColName": "SetupCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalProcessCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "VariableTime",
+        "tableColName": "ProcessTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "ChangeoverTime",
+        "tableColName": "ChangeoverTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWCProcessTime",
+        "tableColName": "WorkCenterUsageTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWRProcessTime",
+        "tableColName": "WorkResourceUsageTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputTransportationProcessFlows.txt",
+    "tablename": "OptimizationOutputTransportationProcessFlows",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationName",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ModeName",
+        "tableColName": "ModeName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessType",
+        "tableColName": "ProcessType",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessName",
+        "tableColName": "ProcessName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessStepName",
+        "tableColName": "ProcessStepName",
+        "type": "text"
+      },
+      {
+        "fileColName": "NextProcessStepName",
+        "tableColName": "NextProcessStepName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkCenterName",
+        "tableColName": "WorkCenterName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkResourceUsed",
+        "tableColName": "WorkResourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "FlowUnits",
+        "tableColName": "FlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowWeight",
+        "tableColName": "FlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCubic",
+        "tableColName": "FlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCost",
+        "tableColName": "FlowCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "FlowSetupCost",
+        "tableColName": "SetupCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalProcessCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "VariableTime",
+        "tableColName": "ProcessTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "ChangeoverTime",
+        "tableColName": "ChangeoverTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWCProcessTime",
+        "tableColName": "WorkCenterUsageTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWRProcessTime",
+        "tableColName": "WorkResourceUsageTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputReturnProcessFlows.txt",
+    "tablename": "OptimizationOutputReturnProcessFlows",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationName",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "SourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessType",
+        "tableColName": "ProcessType",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessName",
+        "tableColName": "ProcessName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProcessStepName",
+        "tableColName": "ProcessStepName",
+        "type": "text"
+      },
+      {
+        "fileColName": "NextProcessStepName",
+        "tableColName": "NextProcessStepName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkCenterName",
+        "tableColName": "WorkCenterName",
+        "type": "text"
+      },
+      {
+        "fileColName": "WorkResourceUsed",
+        "tableColName": "WorkResourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "FlowUnits",
+        "tableColName": "FlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowWeight",
+        "tableColName": "FlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCubic",
+        "tableColName": "FlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCost",
+        "tableColName": "FlowCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "FlowSetupCost",
+        "tableColName": "SetupCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalProcessCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "VariableTime",
+        "tableColName": "ProcessTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "ChangeoverTime",
+        "tableColName": "ChangeoverTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWCProcessTime",
+        "tableColName": "WorkCenterUsageTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalWRProcessTime",
+        "tableColName": "WorkResourceUsageTime",
+        "type": "double"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputOrganizationSummary.txt",
+    "tablename": "OptimizationOutputOrganizationSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalRevenue",
+        "tableColName": "TotalRevenue",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFixedStartupCost",
+        "tableColName": "TotalFixedStartupCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFixedOperatingCost",
+        "tableColName": "TotalFixedOperatingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "SafetyStockCost",
+        "tableColName": "SafetyStockCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalClosingCost",
+        "tableColName": "TotalClosingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCapitalInvestment",
+        "tableColName": "TotalCapitalInvestment",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalProductionCost",
+        "tableColName": "TotalProductionCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInboundWarehousingCost",
+        "tableColName": "TotalInboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalOutboundWarehousingCost",
+        "tableColName": "TotalOutboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalTransportationCost",
+        "tableColName": "TotalTransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalDutyCost",
+        "tableColName": "TotalDutyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalWarehousingCost",
+        "tableColName": "TotalWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalSourcingCost",
+        "tableColName": "TotalSourcingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalTransportationAssetCost",
+        "tableColName": "TotalTransportationAssetCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalWorkResourceCost",
+        "tableColName": "TotalWorkResourceCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalExpressionBasedCost",
+        "tableColName": "TotalExpressionBasedCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalBillOfMaterialsCost",
+        "tableColName": "TotalBillOfMaterialsCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalReturnCost",
+        "tableColName": "TotalReturnCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalUnservedDemandQty",
+        "tableColName": "TotalUnservedDemandQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCO2",
+        "tableColName": "TotalCO2",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCarbonCost",
+        "tableColName": "TotalCarbonCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInvHoldingCost",
+        "tableColName": "TotalInvHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalTaxCost",
+        "tableColName": "TotalTaxCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioId",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputSiteDemandSummary.txt",
+    "tablename": "OptimizationOutputSiteDemandSummary",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "FacilityName",
+        "tableColName": "FacilityName",
+        "type": "text"
+      },
+      {
+        "fileColName": "OrganizationName",
+        "tableColName": "OrganizationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "InitialStatus",
+        "tableColName": "InitialStatus",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNo",
+        "type": "long"
+      },
+      {
+        "fileColName": "Revenue",
+        "tableColName": "Revenue",
+        "type": "currency"
+      },
+      {
+        "fileColName": "Demand",
+        "tableColName": "Demand",
+        "type": "double"
+      },
+      {
+        "fileColName": "ServedDemand",
+        "tableColName": "ServedDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "UnservedDemand",
+        "tableColName": "UnservedDemand",
+        "type": "double"
+      },
+      {
+        "fileColName": "PercentageTotalDemandFulfilled",
+        "tableColName": "PercentageTotalDemandFulfilled",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputCostAllocation_Lane.txt",
+    "tablename": "OptimizationOutputCostAllocation_Lane",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SourceName",
+        "tableColName": "SourceName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DestinationName",
+        "tableColName": "DestinationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ModeName",
+        "tableColName": "ModeName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DepartingPeriodName",
+        "tableColName": "DepartingPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "DepartingPeriodNum",
+        "tableColName": "DepartingPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "ArrivingPeriodName",
+        "tableColName": "ArrivingPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ArrivingPeriodNum",
+        "tableColName": "ArrivingPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "FlowUnits",
+        "tableColName": "FlowUnits",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowWeight",
+        "tableColName": "FlowWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "FlowCubic",
+        "tableColName": "FlowCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "DutyCost",
+        "tableColName": "DutyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalIntransitInventoryHoldingCost",
+        "tableColName": "TotalIntransitInventoryHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "CO2Cost",
+        "tableColName": "CO2Cost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalInboundWarehousingCost",
+        "tableColName": "TotalInboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalOutboundWarehousingCost",
+        "tableColName": "TotalOutboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalTransportationCost",
+        "tableColName": "TotalTransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalSourcingCost",
+        "tableColName": "TotalSourcingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCost_Lane",
+        "tableColName": "TotalCost_Lane",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputCostAllocation_Site.txt",
+    "tablename": "OptimizationOutputCostAllocation_Site",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodName",
+        "tableColName": "PeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "PeriodNo",
+        "tableColName": "PeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "ThroughputLevel",
+        "tableColName": "ThroughputLevel",
+        "type": "double"
+      },
+      {
+        "fileColName": "ThroughputBasis",
+        "tableColName": "ThroughputBasis",
+        "type": "text"
+      },
+      {
+        "fileColName": "ThroughputQuantity",
+        "tableColName": "ThroughputQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "ThroughputWeight",
+        "tableColName": "ThroughputWeight",
+        "type": "double"
+      },
+      {
+        "fileColName": "ThroughputCubic",
+        "tableColName": "ThroughputCubic",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalFixedStartupCost",
+        "tableColName": "TotalFixedStartupCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFixedOperatingCost",
+        "tableColName": "TotalFixedOperatingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalClosingCost",
+        "tableColName": "TotalClosingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCapitalInvestment",
+        "tableColName": "TotalCapitalInvestment",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCO2Cost",
+        "tableColName": "TotalCO2Cost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalWorkResourcesCost",
+        "tableColName": "TotalWorkResourcesCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalDemandPenalty",
+        "tableColName": "TotalDemandPenalty",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCost_Site",
+        "tableColName": "TotalCost_Site",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputCostAllocation_SiteProduct.txt",
+    "tablename": "OptimizationOutputCostAllocation_SiteProduct",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "StartPeriodName",
+        "tableColName": "StartPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "StartPeriodNum",
+        "tableColName": "StartPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "EndPeriodName",
+        "tableColName": "EndPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "EndPeriodNum",
+        "tableColName": "EndPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "TotalProductionCost",
+        "tableColName": "TotalProductionCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalFacilityInvHoldingCost",
+        "tableColName": "TotalFacilityInvHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TotalCost_SiteProduct",
+        "tableColName": "TotalCost_SiteProduct",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputServicePathDetails.txt",
+    "tablename": "OptimizationOutputServicePathDetails",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "PathID",
+        "tableColName": "PathID",
+        "type": "text"
+      },
+      {
+        "fileColName": "LaneID",
+        "tableColName": "LaneID",
+        "type": "text"
+      },
+      {
+        "fileColName": "StartLocationName",
+        "tableColName": "StartLocationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "EndLocationName",
+        "tableColName": "EndLocationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "FlowQty",
+        "tableColName": "FlowQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Mode",
+        "tableColName": "Mode",
+        "type": "text"
+      },
+      {
+        "fileColName": "StartPeriodName",
+        "tableColName": "StartPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "StartPeriodNo",
+        "tableColName": "StartPeriodNum",
+        "type": "double"
+      },
+      {
+        "fileColName": "EndPeriodName",
+        "tableColName": "EndPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "EndPeriodNo",
+        "tableColName": "EndPeriodNum",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OutputPathsDetail.txt",
+    "tablename": "OptimizationOutputNetworkPathsDetails",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ID",
+        "tableColName": "ID",
+        "type": "long"
+      },
+      {
+        "fileColName": "CustomerName",
+        "tableColName": "CustomerName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "Mode",
+        "tableColName": "Mode",
+        "type": "text"
+      },
+      {
+        "fileColName": "StartPeriodName",
+        "tableColName": "StartPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "StartPeriodNo",
+        "tableColName": "StartPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "EndPeriodName",
+        "tableColName": "EndPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "EndPeriodNo",
+        "tableColName": "EndPeriodNum",
+        "type": "long"
+      },
+      {
+        "fileColName": "PathID",
+        "tableColName": "PathID",
+        "type": "text"
+      },
+      {
+        "fileColName": "LaneID",
+        "tableColName": "LaneID",
+        "type": "text"
+      },
+      {
+        "fileColName": "StartLocationName",
+        "tableColName": "StartLocationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "EndLocationName",
+        "tableColName": "EndLocationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "StartProduct",
+        "tableColName": "StartProduct",
+        "type": "text"
+      },
+      {
+        "fileColName": "FinishedGood",
+        "tableColName": "FinishedGood",
+        "type": "text"
+      },
+      {
+        "fileColName": "TotalQuantity",
+        "tableColName": "TotalQuantity",
+        "type": "double"
+      },
+      {
+        "fileColName": "TotalCost",
+        "tableColName": "TotalCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "FixedStartupCost",
+        "tableColName": "FixedStartupCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "FixedOperatingCost",
+        "tableColName": "FixedOperatingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ClosingCost",
+        "tableColName": "ClosingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ProductionCost",
+        "tableColName": "ProductionCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TransportationCost",
+        "tableColName": "TransportationCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "FacilityInventoryHoldingCost",
+        "tableColName": "FacilityInventoryHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "IntransitInventoryHoldingCost",
+        "tableColName": "IntransitInventoryHoldingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "SourcingCost",
+        "tableColName": "SourcingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "InboundWarehousingCost",
+        "tableColName": "InboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "OutboundWarehousingCost",
+        "tableColName": "OutboundWarehousingCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "CapitalInvestment",
+        "tableColName": "CapitalInvestment",
+        "type": "currency"
+      },
+      {
+        "fileColName": "FacilityCO2Cost",
+        "tableColName": "FacilityCO2Cost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "TransportationCO2Cost",
+        "tableColName": "TransportationCO2Cost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "WorkResourcesCost",
+        "tableColName": "WorkResourcesCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "DutyCost",
+        "tableColName": "DutyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "DemandPenalty",
+        "tableColName": "DemandPenalty",
+        "type": "currency"
+      },
+      {
+        "fileColName": "OtherCost",
+        "tableColName": "OtherCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ServiceHours",
+        "tableColName": "ServiceHours",
+        "type": "double"
+      },
+      {
+        "fileColName": "ServiceDistance",
+        "tableColName": "ServiceDistance",
+        "type": "double"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OutputPathProductsDetail.txt",
+    "tablename": "OptimizationOutputNetworkPathsProductDetails",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      },
+      {
+        "fileColName": "PathID",
+        "tableColName": "PathID",
+        "type": "long"
+      },
+      {
+        "fileColName": "SiteName",
+        "tableColName": "SiteName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "FlowQty",
+        "tableColName": "FlowQty",
+        "type": "double"
+      },
+      {
+        "fileColName": "ProductionCost",
+        "tableColName": "ProductionCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "InventoryHoldingCost",
+        "tableColName": "InventoryHoldingCost",
+        "type": "currency"
+      }
+    ]
+  },
+  {
+    "filename": "OutputNetworkLoops.txt",
+    "tablename": "OptimizationOutputNetworkLoops",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "ID",
+        "tableColName": "ID",
+        "type": "long"
+      },
+      {
+        "fileColName": "LoopID",
+        "tableColName": "LoopID",
+        "type": "long"
+      },
+      {
+        "fileColName": "LaneID",
+        "tableColName": "LaneID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StartLocationName",
+        "tableColName": "StartLocationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "EndLocationName",
+        "tableColName": "EndLocationName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ProductName",
+        "tableColName": "ProductName",
+        "type": "text"
+      },
+      {
+        "fileColName": "StartPeriodName",
+        "tableColName": "StartPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "EndPeriodName",
+        "tableColName": "EndPeriodName",
+        "type": "text"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "StepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "filename": "OptimizationOutputDutyRate.txt",
+    "tablename": "OptimizationOutputDutyRate",
+    "id": "ID",
+    "options": {
+      "ColNameHeader": "True",
+      "Format": "TabDelimited",
+      "TextDelimiter": "none",
+      "DecimalSymbol": ".",
+      "CurrencyDecimalSymbol": ".",
+      "DateTimeFormat": "MM/dd/yyyyhh:nn:ss"
+    },
+    "columns": [
+      {
+        "fileColName": "PathID",
+        "tableColName": "PathID",
+        "type": "long"
+      },
+      {
+        "fileColName": "LaneID",
+        "tableColName": "LaneID",
+        "type": "long"
+      },
+      {
+        "fileColName": "Source",
+        "tableColName": "PathOrigin",
+        "type": "text"
+      },
+      {
+        "fileColName": "Destination",
+        "tableColName": "PathDestination",
+        "type": "text"
+      },
+      {
+        "fileColName": "Product",
+        "tableColName": "Product",
+        "type": "text"
+      },
+      {
+        "fileColName": "StartLocation",
+        "tableColName": "StartLocation",
+        "type": "text"
+      },
+      {
+        "fileColName": "EndLocation",
+        "tableColName": "EndLocation",
+        "type": "text"
+      },
+      {
+        "fileColName": "FlowUnit",
+        "tableColName": "FlowUnit",
+        "type": "double"
+      },
+      {
+        "fileColName": "DutyAmount",
+        "tableColName": "DutyAmount",
+        "type": "currency"
+      },
+      {
+        "fileColName": "DutyRate",
+        "tableColName": "DutyRate",
+        "type": "double"
+      },
+      {
+        "fileColName": "DutyCost",
+        "tableColName": "DutyCost",
+        "type": "currency"
+      },
+      {
+        "fileColName": "ScenarioID",
+        "tableColName": "ScenarioID",
+        "type": "long"
+      },
+      {
+        "fileColName": "ScenarioStepNumber",
+        "tableColName": "StepNumber",
+        "type": "long"
+      }
+    ]
+  }
+]

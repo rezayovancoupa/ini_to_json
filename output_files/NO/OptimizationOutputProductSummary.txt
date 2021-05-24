@@ -1,0 +1,4 @@
+ProductName	PeriodName	PeriodNo	TotalProfit	TotalRevenue	TotalCost	TotalProductionCost	TotalTransportationCost	TotalWarehousingCost	TotalDutyCost	TotalSourcingCost	TotalInventoryCost	ProductMaxLeadTimeXFlow	ProductLeadTimeXFlow	ProductRemainingLeadTimeXFlow	ScenarioID	ScenarioStepNumber
+FG1	SINGLEPERIOD	1	1.98356	2.00000	0.01644	0.00000	0.00000	0.00000	0.00000	0.00000	0.01644				0	1
+FG2	SINGLEPERIOD	1	1.98356	2.00000	0.01644	0.00000	0.00000	0.00000	0.00000	0.00000	0.01644				0	1
+FG3	SINGLEPERIOD	1	1.98356	2.00000	0.01644	0.00000	0.00000	0.00000	0.00000	0.00000	0.01644				0	1

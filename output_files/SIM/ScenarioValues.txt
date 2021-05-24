@@ -1,0 +1,27 @@
+ScenarioId	StepNumber	ValueName	TableName	ColumnName	Operator	Operand
+11	1	turn off max flow	AggregateProductionConstraints	AggregateProductionConstraintStatus	=	Exclude
+11	1	Big south lakeland site sourc	SourcingPolicies	SourcingPolicyStatus	=	Include
+11	1	big south bluefield site sourc	SourcingPolicies	SourcingPolicyStatus	=	Include
+11	1	big south lumberton site sourc	SourcingPolicies	SourcingPolicyStatus	=	Include
+11	1	big south pensacola site source	SourcingPolicies	SourcingPolicyStatus	=	Include
+11	1	close bell cigs site source	SourcingPolicies	SourcingPolicyStatus	=	Include
+11	1	big south bluefield cust source	CustomerSourcingPolicies	CustomerSourcingPolicyStatus	=	Include
+11	1	big south lakeland cust source	CustomerSourcingPolicies	CustomerSourcingPolicyStatus	=	Include
+11	1	big south lumberton cust source	CustomerSourcingPolicies	CustomerSourcingPolicyStatus	=	Include
+11	1	big south pensacola cust source	CustomerSourcingPolicies	CustomerSourcingPolicyStatus	=	Include
+11	1	close belle cigs cust source	CustomerSourcingPolicies	CustomerSourcingPolicyStatus	=	Include
+11	1	big south bluefield trans pol	TransportationPolicies	TransportationPolicyStatus	=	Include
+11	1	big south lakeland trans pol	TransportationPolicies	TransportationPolicyStatus	=	Include
+11	1	big south lumberton trans pol	TransportationPolicies	TransportationPolicyStatus	=	Include
+11	1	big south pensacola trans pol	TransportationPolicies	TransportationPolicyStatus	=	Include
+11	1	close bell cigs trans pol	TransportationPolicies	TransportationPolicyStatus	=	Include
+11	1	big south bluefield production pol	ProductionPolicies	ProductionPolicyStatus	=	Include
+11	1	big south lakeland production pol	ProductionPolicies	ProductionPolicyStatus	=	Include
+11	1	big south lumberton production pol	ProductionPolicies	ProductionPolicyStatus	=	Include
+11	1	big south pensacola production pol	ProductionPolicies	ProductionPolicyStatus	=	Include
+11	1	close bell cigs production pol	ProductionPolicies	ProductionPolicyStatus	=	Include
+11	1	big south close lumberton	Sites	SiteStatus	=	Exclude
+11	1	close pensacola	Sites	SiteStatus	=	Exclude
+11	1	close bluefield	Sites	SiteStatus	=	Exclude
+11	1	close lakeland	Sites	SiteStatus	=	Exclude
+11	1	turn off belle cigs site	Sites	SiteStatus	=	Exclude
